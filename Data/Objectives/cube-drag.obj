@@ -1,0 +1,54 @@
+{
+    "objectives": {
+        "clothTools": [],
+        "initialP0": [
+            {
+                "weight": 1.0
+            }
+        ],
+        "pmTargetPositions": [],
+        "rbTargetPositions": [
+            {
+                "local": [
+                    [
+                        0.0
+                    ],
+                    [
+                        0.0
+                    ],
+                    [
+                        0.0
+                    ]
+                ],
+                "rbIdx": 0,
+                "targetPos": [
+                    [
+                        0.1
+                    ],
+                    [
+                        0.0268342693608721
+                    ],
+                    [
+                        0.1
+                    ]
+                ],
+                "timeIndex": 59,
+                "weight": 1.0
+            }
+        ],
+        "rbTargetPositionsAlways": [],
+        "regP": [],
+        "smoothAccRegP": [],
+        "smoothRbPos": [],
+        "smoothRegP": [
+            {
+                "weight": 0.1
+            }
+        ],
+        "smoothRegY": [],
+        "smoothSubSetRegP": [],
+        "subSetRegP": [],
+        "subSetRegY": [],
+        "toolPath": []
+    }
+}

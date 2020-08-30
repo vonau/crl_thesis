@@ -1,0 +1,41 @@
+{
+    "objectives": {
+        "initialP0": [
+            {
+                "weight": 10.0
+            }
+        ],
+        "pmTargetPositions": [
+            {
+                "pmIdx": 0,
+                "targetPos": [
+                    [
+                        0.5
+                    ],
+                    [
+                        0.5
+                    ],
+                    [
+                        0.5
+                    ]
+                ],
+                "timeIndex": 30,
+                "weight": 10.0
+            }
+        ],
+        "rbTargetPositions": [],
+        "rbTargetPositionsAlways": [],
+        "regP": [],
+        "smoothAccRegP": [],
+        "smoothRbPos": [],
+        "smoothRegP": [
+            {
+                "weight": 1.0
+            }
+        ],
+        "smoothRegY": [],
+        "smoothSubSetRegP": [],
+        "subSetRegP": [],
+        "subSetRegY": []
+    }
+}

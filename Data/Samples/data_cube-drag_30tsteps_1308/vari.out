@@ -1,0 +1,6026 @@
+using dde version: v0.1.2-19-gc8fdd08
+log level set to LogLevel.off
+Successfully created the directory ../Data/Samples/data_varstart_60tsteps1312/
+SAMPLING STARTED...
+20000 simulations required
+SAMPLING INITIAL STATES...
+0.00010141928990681966 simulation number 0 complete
+0.27982580264409385 simulation number 2000 complete
+0.5651893655459086 simulation number 4000 complete
+0.8445056994756063 simulation number 6000 complete
+1.1240820050239564 simulation number 8000 complete
+1.4040095885594686 simulation number 10000 complete
+1.6859689791997274 simulation number 12000 complete
+1.974290911356608 simulation number 14000 complete
+2.253066845734914 simulation number 16000 complete
+2.5386699716250103 simulation number 18000 complete
+Jumped to initial state due to high error 0 times
+Terminated off optimization due to high error 0 times
+TOTAL TIME TO SAMPLE STARTIG STATES: 2.8280473311742145
+SAMPLING NEW TARGETS...
+
+Duration to start: 2.828 min
+SAMPLING CONTROLS...
+batch number 1 completed, jumped to initial state 0 times
+
+Duration: 2.830 min
+batch number 2 completed, jumped to initial state 0 times
+
+Duration: 2.831 min
+batch number 3 completed, jumped to initial state 0 times
+
+Duration: 2.833 min
+batch number 4 completed, jumped to initial state 0 times
+
+Duration: 2.834 min
+batch number 5 completed, jumped to initial state 0 times
+
+Duration: 2.835 min
+batch number 6 completed, jumped to initial state 0 times
+
+Duration: 2.837 min
+batch number 7 completed, jumped to initial state 0 times
+
+Duration: 2.838 min
+batch number 8 completed, jumped to initial state 0 times
+
+Duration: 2.840 min
+batch number 9 completed, jumped to initial state 0 times
+
+Duration: 2.841 min
+batch number 10 completed, jumped to initial state 0 times
+
+Duration: 2.842 min
+batch number 11 completed, jumped to initial state 0 times
+
+Duration: 2.844 min
+batch number 12 completed, jumped to initial state 0 times
+
+Duration: 2.845 min
+batch number 13 completed, jumped to initial state 0 times
+
+Duration: 2.847 min
+batch number 14 completed, jumped to initial state 0 times
+
+Duration: 2.848 min
+batch number 15 completed, jumped to initial state 0 times
+
+Duration: 2.850 min
+batch number 16 completed, jumped to initial state 0 times
+
+Duration: 2.851 min
+batch number 17 completed, jumped to initial state 0 times
+
+Duration: 2.853 min
+batch number 18 completed, jumped to initial state 0 times
+
+Duration: 2.854 min
+batch number 19 completed, jumped to initial state 0 times
+
+Duration: 2.856 min
+batch number 20 completed, jumped to initial state 0 times
+
+Duration: 2.857 min
+batch number 21 completed, jumped to initial state 0 times
+
+Duration: 2.859 min
+batch number 22 completed, jumped to initial state 0 times
+
+Duration: 2.860 min
+batch number 23 completed, jumped to initial state 0 times
+
+Duration: 2.862 min
+batch number 24 completed, jumped to initial state 0 times
+
+Duration: 2.863 min
+batch number 25 completed, jumped to initial state 0 times
+
+Duration: 2.865 min
+batch number 26 completed, jumped to initial state 0 times
+
+Duration: 2.866 min
+batch number 27 completed, jumped to initial state 0 times
+
+Duration: 2.868 min
+batch number 28 completed, jumped to initial state 0 times
+
+Duration: 2.869 min
+batch number 29 completed, jumped to initial state 0 times
+
+Duration: 2.871 min
+batch number 30 completed, jumped to initial state 0 times
+
+Duration: 2.872 min
+batch number 31 completed, jumped to initial state 0 times
+
+Duration: 2.874 min
+batch number 32 completed, jumped to initial state 0 times
+
+Duration: 2.875 min
+batch number 33 completed, jumped to initial state 0 times
+
+Duration: 2.876 min
+batch number 34 completed, jumped to initial state 0 times
+
+Duration: 2.878 min
+batch number 35 completed, jumped to initial state 0 times
+
+Duration: 2.879 min
+batch number 36 completed, jumped to initial state 0 times
+
+Duration: 2.881 min
+batch number 37 completed, jumped to initial state 0 times
+
+Duration: 2.882 min
+batch number 38 completed, jumped to initial state 0 times
+
+Duration: 2.884 min
+batch number 39 completed, jumped to initial state 0 times
+
+Duration: 2.885 min
+batch number 40 completed, jumped to initial state 0 times
+
+Duration: 2.887 min
+batch number 41 completed, jumped to initial state 0 times
+
+Duration: 2.888 min
+batch number 42 completed, jumped to initial state 0 times
+
+Duration: 2.889 min
+batch number 43 completed, jumped to initial state 0 times
+
+Duration: 2.891 min
+batch number 44 completed, jumped to initial state 0 times
+
+Duration: 2.892 min
+batch number 45 completed, jumped to initial state 0 times
+
+Duration: 2.893 min
+batch number 46 completed, jumped to initial state 0 times
+
+Duration: 2.895 min
+batch number 47 completed, jumped to initial state 0 times
+
+Duration: 2.896 min
+batch number 48 completed, jumped to initial state 0 times
+
+Duration: 2.898 min
+batch number 49 completed, jumped to initial state 0 times
+
+Duration: 2.899 min
+batch number 50 completed, jumped to initial state 0 times
+
+Duration: 2.901 min
+batch number 51 completed, jumped to initial state 0 times
+
+Duration: 2.902 min
+batch number 52 completed, jumped to initial state 0 times
+
+Duration: 2.904 min
+batch number 53 completed, jumped to initial state 0 times
+
+Duration: 2.905 min
+batch number 54 completed, jumped to initial state 0 times
+
+Duration: 2.907 min
+batch number 55 completed, jumped to initial state 0 times
+
+Duration: 2.908 min
+batch number 56 completed, jumped to initial state 0 times
+
+Duration: 2.910 min
+batch number 57 completed, jumped to initial state 0 times
+
+Duration: 2.911 min
+batch number 58 completed, jumped to initial state 0 times
+
+Duration: 2.913 min
+batch number 59 completed, jumped to initial state 0 times
+
+Duration: 2.914 min
+batch number 60 completed, jumped to initial state 0 times
+
+Duration: 2.916 min
+batch number 61 completed, jumped to initial state 0 times
+
+Duration: 2.917 min
+batch number 62 completed, jumped to initial state 0 times
+
+Duration: 2.919 min
+batch number 63 completed, jumped to initial state 0 times
+
+Duration: 2.920 min
+batch number 64 completed, jumped to initial state 0 times
+
+Duration: 2.922 min
+batch number 65 completed, jumped to initial state 0 times
+
+Duration: 2.923 min
+batch number 66 completed, jumped to initial state 0 times
+
+Duration: 2.925 min
+batch number 67 completed, jumped to initial state 0 times
+
+Duration: 2.926 min
+batch number 68 completed, jumped to initial state 0 times
+
+Duration: 2.928 min
+batch number 69 completed, jumped to initial state 0 times
+
+Duration: 2.929 min
+batch number 70 completed, jumped to initial state 0 times
+
+Duration: 2.931 min
+batch number 71 completed, jumped to initial state 0 times
+
+Duration: 2.932 min
+batch number 72 completed, jumped to initial state 0 times
+
+Duration: 2.934 min
+batch number 73 completed, jumped to initial state 0 times
+
+Duration: 2.935 min
+batch number 74 completed, jumped to initial state 0 times
+
+Duration: 2.936 min
+batch number 75 completed, jumped to initial state 0 times
+
+Duration: 2.938 min
+batch number 76 completed, jumped to initial state 0 times
+
+Duration: 2.939 min
+batch number 77 completed, jumped to initial state 0 times
+
+Duration: 2.941 min
+batch number 78 completed, jumped to initial state 0 times
+
+Duration: 2.942 min
+batch number 79 completed, jumped to initial state 0 times
+
+Duration: 2.943 min
+batch number 80 completed, jumped to initial state 0 times
+
+Duration: 2.945 min
+batch number 81 completed, jumped to initial state 0 times
+
+Duration: 2.946 min
+batch number 82 completed, jumped to initial state 0 times
+
+Duration: 2.947 min
+batch number 83 completed, jumped to initial state 0 times
+
+Duration: 2.949 min
+batch number 84 completed, jumped to initial state 0 times
+
+Duration: 2.950 min
+batch number 85 completed, jumped to initial state 0 times
+
+Duration: 2.951 min
+batch number 86 completed, jumped to initial state 0 times
+
+Duration: 2.953 min
+batch number 87 completed, jumped to initial state 0 times
+
+Duration: 2.954 min
+batch number 88 completed, jumped to initial state 0 times
+
+Duration: 2.955 min
+batch number 89 completed, jumped to initial state 0 times
+
+Duration: 2.957 min
+batch number 90 completed, jumped to initial state 0 times
+
+Duration: 2.958 min
+batch number 91 completed, jumped to initial state 0 times
+
+Duration: 2.959 min
+batch number 92 completed, jumped to initial state 0 times
+
+Duration: 2.961 min
+batch number 93 completed, jumped to initial state 0 times
+
+Duration: 2.962 min
+batch number 94 completed, jumped to initial state 0 times
+
+Duration: 2.963 min
+batch number 95 completed, jumped to initial state 0 times
+
+Duration: 2.965 min
+batch number 96 completed, jumped to initial state 0 times
+
+Duration: 2.966 min
+batch number 97 completed, jumped to initial state 0 times
+
+Duration: 2.967 min
+batch number 98 completed, jumped to initial state 0 times
+
+Duration: 2.969 min
+batch number 99 completed, jumped to initial state 0 times
+
+Duration: 2.970 min
+batch number 100 completed, jumped to initial state 0 times
+
+Duration: 2.971 min
+batch number 101 completed, jumped to initial state 0 times
+
+Duration: 2.973 min
+batch number 102 completed, jumped to initial state 0 times
+
+Duration: 2.974 min
+batch number 103 completed, jumped to initial state 0 times
+
+Duration: 2.975 min
+batch number 104 completed, jumped to initial state 0 times
+
+Duration: 2.977 min
+batch number 105 completed, jumped to initial state 0 times
+
+Duration: 2.978 min
+batch number 106 completed, jumped to initial state 0 times
+
+Duration: 2.979 min
+batch number 107 completed, jumped to initial state 0 times
+
+Duration: 2.981 min
+batch number 108 completed, jumped to initial state 0 times
+
+Duration: 2.982 min
+batch number 109 completed, jumped to initial state 0 times
+
+Duration: 2.983 min
+batch number 110 completed, jumped to initial state 0 times
+
+Duration: 2.985 min
+batch number 111 completed, jumped to initial state 0 times
+
+Duration: 2.986 min
+batch number 112 completed, jumped to initial state 0 times
+
+Duration: 2.987 min
+batch number 113 completed, jumped to initial state 0 times
+
+Duration: 2.989 min
+batch number 114 completed, jumped to initial state 0 times
+
+Duration: 2.990 min
+batch number 115 completed, jumped to initial state 0 times
+
+Duration: 2.991 min
+batch number 116 completed, jumped to initial state 0 times
+
+Duration: 2.993 min
+batch number 117 completed, jumped to initial state 0 times
+
+Duration: 2.994 min
+batch number 118 completed, jumped to initial state 0 times
+
+Duration: 2.995 min
+batch number 119 completed, jumped to initial state 0 times
+
+Duration: 2.997 min
+batch number 120 completed, jumped to initial state 0 times
+
+Duration: 2.998 min
+batch number 121 completed, jumped to initial state 0 times
+
+Duration: 2.999 min
+batch number 122 completed, jumped to initial state 0 times
+
+Duration: 3.001 min
+batch number 123 completed, jumped to initial state 0 times
+
+Duration: 3.002 min
+batch number 124 completed, jumped to initial state 0 times
+
+Duration: 3.004 min
+batch number 125 completed, jumped to initial state 0 times
+
+Duration: 3.005 min
+batch number 126 completed, jumped to initial state 0 times
+
+Duration: 3.006 min
+batch number 127 completed, jumped to initial state 0 times
+
+Duration: 3.008 min
+batch number 128 completed, jumped to initial state 0 times
+
+Duration: 3.009 min
+batch number 129 completed, jumped to initial state 0 times
+
+Duration: 3.010 min
+batch number 130 completed, jumped to initial state 0 times
+
+Duration: 3.012 min
+batch number 131 completed, jumped to initial state 0 times
+
+Duration: 3.013 min
+batch number 132 completed, jumped to initial state 0 times
+
+Duration: 3.014 min
+batch number 133 completed, jumped to initial state 0 times
+
+Duration: 3.016 min
+batch number 134 completed, jumped to initial state 0 times
+
+Duration: 3.017 min
+batch number 135 completed, jumped to initial state 0 times
+
+Duration: 3.018 min
+batch number 136 completed, jumped to initial state 0 times
+
+Duration: 3.020 min
+batch number 137 completed, jumped to initial state 0 times
+
+Duration: 3.021 min
+batch number 138 completed, jumped to initial state 0 times
+
+Duration: 3.023 min
+batch number 139 completed, jumped to initial state 0 times
+
+Duration: 3.024 min
+batch number 140 completed, jumped to initial state 0 times
+
+Duration: 3.025 min
+batch number 141 completed, jumped to initial state 0 times
+
+Duration: 3.027 min
+batch number 142 completed, jumped to initial state 0 times
+
+Duration: 3.028 min
+batch number 143 completed, jumped to initial state 0 times
+
+Duration: 3.029 min
+batch number 144 completed, jumped to initial state 0 times
+
+Duration: 3.031 min
+batch number 145 completed, jumped to initial state 0 times
+
+Duration: 3.032 min
+batch number 146 completed, jumped to initial state 0 times
+
+Duration: 3.033 min
+batch number 147 completed, jumped to initial state 0 times
+
+Duration: 3.035 min
+batch number 148 completed, jumped to initial state 0 times
+
+Duration: 3.036 min
+batch number 149 completed, jumped to initial state 0 times
+
+Duration: 3.037 min
+batch number 150 completed, jumped to initial state 0 times
+
+Duration: 3.039 min
+batch number 151 completed, jumped to initial state 0 times
+
+Duration: 3.040 min
+batch number 152 completed, jumped to initial state 0 times
+
+Duration: 3.042 min
+batch number 153 completed, jumped to initial state 0 times
+
+Duration: 3.043 min
+batch number 154 completed, jumped to initial state 0 times
+
+Duration: 3.044 min
+batch number 155 completed, jumped to initial state 0 times
+
+Duration: 3.046 min
+batch number 156 completed, jumped to initial state 0 times
+
+Duration: 3.047 min
+batch number 157 completed, jumped to initial state 0 times
+
+Duration: 3.048 min
+batch number 158 completed, jumped to initial state 0 times
+
+Duration: 3.050 min
+batch number 159 completed, jumped to initial state 0 times
+
+Duration: 3.051 min
+batch number 160 completed, jumped to initial state 0 times
+
+Duration: 3.052 min
+batch number 161 completed, jumped to initial state 0 times
+
+Duration: 3.054 min
+batch number 162 completed, jumped to initial state 0 times
+
+Duration: 3.055 min
+batch number 163 completed, jumped to initial state 0 times
+
+Duration: 3.056 min
+batch number 164 completed, jumped to initial state 0 times
+
+Duration: 3.058 min
+batch number 165 completed, jumped to initial state 0 times
+
+Duration: 3.059 min
+batch number 166 completed, jumped to initial state 0 times
+
+Duration: 3.060 min
+batch number 167 completed, jumped to initial state 0 times
+
+Duration: 3.062 min
+batch number 168 completed, jumped to initial state 0 times
+
+Duration: 3.063 min
+batch number 169 completed, jumped to initial state 0 times
+
+Duration: 3.064 min
+batch number 170 completed, jumped to initial state 0 times
+
+Duration: 3.066 min
+batch number 171 completed, jumped to initial state 0 times
+
+Duration: 3.067 min
+batch number 172 completed, jumped to initial state 0 times
+
+Duration: 3.068 min
+batch number 173 completed, jumped to initial state 0 times
+
+Duration: 3.070 min
+batch number 174 completed, jumped to initial state 0 times
+
+Duration: 3.071 min
+batch number 175 completed, jumped to initial state 0 times
+
+Duration: 3.072 min
+batch number 176 completed, jumped to initial state 0 times
+
+Duration: 3.074 min
+batch number 177 completed, jumped to initial state 0 times
+
+Duration: 3.075 min
+batch number 178 completed, jumped to initial state 0 times
+
+Duration: 3.076 min
+batch number 179 completed, jumped to initial state 0 times
+
+Duration: 3.078 min
+batch number 180 completed, jumped to initial state 0 times
+
+Duration: 3.079 min
+batch number 181 completed, jumped to initial state 0 times
+
+Duration: 3.080 min
+batch number 182 completed, jumped to initial state 0 times
+
+Duration: 3.082 min
+batch number 183 completed, jumped to initial state 0 times
+
+Duration: 3.083 min
+batch number 184 completed, jumped to initial state 0 times
+
+Duration: 3.084 min
+batch number 185 completed, jumped to initial state 0 times
+
+Duration: 3.086 min
+batch number 186 completed, jumped to initial state 0 times
+
+Duration: 3.087 min
+batch number 187 completed, jumped to initial state 0 times
+
+Duration: 3.088 min
+batch number 188 completed, jumped to initial state 0 times
+
+Duration: 3.090 min
+batch number 189 completed, jumped to initial state 0 times
+
+Duration: 3.091 min
+batch number 190 completed, jumped to initial state 0 times
+
+Duration: 3.092 min
+batch number 191 completed, jumped to initial state 0 times
+
+Duration: 3.094 min
+batch number 192 completed, jumped to initial state 0 times
+
+Duration: 3.095 min
+batch number 193 completed, jumped to initial state 0 times
+
+Duration: 3.097 min
+batch number 194 completed, jumped to initial state 0 times
+
+Duration: 3.098 min
+batch number 195 completed, jumped to initial state 0 times
+
+Duration: 3.099 min
+batch number 196 completed, jumped to initial state 0 times
+
+Duration: 3.101 min
+batch number 197 completed, jumped to initial state 0 times
+
+Duration: 3.102 min
+batch number 198 completed, jumped to initial state 0 times
+
+Duration: 3.103 min
+batch number 199 completed, jumped to initial state 0 times
+
+Duration: 3.105 min
+batch number 200 completed, jumped to initial state 0 times
+
+Duration: 3.106 min
+batch number 201 completed, jumped to initial state 0 times
+
+Duration: 3.107 min
+batch number 202 completed, jumped to initial state 0 times
+
+Duration: 3.108 min
+batch number 203 completed, jumped to initial state 0 times
+
+Duration: 3.110 min
+batch number 204 completed, jumped to initial state 0 times
+
+Duration: 3.111 min
+batch number 205 completed, jumped to initial state 0 times
+
+Duration: 3.113 min
+batch number 206 completed, jumped to initial state 0 times
+
+Duration: 3.114 min
+batch number 207 completed, jumped to initial state 0 times
+
+Duration: 3.115 min
+batch number 208 completed, jumped to initial state 0 times
+
+Duration: 3.116 min
+batch number 209 completed, jumped to initial state 0 times
+
+Duration: 3.118 min
+batch number 210 completed, jumped to initial state 0 times
+
+Duration: 3.119 min
+batch number 211 completed, jumped to initial state 0 times
+
+Duration: 3.121 min
+batch number 212 completed, jumped to initial state 0 times
+
+Duration: 3.122 min
+batch number 213 completed, jumped to initial state 0 times
+
+Duration: 3.123 min
+batch number 214 completed, jumped to initial state 0 times
+
+Duration: 3.124 min
+batch number 215 completed, jumped to initial state 0 times
+
+Duration: 3.126 min
+batch number 216 completed, jumped to initial state 0 times
+
+Duration: 3.127 min
+batch number 217 completed, jumped to initial state 0 times
+
+Duration: 3.128 min
+batch number 218 completed, jumped to initial state 0 times
+
+Duration: 3.130 min
+batch number 219 completed, jumped to initial state 0 times
+
+Duration: 3.131 min
+batch number 220 completed, jumped to initial state 0 times
+
+Duration: 3.133 min
+batch number 221 completed, jumped to initial state 0 times
+
+Duration: 3.134 min
+batch number 222 completed, jumped to initial state 0 times
+
+Duration: 3.136 min
+batch number 223 completed, jumped to initial state 0 times
+
+Duration: 3.137 min
+batch number 224 completed, jumped to initial state 0 times
+
+Duration: 3.138 min
+batch number 225 completed, jumped to initial state 0 times
+
+Duration: 3.140 min
+batch number 226 completed, jumped to initial state 0 times
+
+Duration: 3.141 min
+batch number 227 completed, jumped to initial state 0 times
+
+Duration: 3.142 min
+batch number 228 completed, jumped to initial state 0 times
+
+Duration: 3.144 min
+batch number 229 completed, jumped to initial state 0 times
+
+Duration: 3.145 min
+batch number 230 completed, jumped to initial state 0 times
+
+Duration: 3.147 min
+batch number 231 completed, jumped to initial state 0 times
+
+Duration: 3.149 min
+batch number 232 completed, jumped to initial state 0 times
+
+Duration: 3.150 min
+batch number 233 completed, jumped to initial state 0 times
+
+Duration: 3.151 min
+batch number 234 completed, jumped to initial state 0 times
+
+Duration: 3.153 min
+batch number 235 completed, jumped to initial state 0 times
+
+Duration: 3.154 min
+batch number 236 completed, jumped to initial state 0 times
+
+Duration: 3.155 min
+batch number 237 completed, jumped to initial state 0 times
+
+Duration: 3.157 min
+batch number 238 completed, jumped to initial state 0 times
+
+Duration: 3.159 min
+batch number 239 completed, jumped to initial state 0 times
+
+Duration: 3.160 min
+batch number 240 completed, jumped to initial state 0 times
+
+Duration: 3.162 min
+batch number 241 completed, jumped to initial state 0 times
+
+Duration: 3.163 min
+batch number 242 completed, jumped to initial state 0 times
+
+Duration: 3.164 min
+batch number 243 completed, jumped to initial state 0 times
+
+Duration: 3.166 min
+batch number 244 completed, jumped to initial state 0 times
+
+Duration: 3.167 min
+batch number 245 completed, jumped to initial state 0 times
+
+Duration: 3.168 min
+batch number 246 completed, jumped to initial state 0 times
+
+Duration: 3.170 min
+batch number 247 completed, jumped to initial state 0 times
+
+Duration: 3.171 min
+batch number 248 completed, jumped to initial state 0 times
+
+Duration: 3.172 min
+batch number 249 completed, jumped to initial state 0 times
+
+Duration: 3.174 min
+batch number 250 completed, jumped to initial state 0 times
+
+Duration: 3.175 min
+batch number 251 completed, jumped to initial state 0 times
+
+Duration: 3.176 min
+batch number 252 completed, jumped to initial state 0 times
+
+Duration: 3.178 min
+batch number 253 completed, jumped to initial state 0 times
+
+Duration: 3.179 min
+batch number 254 completed, jumped to initial state 0 times
+
+Duration: 3.181 min
+batch number 255 completed, jumped to initial state 0 times
+
+Duration: 3.182 min
+batch number 256 completed, jumped to initial state 0 times
+
+Duration: 3.183 min
+batch number 257 completed, jumped to initial state 0 times
+
+Duration: 3.185 min
+batch number 258 completed, jumped to initial state 0 times
+
+Duration: 3.186 min
+batch number 259 completed, jumped to initial state 0 times
+
+Duration: 3.188 min
+batch number 260 completed, jumped to initial state 0 times
+
+Duration: 3.189 min
+batch number 261 completed, jumped to initial state 0 times
+
+Duration: 3.191 min
+batch number 262 completed, jumped to initial state 0 times
+
+Duration: 3.192 min
+batch number 263 completed, jumped to initial state 0 times
+
+Duration: 3.194 min
+batch number 264 completed, jumped to initial state 0 times
+
+Duration: 3.195 min
+batch number 265 completed, jumped to initial state 0 times
+
+Duration: 3.196 min
+batch number 266 completed, jumped to initial state 0 times
+
+Duration: 3.199 min
+batch number 267 completed, jumped to initial state 0 times
+
+Duration: 3.201 min
+batch number 268 completed, jumped to initial state 0 times
+
+Duration: 3.202 min
+batch number 269 completed, jumped to initial state 0 times
+
+Duration: 3.204 min
+batch number 270 completed, jumped to initial state 0 times
+
+Duration: 3.205 min
+batch number 271 completed, jumped to initial state 0 times
+
+Duration: 3.207 min
+batch number 272 completed, jumped to initial state 0 times
+
+Duration: 3.208 min
+batch number 273 completed, jumped to initial state 0 times
+
+Duration: 3.209 min
+batch number 274 completed, jumped to initial state 0 times
+
+Duration: 3.211 min
+batch number 275 completed, jumped to initial state 0 times
+
+Duration: 3.212 min
+batch number 276 completed, jumped to initial state 0 times
+
+Duration: 3.214 min
+batch number 277 completed, jumped to initial state 0 times
+
+Duration: 3.215 min
+batch number 278 completed, jumped to initial state 0 times
+
+Duration: 3.216 min
+batch number 279 completed, jumped to initial state 0 times
+
+Duration: 3.218 min
+batch number 280 completed, jumped to initial state 0 times
+
+Duration: 3.219 min
+batch number 281 completed, jumped to initial state 0 times
+
+Duration: 3.221 min
+batch number 282 completed, jumped to initial state 0 times
+
+Duration: 3.222 min
+batch number 283 completed, jumped to initial state 0 times
+
+Duration: 3.223 min
+batch number 284 completed, jumped to initial state 0 times
+
+Duration: 3.225 min
+batch number 285 completed, jumped to initial state 0 times
+
+Duration: 3.226 min
+batch number 286 completed, jumped to initial state 0 times
+
+Duration: 3.228 min
+batch number 287 completed, jumped to initial state 0 times
+
+Duration: 3.229 min
+batch number 288 completed, jumped to initial state 0 times
+
+Duration: 3.230 min
+batch number 289 completed, jumped to initial state 0 times
+
+Duration: 3.232 min
+batch number 290 completed, jumped to initial state 0 times
+
+Duration: 3.233 min
+batch number 291 completed, jumped to initial state 0 times
+
+Duration: 3.235 min
+batch number 292 completed, jumped to initial state 0 times
+
+Duration: 3.236 min
+batch number 293 completed, jumped to initial state 0 times
+
+Duration: 3.237 min
+batch number 294 completed, jumped to initial state 0 times
+
+Duration: 3.239 min
+batch number 295 completed, jumped to initial state 0 times
+
+Duration: 3.240 min
+batch number 296 completed, jumped to initial state 0 times
+
+Duration: 3.242 min
+batch number 297 completed, jumped to initial state 0 times
+
+Duration: 3.244 min
+batch number 298 completed, jumped to initial state 0 times
+
+Duration: 3.246 min
+batch number 299 completed, jumped to initial state 0 times
+
+Duration: 3.247 min
+batch number 300 completed, jumped to initial state 0 times
+
+Duration: 3.248 min
+batch number 301 completed, jumped to initial state 0 times
+
+Duration: 3.250 min
+batch number 302 completed, jumped to initial state 0 times
+
+Duration: 3.251 min
+batch number 303 completed, jumped to initial state 0 times
+
+Duration: 3.253 min
+batch number 304 completed, jumped to initial state 0 times
+
+Duration: 3.254 min
+batch number 305 completed, jumped to initial state 0 times
+
+Duration: 3.256 min
+batch number 306 completed, jumped to initial state 0 times
+
+Duration: 3.257 min
+batch number 307 completed, jumped to initial state 0 times
+
+Duration: 3.259 min
+batch number 308 completed, jumped to initial state 0 times
+
+Duration: 3.260 min
+batch number 309 completed, jumped to initial state 0 times
+
+Duration: 3.262 min
+batch number 310 completed, jumped to initial state 0 times
+
+Duration: 3.263 min
+batch number 311 completed, jumped to initial state 0 times
+
+Duration: 3.265 min
+batch number 312 completed, jumped to initial state 0 times
+
+Duration: 3.266 min
+batch number 313 completed, jumped to initial state 0 times
+
+Duration: 3.269 min
+batch number 314 completed, jumped to initial state 0 times
+
+Duration: 3.271 min
+batch number 315 completed, jumped to initial state 0 times
+
+Duration: 3.272 min
+batch number 316 completed, jumped to initial state 0 times
+
+Duration: 3.273 min
+batch number 317 completed, jumped to initial state 0 times
+
+Duration: 3.275 min
+batch number 318 completed, jumped to initial state 0 times
+
+Duration: 3.277 min
+batch number 319 completed, jumped to initial state 0 times
+
+Duration: 3.278 min
+batch number 320 completed, jumped to initial state 0 times
+
+Duration: 3.279 min
+batch number 321 completed, jumped to initial state 0 times
+
+Duration: 3.281 min
+batch number 322 completed, jumped to initial state 0 times
+
+Duration: 3.282 min
+batch number 323 completed, jumped to initial state 0 times
+
+Duration: 3.284 min
+batch number 324 completed, jumped to initial state 0 times
+
+Duration: 3.285 min
+batch number 325 completed, jumped to initial state 0 times
+
+Duration: 3.286 min
+batch number 326 completed, jumped to initial state 0 times
+
+Duration: 3.288 min
+batch number 327 completed, jumped to initial state 0 times
+
+Duration: 3.289 min
+batch number 328 completed, jumped to initial state 0 times
+
+Duration: 3.291 min
+batch number 329 completed, jumped to initial state 0 times
+
+Duration: 3.293 min
+batch number 330 completed, jumped to initial state 0 times
+
+Duration: 3.294 min
+batch number 331 completed, jumped to initial state 0 times
+
+Duration: 3.296 min
+batch number 332 completed, jumped to initial state 0 times
+
+Duration: 3.297 min
+batch number 333 completed, jumped to initial state 0 times
+
+Duration: 3.299 min
+batch number 334 completed, jumped to initial state 0 times
+
+Duration: 3.300 min
+batch number 335 completed, jumped to initial state 0 times
+
+Duration: 3.302 min
+batch number 336 completed, jumped to initial state 0 times
+
+Duration: 3.303 min
+batch number 337 completed, jumped to initial state 0 times
+
+Duration: 3.305 min
+batch number 338 completed, jumped to initial state 0 times
+
+Duration: 3.306 min
+batch number 339 completed, jumped to initial state 0 times
+
+Duration: 3.308 min
+batch number 340 completed, jumped to initial state 0 times
+
+Duration: 3.309 min
+batch number 341 completed, jumped to initial state 0 times
+
+Duration: 3.310 min
+batch number 342 completed, jumped to initial state 0 times
+
+Duration: 3.312 min
+batch number 343 completed, jumped to initial state 0 times
+
+Duration: 3.314 min
+batch number 344 completed, jumped to initial state 0 times
+
+Duration: 3.316 min
+batch number 345 completed, jumped to initial state 0 times
+
+Duration: 3.318 min
+batch number 346 completed, jumped to initial state 0 times
+
+Duration: 3.320 min
+batch number 347 completed, jumped to initial state 0 times
+
+Duration: 3.321 min
+batch number 348 completed, jumped to initial state 0 times
+
+Duration: 3.324 min
+batch number 349 completed, jumped to initial state 0 times
+
+Duration: 3.326 min
+batch number 350 completed, jumped to initial state 0 times
+
+Duration: 3.328 min
+batch number 351 completed, jumped to initial state 0 times
+
+Duration: 3.330 min
+batch number 352 completed, jumped to initial state 0 times
+
+Duration: 3.332 min
+batch number 353 completed, jumped to initial state 0 times
+
+Duration: 3.334 min
+batch number 354 completed, jumped to initial state 0 times
+
+Duration: 3.335 min
+batch number 355 completed, jumped to initial state 0 times
+
+Duration: 3.337 min
+batch number 356 completed, jumped to initial state 0 times
+
+Duration: 3.338 min
+batch number 357 completed, jumped to initial state 0 times
+
+Duration: 3.340 min
+batch number 358 completed, jumped to initial state 0 times
+
+Duration: 3.341 min
+batch number 359 completed, jumped to initial state 0 times
+
+Duration: 3.343 min
+batch number 360 completed, jumped to initial state 0 times
+
+Duration: 3.344 min
+batch number 361 completed, jumped to initial state 0 times
+
+Duration: 3.346 min
+batch number 362 completed, jumped to initial state 0 times
+
+Duration: 3.347 min
+batch number 363 completed, jumped to initial state 0 times
+
+Duration: 3.348 min
+batch number 364 completed, jumped to initial state 0 times
+
+Duration: 3.350 min
+batch number 365 completed, jumped to initial state 0 times
+
+Duration: 3.352 min
+batch number 366 completed, jumped to initial state 0 times
+
+Duration: 3.354 min
+batch number 367 completed, jumped to initial state 0 times
+
+Duration: 3.355 min
+batch number 368 completed, jumped to initial state 0 times
+
+Duration: 3.357 min
+batch number 369 completed, jumped to initial state 0 times
+
+Duration: 3.358 min
+batch number 370 completed, jumped to initial state 0 times
+
+Duration: 3.359 min
+batch number 371 completed, jumped to initial state 0 times
+
+Duration: 3.361 min
+batch number 372 completed, jumped to initial state 0 times
+
+Duration: 3.362 min
+batch number 373 completed, jumped to initial state 0 times
+
+Duration: 3.364 min
+batch number 374 completed, jumped to initial state 0 times
+
+Duration: 3.365 min
+batch number 375 completed, jumped to initial state 0 times
+
+Duration: 3.367 min
+batch number 376 completed, jumped to initial state 0 times
+
+Duration: 3.368 min
+batch number 377 completed, jumped to initial state 0 times
+
+Duration: 3.369 min
+batch number 378 completed, jumped to initial state 0 times
+
+Duration: 3.371 min
+batch number 379 completed, jumped to initial state 0 times
+
+Duration: 3.372 min
+batch number 380 completed, jumped to initial state 0 times
+
+Duration: 3.374 min
+batch number 381 completed, jumped to initial state 0 times
+
+Duration: 3.375 min
+batch number 382 completed, jumped to initial state 0 times
+
+Duration: 3.376 min
+batch number 383 completed, jumped to initial state 0 times
+
+Duration: 3.378 min
+batch number 384 completed, jumped to initial state 0 times
+
+Duration: 3.379 min
+batch number 385 completed, jumped to initial state 0 times
+
+Duration: 3.381 min
+batch number 386 completed, jumped to initial state 0 times
+
+Duration: 3.382 min
+batch number 387 completed, jumped to initial state 0 times
+
+Duration: 3.384 min
+batch number 388 completed, jumped to initial state 0 times
+
+Duration: 3.385 min
+batch number 389 completed, jumped to initial state 0 times
+
+Duration: 3.387 min
+batch number 390 completed, jumped to initial state 0 times
+
+Duration: 3.388 min
+batch number 391 completed, jumped to initial state 0 times
+
+Duration: 3.389 min
+batch number 392 completed, jumped to initial state 0 times
+
+Duration: 3.391 min
+batch number 393 completed, jumped to initial state 0 times
+
+Duration: 3.392 min
+batch number 394 completed, jumped to initial state 0 times
+
+Duration: 3.394 min
+batch number 395 completed, jumped to initial state 0 times
+
+Duration: 3.396 min
+batch number 396 completed, jumped to initial state 0 times
+
+Duration: 3.397 min
+batch number 397 completed, jumped to initial state 0 times
+
+Duration: 3.399 min
+batch number 398 completed, jumped to initial state 0 times
+
+Duration: 3.401 min
+batch number 399 completed, jumped to initial state 0 times
+
+Duration: 3.403 min
+batch number 400 completed, jumped to initial state 0 times
+
+Duration: 3.404 min
+batch number 401 completed, jumped to initial state 0 times
+
+Duration: 3.406 min
+batch number 402 completed, jumped to initial state 0 times
+
+Duration: 3.407 min
+batch number 403 completed, jumped to initial state 0 times
+
+Duration: 3.409 min
+batch number 404 completed, jumped to initial state 0 times
+
+Duration: 3.411 min
+batch number 405 completed, jumped to initial state 0 times
+
+Duration: 3.413 min
+batch number 406 completed, jumped to initial state 0 times
+
+Duration: 3.415 min
+batch number 407 completed, jumped to initial state 0 times
+
+Duration: 3.416 min
+batch number 408 completed, jumped to initial state 0 times
+
+Duration: 3.418 min
+batch number 409 completed, jumped to initial state 0 times
+
+Duration: 3.419 min
+batch number 410 completed, jumped to initial state 0 times
+
+Duration: 3.421 min
+batch number 411 completed, jumped to initial state 0 times
+
+Duration: 3.422 min
+batch number 412 completed, jumped to initial state 0 times
+
+Duration: 3.424 min
+batch number 413 completed, jumped to initial state 0 times
+
+Duration: 3.425 min
+batch number 414 completed, jumped to initial state 0 times
+
+Duration: 3.427 min
+batch number 415 completed, jumped to initial state 0 times
+
+Duration: 3.428 min
+batch number 416 completed, jumped to initial state 0 times
+
+Duration: 3.431 min
+batch number 417 completed, jumped to initial state 0 times
+
+Duration: 3.432 min
+batch number 418 completed, jumped to initial state 0 times
+
+Duration: 3.433 min
+batch number 419 completed, jumped to initial state 0 times
+
+Duration: 3.435 min
+batch number 420 completed, jumped to initial state 0 times
+
+Duration: 3.436 min
+batch number 421 completed, jumped to initial state 0 times
+
+Duration: 3.438 min
+batch number 422 completed, jumped to initial state 0 times
+
+Duration: 3.440 min
+batch number 423 completed, jumped to initial state 0 times
+
+Duration: 3.442 min
+batch number 424 completed, jumped to initial state 0 times
+
+Duration: 3.443 min
+batch number 425 completed, jumped to initial state 0 times
+
+Duration: 3.444 min
+batch number 426 completed, jumped to initial state 0 times
+
+Duration: 3.446 min
+batch number 427 completed, jumped to initial state 0 times
+
+Duration: 3.447 min
+batch number 428 completed, jumped to initial state 0 times
+
+Duration: 3.449 min
+batch number 429 completed, jumped to initial state 0 times
+
+Duration: 3.450 min
+batch number 430 completed, jumped to initial state 0 times
+
+Duration: 3.452 min
+batch number 431 completed, jumped to initial state 0 times
+
+Duration: 3.454 min
+batch number 432 completed, jumped to initial state 0 times
+
+Duration: 3.455 min
+batch number 433 completed, jumped to initial state 0 times
+
+Duration: 3.457 min
+batch number 434 completed, jumped to initial state 0 times
+
+Duration: 3.458 min
+batch number 435 completed, jumped to initial state 0 times
+
+Duration: 3.460 min
+batch number 436 completed, jumped to initial state 0 times
+
+Duration: 3.461 min
+batch number 437 completed, jumped to initial state 0 times
+
+Duration: 3.463 min
+batch number 438 completed, jumped to initial state 0 times
+
+Duration: 3.464 min
+batch number 439 completed, jumped to initial state 0 times
+
+Duration: 3.465 min
+batch number 440 completed, jumped to initial state 0 times
+
+Duration: 3.467 min
+batch number 441 completed, jumped to initial state 0 times
+
+Duration: 3.469 min
+batch number 442 completed, jumped to initial state 0 times
+
+Duration: 3.470 min
+batch number 443 completed, jumped to initial state 0 times
+
+Duration: 3.471 min
+batch number 444 completed, jumped to initial state 0 times
+
+Duration: 3.473 min
+batch number 445 completed, jumped to initial state 0 times
+
+Duration: 3.474 min
+batch number 446 completed, jumped to initial state 0 times
+
+Duration: 3.476 min
+batch number 447 completed, jumped to initial state 0 times
+
+Duration: 3.477 min
+batch number 448 completed, jumped to initial state 0 times
+
+Duration: 3.479 min
+batch number 449 completed, jumped to initial state 0 times
+
+Duration: 3.480 min
+batch number 450 completed, jumped to initial state 0 times
+
+Duration: 3.482 min
+batch number 451 completed, jumped to initial state 0 times
+
+Duration: 3.483 min
+batch number 452 completed, jumped to initial state 0 times
+
+Duration: 3.486 min
+batch number 453 completed, jumped to initial state 0 times
+
+Duration: 3.487 min
+batch number 454 completed, jumped to initial state 0 times
+
+Duration: 3.488 min
+batch number 455 completed, jumped to initial state 0 times
+
+Duration: 3.490 min
+batch number 456 completed, jumped to initial state 0 times
+
+Duration: 3.491 min
+batch number 457 completed, jumped to initial state 0 times
+
+Duration: 3.492 min
+batch number 458 completed, jumped to initial state 0 times
+
+Duration: 3.494 min
+batch number 459 completed, jumped to initial state 0 times
+
+Duration: 3.495 min
+batch number 460 completed, jumped to initial state 0 times
+
+Duration: 3.497 min
+batch number 461 completed, jumped to initial state 0 times
+
+Duration: 3.498 min
+batch number 462 completed, jumped to initial state 0 times
+
+Duration: 3.499 min
+batch number 463 completed, jumped to initial state 0 times
+
+Duration: 3.501 min
+batch number 464 completed, jumped to initial state 0 times
+
+Duration: 3.502 min
+batch number 465 completed, jumped to initial state 0 times
+
+Duration: 3.503 min
+batch number 466 completed, jumped to initial state 0 times
+
+Duration: 3.505 min
+batch number 467 completed, jumped to initial state 0 times
+
+Duration: 3.506 min
+batch number 468 completed, jumped to initial state 0 times
+
+Duration: 3.508 min
+batch number 469 completed, jumped to initial state 0 times
+
+Duration: 3.509 min
+batch number 470 completed, jumped to initial state 0 times
+
+Duration: 3.511 min
+batch number 471 completed, jumped to initial state 0 times
+
+Duration: 3.512 min
+batch number 472 completed, jumped to initial state 0 times
+
+Duration: 3.513 min
+batch number 473 completed, jumped to initial state 0 times
+
+Duration: 3.515 min
+batch number 474 completed, jumped to initial state 0 times
+
+Duration: 3.516 min
+batch number 475 completed, jumped to initial state 0 times
+
+Duration: 3.518 min
+batch number 476 completed, jumped to initial state 0 times
+
+Duration: 3.519 min
+batch number 477 completed, jumped to initial state 0 times
+
+Duration: 3.521 min
+batch number 478 completed, jumped to initial state 0 times
+
+Duration: 3.522 min
+batch number 479 completed, jumped to initial state 0 times
+
+Duration: 3.523 min
+batch number 480 completed, jumped to initial state 0 times
+
+Duration: 3.525 min
+batch number 481 completed, jumped to initial state 0 times
+
+Duration: 3.526 min
+batch number 482 completed, jumped to initial state 0 times
+
+Duration: 3.528 min
+batch number 483 completed, jumped to initial state 0 times
+
+Duration: 3.529 min
+batch number 484 completed, jumped to initial state 0 times
+
+Duration: 3.531 min
+batch number 485 completed, jumped to initial state 0 times
+
+Duration: 3.532 min
+batch number 486 completed, jumped to initial state 0 times
+
+Duration: 3.534 min
+batch number 487 completed, jumped to initial state 0 times
+
+Duration: 3.535 min
+batch number 488 completed, jumped to initial state 0 times
+
+Duration: 3.537 min
+batch number 489 completed, jumped to initial state 0 times
+
+Duration: 3.538 min
+batch number 490 completed, jumped to initial state 0 times
+
+Duration: 3.540 min
+batch number 491 completed, jumped to initial state 0 times
+
+Duration: 3.541 min
+batch number 492 completed, jumped to initial state 0 times
+
+Duration: 3.543 min
+batch number 493 completed, jumped to initial state 0 times
+
+Duration: 3.544 min
+batch number 494 completed, jumped to initial state 0 times
+
+Duration: 3.546 min
+batch number 495 completed, jumped to initial state 0 times
+
+Duration: 3.547 min
+batch number 496 completed, jumped to initial state 0 times
+
+Duration: 3.548 min
+batch number 497 completed, jumped to initial state 0 times
+
+Duration: 3.550 min
+batch number 498 completed, jumped to initial state 0 times
+
+Duration: 3.551 min
+batch number 499 completed, jumped to initial state 0 times
+
+Duration: 3.553 min
+batch number 500 completed, jumped to initial state 0 times
+
+Duration: 3.554 min
+batch number 501 completed, jumped to initial state 0 times
+
+Duration: 3.555 min
+batch number 502 completed, jumped to initial state 0 times
+
+Duration: 3.557 min
+batch number 503 completed, jumped to initial state 0 times
+
+Duration: 3.558 min
+batch number 504 completed, jumped to initial state 0 times
+
+Duration: 3.559 min
+batch number 505 completed, jumped to initial state 0 times
+
+Duration: 3.561 min
+batch number 506 completed, jumped to initial state 0 times
+
+Duration: 3.562 min
+batch number 507 completed, jumped to initial state 0 times
+
+Duration: 3.564 min
+batch number 508 completed, jumped to initial state 0 times
+
+Duration: 3.565 min
+batch number 509 completed, jumped to initial state 0 times
+
+Duration: 3.567 min
+batch number 510 completed, jumped to initial state 0 times
+
+Duration: 3.568 min
+batch number 511 completed, jumped to initial state 0 times
+
+Duration: 3.570 min
+batch number 512 completed, jumped to initial state 0 times
+
+Duration: 3.571 min
+batch number 513 completed, jumped to initial state 0 times
+
+Duration: 3.572 min
+batch number 514 completed, jumped to initial state 0 times
+
+Duration: 3.574 min
+batch number 515 completed, jumped to initial state 0 times
+
+Duration: 3.575 min
+batch number 516 completed, jumped to initial state 0 times
+
+Duration: 3.577 min
+batch number 517 completed, jumped to initial state 0 times
+
+Duration: 3.578 min
+batch number 518 completed, jumped to initial state 0 times
+
+Duration: 3.579 min
+batch number 519 completed, jumped to initial state 0 times
+
+Duration: 3.581 min
+batch number 520 completed, jumped to initial state 0 times
+
+Duration: 3.582 min
+batch number 521 completed, jumped to initial state 0 times
+
+Duration: 3.584 min
+batch number 522 completed, jumped to initial state 0 times
+
+Duration: 3.585 min
+batch number 523 completed, jumped to initial state 0 times
+
+Duration: 3.587 min
+batch number 524 completed, jumped to initial state 0 times
+
+Duration: 3.588 min
+batch number 525 completed, jumped to initial state 0 times
+
+Duration: 3.590 min
+batch number 526 completed, jumped to initial state 0 times
+
+Duration: 3.591 min
+batch number 527 completed, jumped to initial state 0 times
+
+Duration: 3.593 min
+batch number 528 completed, jumped to initial state 0 times
+
+Duration: 3.594 min
+batch number 529 completed, jumped to initial state 0 times
+
+Duration: 3.595 min
+batch number 530 completed, jumped to initial state 0 times
+
+Duration: 3.597 min
+batch number 531 completed, jumped to initial state 0 times
+
+Duration: 3.598 min
+batch number 532 completed, jumped to initial state 0 times
+
+Duration: 3.600 min
+batch number 533 completed, jumped to initial state 0 times
+
+Duration: 3.602 min
+batch number 534 completed, jumped to initial state 0 times
+
+Duration: 3.603 min
+batch number 535 completed, jumped to initial state 0 times
+
+Duration: 3.604 min
+batch number 536 completed, jumped to initial state 0 times
+
+Duration: 3.606 min
+batch number 537 completed, jumped to initial state 0 times
+
+Duration: 3.607 min
+batch number 538 completed, jumped to initial state 0 times
+
+Duration: 3.609 min
+batch number 539 completed, jumped to initial state 0 times
+
+Duration: 3.610 min
+batch number 540 completed, jumped to initial state 0 times
+
+Duration: 3.611 min
+batch number 541 completed, jumped to initial state 0 times
+
+Duration: 3.613 min
+batch number 542 completed, jumped to initial state 0 times
+
+Duration: 3.614 min
+batch number 543 completed, jumped to initial state 0 times
+
+Duration: 3.616 min
+batch number 544 completed, jumped to initial state 0 times
+
+Duration: 3.617 min
+batch number 545 completed, jumped to initial state 0 times
+
+Duration: 3.618 min
+batch number 546 completed, jumped to initial state 0 times
+
+Duration: 3.620 min
+batch number 547 completed, jumped to initial state 0 times
+
+Duration: 3.621 min
+batch number 548 completed, jumped to initial state 0 times
+
+Duration: 3.623 min
+batch number 549 completed, jumped to initial state 0 times
+
+Duration: 3.624 min
+batch number 550 completed, jumped to initial state 0 times
+
+Duration: 3.625 min
+batch number 551 completed, jumped to initial state 0 times
+
+Duration: 3.627 min
+batch number 552 completed, jumped to initial state 0 times
+
+Duration: 3.628 min
+batch number 553 completed, jumped to initial state 0 times
+
+Duration: 3.630 min
+batch number 554 completed, jumped to initial state 0 times
+
+Duration: 3.631 min
+batch number 555 completed, jumped to initial state 0 times
+
+Duration: 3.632 min
+batch number 556 completed, jumped to initial state 0 times
+
+Duration: 3.634 min
+batch number 557 completed, jumped to initial state 0 times
+
+Duration: 3.635 min
+batch number 558 completed, jumped to initial state 0 times
+
+Duration: 3.636 min
+batch number 559 completed, jumped to initial state 0 times
+
+Duration: 3.638 min
+batch number 560 completed, jumped to initial state 0 times
+
+Duration: 3.639 min
+batch number 561 completed, jumped to initial state 0 times
+
+Duration: 3.641 min
+batch number 562 completed, jumped to initial state 0 times
+
+Duration: 3.642 min
+batch number 563 completed, jumped to initial state 0 times
+
+Duration: 3.643 min
+batch number 564 completed, jumped to initial state 0 times
+
+Duration: 3.645 min
+batch number 565 completed, jumped to initial state 0 times
+
+Duration: 3.646 min
+batch number 566 completed, jumped to initial state 0 times
+
+Duration: 3.648 min
+batch number 567 completed, jumped to initial state 0 times
+
+Duration: 3.649 min
+batch number 568 completed, jumped to initial state 0 times
+
+Duration: 3.650 min
+batch number 569 completed, jumped to initial state 0 times
+
+Duration: 3.652 min
+batch number 570 completed, jumped to initial state 0 times
+
+Duration: 3.653 min
+batch number 571 completed, jumped to initial state 0 times
+
+Duration: 3.655 min
+batch number 572 completed, jumped to initial state 0 times
+
+Duration: 3.656 min
+batch number 573 completed, jumped to initial state 0 times
+
+Duration: 3.657 min
+batch number 574 completed, jumped to initial state 0 times
+
+Duration: 3.659 min
+batch number 575 completed, jumped to initial state 0 times
+
+Duration: 3.661 min
+batch number 576 completed, jumped to initial state 0 times
+
+Duration: 3.662 min
+batch number 577 completed, jumped to initial state 0 times
+
+Duration: 3.663 min
+batch number 578 completed, jumped to initial state 0 times
+
+Duration: 3.665 min
+batch number 579 completed, jumped to initial state 0 times
+
+Duration: 3.666 min
+batch number 580 completed, jumped to initial state 0 times
+
+Duration: 3.668 min
+batch number 581 completed, jumped to initial state 0 times
+
+Duration: 3.669 min
+batch number 582 completed, jumped to initial state 0 times
+
+Duration: 3.670 min
+batch number 583 completed, jumped to initial state 0 times
+
+Duration: 3.672 min
+batch number 584 completed, jumped to initial state 0 times
+
+Duration: 3.674 min
+batch number 585 completed, jumped to initial state 0 times
+
+Duration: 3.675 min
+batch number 586 completed, jumped to initial state 0 times
+
+Duration: 3.676 min
+batch number 587 completed, jumped to initial state 0 times
+
+Duration: 3.678 min
+batch number 588 completed, jumped to initial state 0 times
+
+Duration: 3.679 min
+batch number 589 completed, jumped to initial state 0 times
+
+Duration: 3.681 min
+batch number 590 completed, jumped to initial state 0 times
+
+Duration: 3.682 min
+batch number 591 completed, jumped to initial state 0 times
+
+Duration: 3.683 min
+batch number 592 completed, jumped to initial state 0 times
+
+Duration: 3.685 min
+batch number 593 completed, jumped to initial state 0 times
+
+Duration: 3.686 min
+batch number 594 completed, jumped to initial state 0 times
+
+Duration: 3.688 min
+batch number 595 completed, jumped to initial state 0 times
+
+Duration: 3.689 min
+batch number 596 completed, jumped to initial state 0 times
+
+Duration: 3.691 min
+batch number 597 completed, jumped to initial state 0 times
+
+Duration: 3.692 min
+batch number 598 completed, jumped to initial state 0 times
+
+Duration: 3.694 min
+batch number 599 completed, jumped to initial state 0 times
+
+Duration: 3.696 min
+batch number 600 completed, jumped to initial state 0 times
+
+Duration: 3.698 min
+batch number 601 completed, jumped to initial state 0 times
+
+Duration: 3.700 min
+batch number 602 completed, jumped to initial state 0 times
+
+Duration: 3.701 min
+batch number 603 completed, jumped to initial state 0 times
+
+Duration: 3.703 min
+batch number 604 completed, jumped to initial state 0 times
+
+Duration: 3.705 min
+batch number 605 completed, jumped to initial state 0 times
+
+Duration: 3.707 min
+batch number 606 completed, jumped to initial state 0 times
+
+Duration: 3.709 min
+batch number 607 completed, jumped to initial state 0 times
+
+Duration: 3.711 min
+batch number 608 completed, jumped to initial state 0 times
+
+Duration: 3.712 min
+batch number 609 completed, jumped to initial state 0 times
+
+Duration: 3.714 min
+batch number 610 completed, jumped to initial state 0 times
+
+Duration: 3.716 min
+batch number 611 completed, jumped to initial state 0 times
+
+Duration: 3.718 min
+batch number 612 completed, jumped to initial state 0 times
+
+Duration: 3.720 min
+batch number 613 completed, jumped to initial state 0 times
+
+Duration: 3.722 min
+batch number 614 completed, jumped to initial state 0 times
+
+Duration: 3.724 min
+batch number 615 completed, jumped to initial state 0 times
+
+Duration: 3.726 min
+batch number 616 completed, jumped to initial state 0 times
+
+Duration: 3.727 min
+batch number 617 completed, jumped to initial state 0 times
+
+Duration: 3.729 min
+batch number 618 completed, jumped to initial state 0 times
+
+Duration: 3.731 min
+batch number 619 completed, jumped to initial state 0 times
+
+Duration: 3.733 min
+batch number 620 completed, jumped to initial state 0 times
+
+Duration: 3.734 min
+batch number 621 completed, jumped to initial state 0 times
+
+Duration: 3.736 min
+batch number 622 completed, jumped to initial state 0 times
+
+Duration: 3.737 min
+batch number 623 completed, jumped to initial state 0 times
+
+Duration: 3.739 min
+batch number 624 completed, jumped to initial state 0 times
+
+Duration: 3.740 min
+batch number 625 completed, jumped to initial state 0 times
+
+Duration: 3.742 min
+batch number 626 completed, jumped to initial state 0 times
+
+Duration: 3.743 min
+batch number 627 completed, jumped to initial state 0 times
+
+Duration: 3.745 min
+batch number 628 completed, jumped to initial state 0 times
+
+Duration: 3.746 min
+batch number 629 completed, jumped to initial state 0 times
+
+Duration: 3.748 min
+batch number 630 completed, jumped to initial state 0 times
+
+Duration: 3.749 min
+batch number 631 completed, jumped to initial state 0 times
+
+Duration: 3.751 min
+batch number 632 completed, jumped to initial state 0 times
+
+Duration: 3.752 min
+batch number 633 completed, jumped to initial state 0 times
+
+Duration: 3.754 min
+batch number 634 completed, jumped to initial state 0 times
+
+Duration: 3.756 min
+batch number 635 completed, jumped to initial state 0 times
+
+Duration: 3.758 min
+batch number 636 completed, jumped to initial state 0 times
+
+Duration: 3.760 min
+batch number 637 completed, jumped to initial state 0 times
+
+Duration: 3.761 min
+batch number 638 completed, jumped to initial state 0 times
+
+Duration: 3.763 min
+batch number 639 completed, jumped to initial state 0 times
+
+Duration: 3.765 min
+batch number 640 completed, jumped to initial state 0 times
+
+Duration: 3.767 min
+batch number 641 completed, jumped to initial state 0 times
+
+Duration: 3.768 min
+batch number 642 completed, jumped to initial state 0 times
+
+Duration: 3.769 min
+batch number 643 completed, jumped to initial state 0 times
+
+Duration: 3.771 min
+batch number 644 completed, jumped to initial state 0 times
+
+Duration: 3.772 min
+batch number 645 completed, jumped to initial state 0 times
+
+Duration: 3.773 min
+batch number 646 completed, jumped to initial state 0 times
+
+Duration: 3.775 min
+batch number 647 completed, jumped to initial state 0 times
+
+Duration: 3.777 min
+batch number 648 completed, jumped to initial state 0 times
+
+Duration: 3.779 min
+batch number 649 completed, jumped to initial state 0 times
+
+Duration: 3.780 min
+batch number 650 completed, jumped to initial state 0 times
+
+Duration: 3.782 min
+batch number 651 completed, jumped to initial state 0 times
+
+Duration: 3.783 min
+batch number 652 completed, jumped to initial state 0 times
+
+Duration: 3.785 min
+batch number 653 completed, jumped to initial state 0 times
+
+Duration: 3.786 min
+batch number 654 completed, jumped to initial state 0 times
+
+Duration: 3.788 min
+batch number 655 completed, jumped to initial state 0 times
+
+Duration: 3.789 min
+batch number 656 completed, jumped to initial state 0 times
+
+Duration: 3.790 min
+batch number 657 completed, jumped to initial state 0 times
+
+Duration: 3.792 min
+batch number 658 completed, jumped to initial state 0 times
+
+Duration: 3.794 min
+batch number 659 completed, jumped to initial state 0 times
+
+Duration: 3.796 min
+batch number 660 completed, jumped to initial state 0 times
+
+Duration: 3.797 min
+batch number 661 completed, jumped to initial state 0 times
+
+Duration: 3.799 min
+batch number 662 completed, jumped to initial state 0 times
+
+Duration: 3.801 min
+batch number 663 completed, jumped to initial state 0 times
+
+Duration: 3.802 min
+batch number 664 completed, jumped to initial state 0 times
+
+Duration: 3.803 min
+batch number 665 completed, jumped to initial state 0 times
+
+Duration: 3.805 min
+batch number 666 completed, jumped to initial state 0 times
+
+Duration: 3.806 min
+batch number 667 completed, jumped to initial state 0 times
+
+Duration: 3.808 min
+batch number 668 completed, jumped to initial state 0 times
+
+Duration: 3.809 min
+batch number 669 completed, jumped to initial state 0 times
+
+Duration: 3.811 min
+batch number 670 completed, jumped to initial state 0 times
+
+Duration: 3.812 min
+batch number 671 completed, jumped to initial state 0 times
+
+Duration: 3.814 min
+batch number 672 completed, jumped to initial state 0 times
+
+Duration: 3.815 min
+batch number 673 completed, jumped to initial state 0 times
+
+Duration: 3.816 min
+batch number 674 completed, jumped to initial state 0 times
+
+Duration: 3.818 min
+batch number 675 completed, jumped to initial state 0 times
+
+Duration: 3.820 min
+batch number 676 completed, jumped to initial state 0 times
+
+Duration: 3.821 min
+batch number 677 completed, jumped to initial state 0 times
+
+Duration: 3.822 min
+batch number 678 completed, jumped to initial state 0 times
+
+Duration: 3.824 min
+batch number 679 completed, jumped to initial state 0 times
+
+Duration: 3.825 min
+batch number 680 completed, jumped to initial state 0 times
+
+Duration: 3.827 min
+batch number 681 completed, jumped to initial state 0 times
+
+Duration: 3.829 min
+batch number 682 completed, jumped to initial state 0 times
+
+Duration: 3.831 min
+batch number 683 completed, jumped to initial state 0 times
+
+Duration: 3.832 min
+batch number 684 completed, jumped to initial state 0 times
+
+Duration: 3.833 min
+batch number 685 completed, jumped to initial state 0 times
+
+Duration: 3.835 min
+batch number 686 completed, jumped to initial state 0 times
+
+Duration: 3.836 min
+batch number 687 completed, jumped to initial state 0 times
+
+Duration: 3.838 min
+batch number 688 completed, jumped to initial state 0 times
+
+Duration: 3.839 min
+batch number 689 completed, jumped to initial state 0 times
+
+Duration: 3.840 min
+batch number 690 completed, jumped to initial state 0 times
+
+Duration: 3.842 min
+batch number 691 completed, jumped to initial state 0 times
+
+Duration: 3.843 min
+batch number 692 completed, jumped to initial state 0 times
+
+Duration: 3.845 min
+batch number 693 completed, jumped to initial state 0 times
+
+Duration: 3.846 min
+batch number 694 completed, jumped to initial state 0 times
+
+Duration: 3.848 min
+batch number 695 completed, jumped to initial state 0 times
+
+Duration: 3.849 min
+batch number 696 completed, jumped to initial state 0 times
+
+Duration: 3.852 min
+batch number 697 completed, jumped to initial state 0 times
+
+Duration: 3.854 min
+batch number 698 completed, jumped to initial state 0 times
+
+Duration: 3.855 min
+batch number 699 completed, jumped to initial state 0 times
+
+Duration: 3.857 min
+batch number 700 completed, jumped to initial state 0 times
+
+Duration: 3.858 min
+batch number 701 completed, jumped to initial state 0 times
+
+Duration: 3.860 min
+batch number 702 completed, jumped to initial state 0 times
+
+Duration: 3.862 min
+batch number 703 completed, jumped to initial state 0 times
+
+Duration: 3.863 min
+batch number 704 completed, jumped to initial state 0 times
+
+Duration: 3.864 min
+batch number 705 completed, jumped to initial state 0 times
+
+Duration: 3.866 min
+batch number 706 completed, jumped to initial state 0 times
+
+Duration: 3.867 min
+batch number 707 completed, jumped to initial state 0 times
+
+Duration: 3.869 min
+batch number 708 completed, jumped to initial state 0 times
+
+Duration: 3.870 min
+batch number 709 completed, jumped to initial state 0 times
+
+Duration: 3.871 min
+batch number 710 completed, jumped to initial state 0 times
+
+Duration: 3.873 min
+batch number 711 completed, jumped to initial state 0 times
+
+Duration: 3.875 min
+batch number 712 completed, jumped to initial state 0 times
+
+Duration: 3.876 min
+batch number 713 completed, jumped to initial state 0 times
+
+Duration: 3.878 min
+batch number 714 completed, jumped to initial state 0 times
+
+Duration: 3.879 min
+batch number 715 completed, jumped to initial state 0 times
+
+Duration: 3.880 min
+batch number 716 completed, jumped to initial state 0 times
+
+Duration: 3.882 min
+batch number 717 completed, jumped to initial state 0 times
+
+Duration: 3.883 min
+batch number 718 completed, jumped to initial state 0 times
+
+Duration: 3.885 min
+batch number 719 completed, jumped to initial state 0 times
+
+Duration: 3.887 min
+batch number 720 completed, jumped to initial state 0 times
+
+Duration: 3.888 min
+batch number 721 completed, jumped to initial state 0 times
+
+Duration: 3.889 min
+batch number 722 completed, jumped to initial state 0 times
+
+Duration: 3.891 min
+batch number 723 completed, jumped to initial state 0 times
+
+Duration: 3.893 min
+batch number 724 completed, jumped to initial state 0 times
+
+Duration: 3.894 min
+batch number 725 completed, jumped to initial state 0 times
+
+Duration: 3.896 min
+batch number 726 completed, jumped to initial state 0 times
+
+Duration: 3.897 min
+batch number 727 completed, jumped to initial state 0 times
+
+Duration: 3.898 min
+batch number 728 completed, jumped to initial state 0 times
+
+Duration: 3.900 min
+batch number 729 completed, jumped to initial state 0 times
+
+Duration: 3.901 min
+batch number 730 completed, jumped to initial state 0 times
+
+Duration: 3.903 min
+batch number 731 completed, jumped to initial state 0 times
+
+Duration: 3.905 min
+batch number 732 completed, jumped to initial state 0 times
+
+Duration: 3.907 min
+batch number 733 completed, jumped to initial state 0 times
+
+Duration: 3.908 min
+batch number 734 completed, jumped to initial state 0 times
+
+Duration: 3.910 min
+batch number 735 completed, jumped to initial state 0 times
+
+Duration: 3.911 min
+batch number 736 completed, jumped to initial state 0 times
+
+Duration: 3.913 min
+batch number 737 completed, jumped to initial state 0 times
+
+Duration: 3.914 min
+batch number 738 completed, jumped to initial state 0 times
+
+Duration: 3.916 min
+batch number 739 completed, jumped to initial state 0 times
+
+Duration: 3.917 min
+batch number 740 completed, jumped to initial state 0 times
+
+Duration: 3.919 min
+batch number 741 completed, jumped to initial state 0 times
+
+Duration: 3.920 min
+batch number 742 completed, jumped to initial state 0 times
+
+Duration: 3.921 min
+batch number 743 completed, jumped to initial state 0 times
+
+Duration: 3.923 min
+batch number 744 completed, jumped to initial state 0 times
+
+Duration: 3.924 min
+batch number 745 completed, jumped to initial state 0 times
+
+Duration: 3.926 min
+batch number 746 completed, jumped to initial state 0 times
+
+Duration: 3.927 min
+batch number 747 completed, jumped to initial state 0 times
+
+Duration: 3.929 min
+batch number 748 completed, jumped to initial state 0 times
+
+Duration: 3.930 min
+batch number 749 completed, jumped to initial state 0 times
+
+Duration: 3.931 min
+batch number 750 completed, jumped to initial state 0 times
+
+Duration: 3.933 min
+batch number 751 completed, jumped to initial state 0 times
+
+Duration: 3.934 min
+batch number 752 completed, jumped to initial state 0 times
+
+Duration: 3.936 min
+batch number 753 completed, jumped to initial state 0 times
+
+Duration: 3.937 min
+batch number 754 completed, jumped to initial state 0 times
+
+Duration: 3.939 min
+batch number 755 completed, jumped to initial state 0 times
+
+Duration: 3.940 min
+batch number 756 completed, jumped to initial state 0 times
+
+Duration: 3.942 min
+batch number 757 completed, jumped to initial state 0 times
+
+Duration: 3.944 min
+batch number 758 completed, jumped to initial state 0 times
+
+Duration: 3.945 min
+batch number 759 completed, jumped to initial state 0 times
+
+Duration: 3.946 min
+batch number 760 completed, jumped to initial state 0 times
+
+Duration: 3.948 min
+batch number 761 completed, jumped to initial state 0 times
+
+Duration: 3.949 min
+batch number 762 completed, jumped to initial state 0 times
+
+Duration: 3.950 min
+batch number 763 completed, jumped to initial state 0 times
+
+Duration: 3.952 min
+batch number 764 completed, jumped to initial state 0 times
+
+Duration: 3.953 min
+batch number 765 completed, jumped to initial state 0 times
+
+Duration: 3.955 min
+batch number 766 completed, jumped to initial state 0 times
+
+Duration: 3.956 min
+batch number 767 completed, jumped to initial state 0 times
+
+Duration: 3.958 min
+batch number 768 completed, jumped to initial state 0 times
+
+Duration: 3.959 min
+batch number 769 completed, jumped to initial state 0 times
+
+Duration: 3.961 min
+batch number 770 completed, jumped to initial state 0 times
+
+Duration: 3.962 min
+batch number 771 completed, jumped to initial state 0 times
+
+Duration: 3.964 min
+batch number 772 completed, jumped to initial state 0 times
+
+Duration: 3.965 min
+batch number 773 completed, jumped to initial state 0 times
+
+Duration: 3.967 min
+batch number 774 completed, jumped to initial state 0 times
+
+Duration: 3.968 min
+batch number 775 completed, jumped to initial state 0 times
+
+Duration: 3.970 min
+batch number 776 completed, jumped to initial state 0 times
+
+Duration: 3.971 min
+batch number 777 completed, jumped to initial state 0 times
+
+Duration: 3.972 min
+batch number 778 completed, jumped to initial state 0 times
+
+Duration: 3.974 min
+batch number 779 completed, jumped to initial state 0 times
+
+Duration: 3.975 min
+batch number 780 completed, jumped to initial state 0 times
+
+Duration: 3.977 min
+batch number 781 completed, jumped to initial state 0 times
+
+Duration: 3.978 min
+batch number 782 completed, jumped to initial state 0 times
+
+Duration: 3.979 min
+batch number 783 completed, jumped to initial state 0 times
+
+Duration: 3.981 min
+batch number 784 completed, jumped to initial state 0 times
+
+Duration: 3.982 min
+batch number 785 completed, jumped to initial state 0 times
+
+Duration: 3.984 min
+batch number 786 completed, jumped to initial state 0 times
+
+Duration: 3.985 min
+batch number 787 completed, jumped to initial state 0 times
+
+Duration: 3.986 min
+batch number 788 completed, jumped to initial state 0 times
+
+Duration: 3.988 min
+batch number 789 completed, jumped to initial state 0 times
+
+Duration: 3.989 min
+batch number 790 completed, jumped to initial state 0 times
+
+Duration: 3.991 min
+batch number 791 completed, jumped to initial state 0 times
+
+Duration: 3.992 min
+batch number 792 completed, jumped to initial state 0 times
+
+Duration: 3.993 min
+batch number 793 completed, jumped to initial state 0 times
+
+Duration: 3.995 min
+batch number 794 completed, jumped to initial state 0 times
+
+Duration: 3.996 min
+batch number 795 completed, jumped to initial state 0 times
+
+Duration: 3.998 min
+batch number 796 completed, jumped to initial state 0 times
+
+Duration: 3.999 min
+batch number 797 completed, jumped to initial state 0 times
+
+Duration: 4.000 min
+batch number 798 completed, jumped to initial state 0 times
+
+Duration: 4.002 min
+batch number 799 completed, jumped to initial state 0 times
+
+Duration: 4.003 min
+batch number 800 completed, jumped to initial state 0 times
+
+Duration: 4.005 min
+batch number 801 completed, jumped to initial state 0 times
+
+Duration: 4.006 min
+batch number 802 completed, jumped to initial state 0 times
+
+Duration: 4.008 min
+batch number 803 completed, jumped to initial state 0 times
+
+Duration: 4.009 min
+batch number 804 completed, jumped to initial state 0 times
+
+Duration: 4.010 min
+batch number 805 completed, jumped to initial state 0 times
+
+Duration: 4.012 min
+batch number 806 completed, jumped to initial state 0 times
+
+Duration: 4.013 min
+batch number 807 completed, jumped to initial state 0 times
+
+Duration: 4.015 min
+batch number 808 completed, jumped to initial state 0 times
+
+Duration: 4.016 min
+batch number 809 completed, jumped to initial state 0 times
+
+Duration: 4.017 min
+batch number 810 completed, jumped to initial state 0 times
+
+Duration: 4.019 min
+batch number 811 completed, jumped to initial state 0 times
+
+Duration: 4.020 min
+batch number 812 completed, jumped to initial state 0 times
+
+Duration: 4.022 min
+batch number 813 completed, jumped to initial state 0 times
+
+Duration: 4.023 min
+batch number 814 completed, jumped to initial state 0 times
+
+Duration: 4.025 min
+batch number 815 completed, jumped to initial state 0 times
+
+Duration: 4.026 min
+batch number 816 completed, jumped to initial state 0 times
+
+Duration: 4.027 min
+batch number 817 completed, jumped to initial state 0 times
+
+Duration: 4.029 min
+batch number 818 completed, jumped to initial state 0 times
+
+Duration: 4.030 min
+batch number 819 completed, jumped to initial state 0 times
+
+Duration: 4.032 min
+batch number 820 completed, jumped to initial state 0 times
+
+Duration: 4.033 min
+batch number 821 completed, jumped to initial state 0 times
+
+Duration: 4.035 min
+batch number 822 completed, jumped to initial state 0 times
+
+Duration: 4.036 min
+batch number 823 completed, jumped to initial state 0 times
+
+Duration: 4.038 min
+batch number 824 completed, jumped to initial state 0 times
+
+Duration: 4.039 min
+batch number 825 completed, jumped to initial state 0 times
+
+Duration: 4.040 min
+batch number 826 completed, jumped to initial state 0 times
+
+Duration: 4.042 min
+batch number 827 completed, jumped to initial state 0 times
+
+Duration: 4.043 min
+batch number 828 completed, jumped to initial state 0 times
+
+Duration: 4.045 min
+batch number 829 completed, jumped to initial state 0 times
+
+Duration: 4.046 min
+batch number 830 completed, jumped to initial state 0 times
+
+Duration: 4.047 min
+batch number 831 completed, jumped to initial state 0 times
+
+Duration: 4.049 min
+batch number 832 completed, jumped to initial state 0 times
+
+Duration: 4.050 min
+batch number 833 completed, jumped to initial state 0 times
+
+Duration: 4.052 min
+batch number 834 completed, jumped to initial state 0 times
+
+Duration: 4.053 min
+batch number 835 completed, jumped to initial state 0 times
+
+Duration: 4.055 min
+batch number 836 completed, jumped to initial state 0 times
+
+Duration: 4.056 min
+batch number 837 completed, jumped to initial state 0 times
+
+Duration: 4.057 min
+batch number 838 completed, jumped to initial state 0 times
+
+Duration: 4.059 min
+batch number 839 completed, jumped to initial state 0 times
+
+Duration: 4.060 min
+batch number 840 completed, jumped to initial state 0 times
+
+Duration: 4.062 min
+batch number 841 completed, jumped to initial state 0 times
+
+Duration: 4.063 min
+batch number 842 completed, jumped to initial state 0 times
+
+Duration: 4.064 min
+batch number 843 completed, jumped to initial state 0 times
+
+Duration: 4.066 min
+batch number 844 completed, jumped to initial state 0 times
+
+Duration: 4.067 min
+batch number 845 completed, jumped to initial state 0 times
+
+Duration: 4.069 min
+batch number 846 completed, jumped to initial state 0 times
+
+Duration: 4.070 min
+batch number 847 completed, jumped to initial state 0 times
+
+Duration: 4.072 min
+batch number 848 completed, jumped to initial state 0 times
+
+Duration: 4.074 min
+batch number 849 completed, jumped to initial state 0 times
+
+Duration: 4.075 min
+batch number 850 completed, jumped to initial state 0 times
+
+Duration: 4.076 min
+batch number 851 completed, jumped to initial state 0 times
+
+Duration: 4.078 min
+batch number 852 completed, jumped to initial state 0 times
+
+Duration: 4.079 min
+batch number 853 completed, jumped to initial state 0 times
+
+Duration: 4.080 min
+batch number 854 completed, jumped to initial state 0 times
+
+Duration: 4.082 min
+batch number 855 completed, jumped to initial state 0 times
+
+Duration: 4.084 min
+batch number 856 completed, jumped to initial state 0 times
+
+Duration: 4.085 min
+batch number 857 completed, jumped to initial state 0 times
+
+Duration: 4.087 min
+batch number 858 completed, jumped to initial state 0 times
+
+Duration: 4.088 min
+batch number 859 completed, jumped to initial state 0 times
+
+Duration: 4.090 min
+batch number 860 completed, jumped to initial state 0 times
+
+Duration: 4.091 min
+batch number 861 completed, jumped to initial state 0 times
+
+Duration: 4.093 min
+batch number 862 completed, jumped to initial state 0 times
+
+Duration: 4.094 min
+batch number 863 completed, jumped to initial state 0 times
+
+Duration: 4.096 min
+batch number 864 completed, jumped to initial state 0 times
+
+Duration: 4.097 min
+batch number 865 completed, jumped to initial state 0 times
+
+Duration: 4.098 min
+batch number 866 completed, jumped to initial state 0 times
+
+Duration: 4.100 min
+batch number 867 completed, jumped to initial state 0 times
+
+Duration: 4.102 min
+batch number 868 completed, jumped to initial state 0 times
+
+Duration: 4.103 min
+batch number 869 completed, jumped to initial state 0 times
+
+Duration: 4.105 min
+batch number 870 completed, jumped to initial state 0 times
+
+Duration: 4.106 min
+batch number 871 completed, jumped to initial state 0 times
+
+Duration: 4.107 min
+batch number 872 completed, jumped to initial state 0 times
+
+Duration: 4.109 min
+batch number 873 completed, jumped to initial state 0 times
+
+Duration: 4.111 min
+batch number 874 completed, jumped to initial state 0 times
+
+Duration: 4.112 min
+batch number 875 completed, jumped to initial state 0 times
+
+Duration: 4.114 min
+batch number 876 completed, jumped to initial state 0 times
+
+Duration: 4.115 min
+batch number 877 completed, jumped to initial state 0 times
+
+Duration: 4.117 min
+batch number 878 completed, jumped to initial state 0 times
+
+Duration: 4.118 min
+batch number 879 completed, jumped to initial state 0 times
+
+Duration: 4.119 min
+batch number 880 completed, jumped to initial state 0 times
+
+Duration: 4.121 min
+batch number 881 completed, jumped to initial state 0 times
+
+Duration: 4.122 min
+batch number 882 completed, jumped to initial state 0 times
+
+Duration: 4.124 min
+batch number 883 completed, jumped to initial state 0 times
+
+Duration: 4.125 min
+batch number 884 completed, jumped to initial state 0 times
+
+Duration: 4.126 min
+batch number 885 completed, jumped to initial state 0 times
+
+Duration: 4.128 min
+batch number 886 completed, jumped to initial state 0 times
+
+Duration: 4.129 min
+batch number 887 completed, jumped to initial state 0 times
+
+Duration: 4.131 min
+batch number 888 completed, jumped to initial state 0 times
+
+Duration: 4.132 min
+batch number 889 completed, jumped to initial state 0 times
+
+Duration: 4.133 min
+batch number 890 completed, jumped to initial state 0 times
+
+Duration: 4.135 min
+batch number 891 completed, jumped to initial state 0 times
+
+Duration: 4.136 min
+batch number 892 completed, jumped to initial state 0 times
+
+Duration: 4.138 min
+batch number 893 completed, jumped to initial state 0 times
+
+Duration: 4.139 min
+batch number 894 completed, jumped to initial state 0 times
+
+Duration: 4.140 min
+batch number 895 completed, jumped to initial state 0 times
+
+Duration: 4.142 min
+batch number 896 completed, jumped to initial state 0 times
+
+Duration: 4.143 min
+batch number 897 completed, jumped to initial state 0 times
+
+Duration: 4.145 min
+batch number 898 completed, jumped to initial state 0 times
+
+Duration: 4.146 min
+batch number 899 completed, jumped to initial state 0 times
+
+Duration: 4.147 min
+batch number 900 completed, jumped to initial state 0 times
+
+Duration: 4.149 min
+batch number 901 completed, jumped to initial state 0 times
+
+Duration: 4.150 min
+batch number 902 completed, jumped to initial state 0 times
+
+Duration: 4.152 min
+batch number 903 completed, jumped to initial state 0 times
+
+Duration: 4.153 min
+batch number 904 completed, jumped to initial state 0 times
+
+Duration: 4.155 min
+batch number 905 completed, jumped to initial state 0 times
+
+Duration: 4.157 min
+batch number 906 completed, jumped to initial state 0 times
+
+Duration: 4.158 min
+batch number 907 completed, jumped to initial state 0 times
+
+Duration: 4.160 min
+batch number 908 completed, jumped to initial state 0 times
+
+Duration: 4.162 min
+batch number 909 completed, jumped to initial state 0 times
+
+Duration: 4.163 min
+batch number 910 completed, jumped to initial state 0 times
+
+Duration: 4.165 min
+batch number 911 completed, jumped to initial state 0 times
+
+Duration: 4.167 min
+batch number 912 completed, jumped to initial state 0 times
+
+Duration: 4.168 min
+batch number 913 completed, jumped to initial state 0 times
+
+Duration: 4.169 min
+batch number 914 completed, jumped to initial state 0 times
+
+Duration: 4.171 min
+batch number 915 completed, jumped to initial state 0 times
+
+Duration: 4.173 min
+batch number 916 completed, jumped to initial state 0 times
+
+Duration: 4.174 min
+batch number 917 completed, jumped to initial state 0 times
+
+Duration: 4.175 min
+batch number 918 completed, jumped to initial state 0 times
+
+Duration: 4.177 min
+batch number 919 completed, jumped to initial state 0 times
+
+Duration: 4.178 min
+batch number 920 completed, jumped to initial state 0 times
+
+Duration: 4.180 min
+batch number 921 completed, jumped to initial state 0 times
+
+Duration: 4.181 min
+batch number 922 completed, jumped to initial state 0 times
+
+Duration: 4.183 min
+batch number 923 completed, jumped to initial state 0 times
+
+Duration: 4.184 min
+batch number 924 completed, jumped to initial state 0 times
+
+Duration: 4.186 min
+batch number 925 completed, jumped to initial state 0 times
+
+Duration: 4.187 min
+batch number 926 completed, jumped to initial state 0 times
+
+Duration: 4.188 min
+batch number 927 completed, jumped to initial state 0 times
+
+Duration: 4.190 min
+batch number 928 completed, jumped to initial state 0 times
+
+Duration: 4.191 min
+batch number 929 completed, jumped to initial state 0 times
+
+Duration: 4.193 min
+batch number 930 completed, jumped to initial state 0 times
+
+Duration: 4.194 min
+batch number 931 completed, jumped to initial state 0 times
+
+Duration: 4.196 min
+batch number 932 completed, jumped to initial state 0 times
+
+Duration: 4.198 min
+batch number 933 completed, jumped to initial state 0 times
+
+Duration: 4.199 min
+batch number 934 completed, jumped to initial state 0 times
+
+Duration: 4.201 min
+batch number 935 completed, jumped to initial state 0 times
+
+Duration: 4.202 min
+batch number 936 completed, jumped to initial state 0 times
+
+Duration: 4.204 min
+batch number 937 completed, jumped to initial state 0 times
+
+Duration: 4.205 min
+batch number 938 completed, jumped to initial state 0 times
+
+Duration: 4.207 min
+batch number 939 completed, jumped to initial state 0 times
+
+Duration: 4.208 min
+batch number 940 completed, jumped to initial state 0 times
+
+Duration: 4.210 min
+batch number 941 completed, jumped to initial state 0 times
+
+Duration: 4.211 min
+batch number 942 completed, jumped to initial state 0 times
+
+Duration: 4.213 min
+batch number 943 completed, jumped to initial state 0 times
+
+Duration: 4.214 min
+batch number 944 completed, jumped to initial state 0 times
+
+Duration: 4.216 min
+batch number 945 completed, jumped to initial state 0 times
+
+Duration: 4.217 min
+batch number 946 completed, jumped to initial state 0 times
+
+Duration: 4.219 min
+batch number 947 completed, jumped to initial state 0 times
+
+Duration: 4.221 min
+batch number 948 completed, jumped to initial state 0 times
+
+Duration: 4.222 min
+batch number 949 completed, jumped to initial state 0 times
+
+Duration: 4.223 min
+batch number 950 completed, jumped to initial state 0 times
+
+Duration: 4.225 min
+batch number 951 completed, jumped to initial state 0 times
+
+Duration: 4.226 min
+batch number 952 completed, jumped to initial state 0 times
+
+Duration: 4.228 min
+batch number 953 completed, jumped to initial state 0 times
+
+Duration: 4.230 min
+batch number 954 completed, jumped to initial state 0 times
+
+Duration: 4.231 min
+batch number 955 completed, jumped to initial state 0 times
+
+Duration: 4.233 min
+batch number 956 completed, jumped to initial state 0 times
+
+Duration: 4.234 min
+batch number 957 completed, jumped to initial state 0 times
+
+Duration: 4.235 min
+batch number 958 completed, jumped to initial state 0 times
+
+Duration: 4.237 min
+batch number 959 completed, jumped to initial state 0 times
+
+Duration: 4.238 min
+batch number 960 completed, jumped to initial state 0 times
+
+Duration: 4.240 min
+batch number 961 completed, jumped to initial state 0 times
+
+Duration: 4.241 min
+batch number 962 completed, jumped to initial state 0 times
+
+Duration: 4.243 min
+batch number 963 completed, jumped to initial state 0 times
+
+Duration: 4.244 min
+batch number 964 completed, jumped to initial state 0 times
+
+Duration: 4.246 min
+batch number 965 completed, jumped to initial state 0 times
+
+Duration: 4.247 min
+batch number 966 completed, jumped to initial state 0 times
+
+Duration: 4.248 min
+batch number 967 completed, jumped to initial state 0 times
+
+Duration: 4.250 min
+batch number 968 completed, jumped to initial state 0 times
+
+Duration: 4.251 min
+batch number 969 completed, jumped to initial state 0 times
+
+Duration: 4.253 min
+batch number 970 completed, jumped to initial state 0 times
+
+Duration: 4.255 min
+batch number 971 completed, jumped to initial state 0 times
+
+Duration: 4.256 min
+batch number 972 completed, jumped to initial state 0 times
+
+Duration: 4.258 min
+batch number 973 completed, jumped to initial state 0 times
+
+Duration: 4.260 min
+batch number 974 completed, jumped to initial state 0 times
+
+Duration: 4.262 min
+batch number 975 completed, jumped to initial state 0 times
+
+Duration: 4.263 min
+batch number 976 completed, jumped to initial state 0 times
+
+Duration: 4.265 min
+batch number 977 completed, jumped to initial state 0 times
+
+Duration: 4.266 min
+batch number 978 completed, jumped to initial state 0 times
+
+Duration: 4.267 min
+batch number 979 completed, jumped to initial state 0 times
+
+Duration: 4.269 min
+batch number 980 completed, jumped to initial state 0 times
+
+Duration: 4.270 min
+batch number 981 completed, jumped to initial state 0 times
+
+Duration: 4.272 min
+batch number 982 completed, jumped to initial state 0 times
+
+Duration: 4.274 min
+batch number 983 completed, jumped to initial state 0 times
+
+Duration: 4.275 min
+batch number 984 completed, jumped to initial state 0 times
+
+Duration: 4.277 min
+batch number 985 completed, jumped to initial state 0 times
+
+Duration: 4.278 min
+batch number 986 completed, jumped to initial state 0 times
+
+Duration: 4.280 min
+batch number 987 completed, jumped to initial state 0 times
+
+Duration: 4.282 min
+batch number 988 completed, jumped to initial state 0 times
+
+Duration: 4.284 min
+batch number 989 completed, jumped to initial state 0 times
+
+Duration: 4.286 min
+batch number 990 completed, jumped to initial state 0 times
+
+Duration: 4.287 min
+batch number 991 completed, jumped to initial state 0 times
+
+Duration: 4.289 min
+batch number 992 completed, jumped to initial state 0 times
+
+Duration: 4.291 min
+batch number 993 completed, jumped to initial state 0 times
+
+Duration: 4.292 min
+batch number 994 completed, jumped to initial state 0 times
+
+Duration: 4.294 min
+batch number 995 completed, jumped to initial state 0 times
+
+Duration: 4.295 min
+batch number 996 completed, jumped to initial state 0 times
+
+Duration: 4.297 min
+batch number 997 completed, jumped to initial state 0 times
+
+Duration: 4.298 min
+batch number 998 completed, jumped to initial state 0 times
+
+Duration: 4.300 min
+batch number 999 completed, jumped to initial state 0 times
+
+Duration: 4.301 min
+batch number 1000 completed, jumped to initial state 0 times
+
+Duration: 4.303 min
+batch number 1001 completed, jumped to initial state 0 times
+
+Duration: 4.304 min
+batch number 1002 completed, jumped to initial state 0 times
+
+Duration: 4.305 min
+batch number 1003 completed, jumped to initial state 0 times
+
+Duration: 4.307 min
+batch number 1004 completed, jumped to initial state 0 times
+
+Duration: 4.308 min
+batch number 1005 completed, jumped to initial state 0 times
+
+Duration: 4.310 min
+batch number 1006 completed, jumped to initial state 0 times
+
+Duration: 4.311 min
+batch number 1007 completed, jumped to initial state 0 times
+
+Duration: 4.312 min
+batch number 1008 completed, jumped to initial state 0 times
+
+Duration: 4.314 min
+batch number 1009 completed, jumped to initial state 0 times
+
+Duration: 4.316 min
+batch number 1010 completed, jumped to initial state 0 times
+
+Duration: 4.317 min
+batch number 1011 completed, jumped to initial state 0 times
+
+Duration: 4.318 min
+batch number 1012 completed, jumped to initial state 0 times
+
+Duration: 4.320 min
+batch number 1013 completed, jumped to initial state 0 times
+
+Duration: 4.322 min
+batch number 1014 completed, jumped to initial state 0 times
+
+Duration: 4.323 min
+batch number 1015 completed, jumped to initial state 0 times
+
+Duration: 4.324 min
+batch number 1016 completed, jumped to initial state 0 times
+
+Duration: 4.326 min
+batch number 1017 completed, jumped to initial state 0 times
+
+Duration: 4.327 min
+batch number 1018 completed, jumped to initial state 0 times
+
+Duration: 4.329 min
+batch number 1019 completed, jumped to initial state 0 times
+
+Duration: 4.330 min
+batch number 1020 completed, jumped to initial state 0 times
+
+Duration: 4.332 min
+batch number 1021 completed, jumped to initial state 0 times
+
+Duration: 4.333 min
+batch number 1022 completed, jumped to initial state 0 times
+
+Duration: 4.335 min
+batch number 1023 completed, jumped to initial state 0 times
+
+Duration: 4.336 min
+batch number 1024 completed, jumped to initial state 0 times
+
+Duration: 4.337 min
+batch number 1025 completed, jumped to initial state 0 times
+
+Duration: 4.339 min
+batch number 1026 completed, jumped to initial state 0 times
+
+Duration: 4.340 min
+batch number 1027 completed, jumped to initial state 0 times
+
+Duration: 4.342 min
+batch number 1028 completed, jumped to initial state 0 times
+
+Duration: 4.343 min
+batch number 1029 completed, jumped to initial state 0 times
+
+Duration: 4.344 min
+batch number 1030 completed, jumped to initial state 0 times
+
+Duration: 4.346 min
+batch number 1031 completed, jumped to initial state 0 times
+
+Duration: 4.347 min
+batch number 1032 completed, jumped to initial state 0 times
+
+Duration: 4.349 min
+batch number 1033 completed, jumped to initial state 0 times
+
+Duration: 4.351 min
+batch number 1034 completed, jumped to initial state 0 times
+
+Duration: 4.353 min
+batch number 1035 completed, jumped to initial state 0 times
+
+Duration: 4.354 min
+batch number 1036 completed, jumped to initial state 0 times
+
+Duration: 4.356 min
+batch number 1037 completed, jumped to initial state 0 times
+
+Duration: 4.358 min
+batch number 1038 completed, jumped to initial state 0 times
+
+Duration: 4.359 min
+batch number 1039 completed, jumped to initial state 0 times
+
+Duration: 4.361 min
+batch number 1040 completed, jumped to initial state 0 times
+
+Duration: 4.362 min
+batch number 1041 completed, jumped to initial state 0 times
+
+Duration: 4.364 min
+batch number 1042 completed, jumped to initial state 0 times
+
+Duration: 4.365 min
+batch number 1043 completed, jumped to initial state 0 times
+
+Duration: 4.367 min
+batch number 1044 completed, jumped to initial state 0 times
+
+Duration: 4.368 min
+batch number 1045 completed, jumped to initial state 0 times
+
+Duration: 4.371 min
+batch number 1046 completed, jumped to initial state 0 times
+
+Duration: 4.372 min
+batch number 1047 completed, jumped to initial state 0 times
+
+Duration: 4.373 min
+batch number 1048 completed, jumped to initial state 0 times
+
+Duration: 4.375 min
+batch number 1049 completed, jumped to initial state 0 times
+
+Duration: 4.376 min
+batch number 1050 completed, jumped to initial state 0 times
+
+Duration: 4.378 min
+batch number 1051 completed, jumped to initial state 0 times
+
+Duration: 4.379 min
+batch number 1052 completed, jumped to initial state 0 times
+
+Duration: 4.381 min
+batch number 1053 completed, jumped to initial state 0 times
+
+Duration: 4.382 min
+batch number 1054 completed, jumped to initial state 0 times
+
+Duration: 4.384 min
+batch number 1055 completed, jumped to initial state 0 times
+
+Duration: 4.385 min
+batch number 1056 completed, jumped to initial state 0 times
+
+Duration: 4.386 min
+batch number 1057 completed, jumped to initial state 0 times
+
+Duration: 4.388 min
+batch number 1058 completed, jumped to initial state 0 times
+
+Duration: 4.389 min
+batch number 1059 completed, jumped to initial state 0 times
+
+Duration: 4.391 min
+batch number 1060 completed, jumped to initial state 0 times
+
+Duration: 4.392 min
+batch number 1061 completed, jumped to initial state 0 times
+
+Duration: 4.393 min
+batch number 1062 completed, jumped to initial state 0 times
+
+Duration: 4.395 min
+batch number 1063 completed, jumped to initial state 0 times
+
+Duration: 4.396 min
+batch number 1064 completed, jumped to initial state 0 times
+
+Duration: 4.398 min
+batch number 1065 completed, jumped to initial state 0 times
+
+Duration: 4.400 min
+batch number 1066 completed, jumped to initial state 0 times
+
+Duration: 4.402 min
+batch number 1067 completed, jumped to initial state 0 times
+
+Duration: 4.403 min
+batch number 1068 completed, jumped to initial state 0 times
+
+Duration: 4.405 min
+batch number 1069 completed, jumped to initial state 0 times
+
+Duration: 4.406 min
+batch number 1070 completed, jumped to initial state 0 times
+
+Duration: 4.407 min
+batch number 1071 completed, jumped to initial state 0 times
+
+Duration: 4.409 min
+batch number 1072 completed, jumped to initial state 0 times
+
+Duration: 4.411 min
+batch number 1073 completed, jumped to initial state 0 times
+
+Duration: 4.412 min
+batch number 1074 completed, jumped to initial state 0 times
+
+Duration: 4.414 min
+batch number 1075 completed, jumped to initial state 0 times
+
+Duration: 4.416 min
+batch number 1076 completed, jumped to initial state 0 times
+
+Duration: 4.417 min
+batch number 1077 completed, jumped to initial state 0 times
+
+Duration: 4.419 min
+batch number 1078 completed, jumped to initial state 0 times
+
+Duration: 4.421 min
+batch number 1079 completed, jumped to initial state 0 times
+
+Duration: 4.422 min
+batch number 1080 completed, jumped to initial state 0 times
+
+Duration: 4.424 min
+batch number 1081 completed, jumped to initial state 0 times
+
+Duration: 4.425 min
+batch number 1082 completed, jumped to initial state 0 times
+
+Duration: 4.427 min
+batch number 1083 completed, jumped to initial state 0 times
+
+Duration: 4.429 min
+batch number 1084 completed, jumped to initial state 0 times
+
+Duration: 4.430 min
+batch number 1085 completed, jumped to initial state 0 times
+
+Duration: 4.432 min
+batch number 1086 completed, jumped to initial state 0 times
+
+Duration: 4.433 min
+batch number 1087 completed, jumped to initial state 0 times
+
+Duration: 4.435 min
+batch number 1088 completed, jumped to initial state 0 times
+
+Duration: 4.437 min
+batch number 1089 completed, jumped to initial state 0 times
+
+Duration: 4.438 min
+batch number 1090 completed, jumped to initial state 0 times
+
+Duration: 4.440 min
+batch number 1091 completed, jumped to initial state 0 times
+
+Duration: 4.441 min
+batch number 1092 completed, jumped to initial state 0 times
+
+Duration: 4.443 min
+batch number 1093 completed, jumped to initial state 0 times
+
+Duration: 4.444 min
+batch number 1094 completed, jumped to initial state 0 times
+
+Duration: 4.445 min
+batch number 1095 completed, jumped to initial state 0 times
+
+Duration: 4.447 min
+batch number 1096 completed, jumped to initial state 0 times
+
+Duration: 4.448 min
+batch number 1097 completed, jumped to initial state 0 times
+
+Duration: 4.450 min
+batch number 1098 completed, jumped to initial state 0 times
+
+Duration: 4.451 min
+batch number 1099 completed, jumped to initial state 0 times
+
+Duration: 4.452 min
+batch number 1100 completed, jumped to initial state 0 times
+
+Duration: 4.454 min
+batch number 1101 completed, jumped to initial state 0 times
+
+Duration: 4.455 min
+batch number 1102 completed, jumped to initial state 0 times
+
+Duration: 4.457 min
+batch number 1103 completed, jumped to initial state 0 times
+
+Duration: 4.458 min
+batch number 1104 completed, jumped to initial state 0 times
+
+Duration: 4.460 min
+batch number 1105 completed, jumped to initial state 0 times
+
+Duration: 4.461 min
+batch number 1106 completed, jumped to initial state 0 times
+
+Duration: 4.463 min
+batch number 1107 completed, jumped to initial state 0 times
+
+Duration: 4.464 min
+batch number 1108 completed, jumped to initial state 0 times
+
+Duration: 4.466 min
+batch number 1109 completed, jumped to initial state 0 times
+
+Duration: 4.467 min
+batch number 1110 completed, jumped to initial state 0 times
+
+Duration: 4.468 min
+batch number 1111 completed, jumped to initial state 0 times
+
+Duration: 4.470 min
+batch number 1112 completed, jumped to initial state 0 times
+
+Duration: 4.471 min
+batch number 1113 completed, jumped to initial state 0 times
+
+Duration: 4.473 min
+batch number 1114 completed, jumped to initial state 0 times
+
+Duration: 4.475 min
+batch number 1115 completed, jumped to initial state 0 times
+
+Duration: 4.476 min
+batch number 1116 completed, jumped to initial state 0 times
+
+Duration: 4.477 min
+batch number 1117 completed, jumped to initial state 0 times
+
+Duration: 4.479 min
+batch number 1118 completed, jumped to initial state 0 times
+
+Duration: 4.480 min
+batch number 1119 completed, jumped to initial state 0 times
+
+Duration: 4.482 min
+batch number 1120 completed, jumped to initial state 0 times
+
+Duration: 4.483 min
+batch number 1121 completed, jumped to initial state 0 times
+
+Duration: 4.485 min
+batch number 1122 completed, jumped to initial state 0 times
+
+Duration: 4.486 min
+batch number 1123 completed, jumped to initial state 0 times
+
+Duration: 4.488 min
+batch number 1124 completed, jumped to initial state 0 times
+
+Duration: 4.489 min
+batch number 1125 completed, jumped to initial state 0 times
+
+Duration: 4.491 min
+batch number 1126 completed, jumped to initial state 0 times
+
+Duration: 4.492 min
+batch number 1127 completed, jumped to initial state 0 times
+
+Duration: 4.494 min
+batch number 1128 completed, jumped to initial state 0 times
+
+Duration: 4.495 min
+batch number 1129 completed, jumped to initial state 0 times
+
+Duration: 4.496 min
+batch number 1130 completed, jumped to initial state 0 times
+
+Duration: 4.498 min
+batch number 1131 completed, jumped to initial state 0 times
+
+Duration: 4.499 min
+batch number 1132 completed, jumped to initial state 0 times
+
+Duration: 4.501 min
+batch number 1133 completed, jumped to initial state 0 times
+
+Duration: 4.502 min
+batch number 1134 completed, jumped to initial state 0 times
+
+Duration: 4.504 min
+batch number 1135 completed, jumped to initial state 0 times
+
+Duration: 4.505 min
+batch number 1136 completed, jumped to initial state 0 times
+
+Duration: 4.507 min
+batch number 1137 completed, jumped to initial state 0 times
+
+Duration: 4.509 min
+batch number 1138 completed, jumped to initial state 0 times
+
+Duration: 4.510 min
+batch number 1139 completed, jumped to initial state 0 times
+
+Duration: 4.512 min
+batch number 1140 completed, jumped to initial state 0 times
+
+Duration: 4.513 min
+batch number 1141 completed, jumped to initial state 0 times
+
+Duration: 4.514 min
+batch number 1142 completed, jumped to initial state 0 times
+
+Duration: 4.516 min
+batch number 1143 completed, jumped to initial state 0 times
+
+Duration: 4.517 min
+batch number 1144 completed, jumped to initial state 0 times
+
+Duration: 4.519 min
+batch number 1145 completed, jumped to initial state 0 times
+
+Duration: 4.520 min
+batch number 1146 completed, jumped to initial state 0 times
+
+Duration: 4.522 min
+batch number 1147 completed, jumped to initial state 0 times
+
+Duration: 4.524 min
+batch number 1148 completed, jumped to initial state 0 times
+
+Duration: 4.525 min
+batch number 1149 completed, jumped to initial state 0 times
+
+Duration: 4.527 min
+batch number 1150 completed, jumped to initial state 0 times
+
+Duration: 4.529 min
+batch number 1151 completed, jumped to initial state 0 times
+
+Duration: 4.530 min
+batch number 1152 completed, jumped to initial state 0 times
+
+Duration: 4.532 min
+batch number 1153 completed, jumped to initial state 0 times
+
+Duration: 4.533 min
+batch number 1154 completed, jumped to initial state 0 times
+
+Duration: 4.535 min
+batch number 1155 completed, jumped to initial state 0 times
+
+Duration: 4.536 min
+batch number 1156 completed, jumped to initial state 0 times
+
+Duration: 4.538 min
+batch number 1157 completed, jumped to initial state 0 times
+
+Duration: 4.539 min
+batch number 1158 completed, jumped to initial state 0 times
+
+Duration: 4.541 min
+batch number 1159 completed, jumped to initial state 0 times
+
+Duration: 4.542 min
+batch number 1160 completed, jumped to initial state 0 times
+
+Duration: 4.543 min
+batch number 1161 completed, jumped to initial state 0 times
+
+Duration: 4.545 min
+batch number 1162 completed, jumped to initial state 0 times
+
+Duration: 4.546 min
+batch number 1163 completed, jumped to initial state 0 times
+
+Duration: 4.547 min
+batch number 1164 completed, jumped to initial state 0 times
+
+Duration: 4.549 min
+batch number 1165 completed, jumped to initial state 0 times
+
+Duration: 4.550 min
+batch number 1166 completed, jumped to initial state 0 times
+
+Duration: 4.552 min
+batch number 1167 completed, jumped to initial state 0 times
+
+Duration: 4.553 min
+batch number 1168 completed, jumped to initial state 0 times
+
+Duration: 4.555 min
+batch number 1169 completed, jumped to initial state 0 times
+
+Duration: 4.557 min
+batch number 1170 completed, jumped to initial state 0 times
+
+Duration: 4.558 min
+batch number 1171 completed, jumped to initial state 0 times
+
+Duration: 4.560 min
+batch number 1172 completed, jumped to initial state 0 times
+
+Duration: 4.561 min
+batch number 1173 completed, jumped to initial state 0 times
+
+Duration: 4.563 min
+batch number 1174 completed, jumped to initial state 0 times
+
+Duration: 4.564 min
+batch number 1175 completed, jumped to initial state 0 times
+
+Duration: 4.566 min
+batch number 1176 completed, jumped to initial state 0 times
+
+Duration: 4.567 min
+batch number 1177 completed, jumped to initial state 0 times
+
+Duration: 4.569 min
+batch number 1178 completed, jumped to initial state 0 times
+
+Duration: 4.570 min
+batch number 1179 completed, jumped to initial state 0 times
+
+Duration: 4.572 min
+batch number 1180 completed, jumped to initial state 0 times
+
+Duration: 4.573 min
+batch number 1181 completed, jumped to initial state 0 times
+
+Duration: 4.574 min
+batch number 1182 completed, jumped to initial state 0 times
+
+Duration: 4.576 min
+batch number 1183 completed, jumped to initial state 0 times
+
+Duration: 4.577 min
+batch number 1184 completed, jumped to initial state 0 times
+
+Duration: 4.579 min
+batch number 1185 completed, jumped to initial state 0 times
+
+Duration: 4.580 min
+batch number 1186 completed, jumped to initial state 0 times
+
+Duration: 4.582 min
+batch number 1187 completed, jumped to initial state 0 times
+
+Duration: 4.583 min
+batch number 1188 completed, jumped to initial state 0 times
+
+Duration: 4.585 min
+batch number 1189 completed, jumped to initial state 0 times
+
+Duration: 4.587 min
+batch number 1190 completed, jumped to initial state 0 times
+
+Duration: 4.588 min
+batch number 1191 completed, jumped to initial state 0 times
+
+Duration: 4.590 min
+batch number 1192 completed, jumped to initial state 0 times
+
+Duration: 4.591 min
+batch number 1193 completed, jumped to initial state 0 times
+
+Duration: 4.593 min
+batch number 1194 completed, jumped to initial state 0 times
+
+Duration: 4.594 min
+batch number 1195 completed, jumped to initial state 0 times
+
+Duration: 4.596 min
+batch number 1196 completed, jumped to initial state 0 times
+
+Duration: 4.597 min
+batch number 1197 completed, jumped to initial state 0 times
+
+Duration: 4.599 min
+batch number 1198 completed, jumped to initial state 0 times
+
+Duration: 4.600 min
+batch number 1199 completed, jumped to initial state 0 times
+
+Duration: 4.601 min
+batch number 1200 completed, jumped to initial state 0 times
+
+Duration: 4.603 min
+batch number 1201 completed, jumped to initial state 0 times
+
+Duration: 4.604 min
+batch number 1202 completed, jumped to initial state 0 times
+
+Duration: 4.606 min
+batch number 1203 completed, jumped to initial state 0 times
+
+Duration: 4.608 min
+batch number 1204 completed, jumped to initial state 0 times
+
+Duration: 4.609 min
+batch number 1205 completed, jumped to initial state 0 times
+
+Duration: 4.610 min
+batch number 1206 completed, jumped to initial state 0 times
+
+Duration: 4.612 min
+batch number 1207 completed, jumped to initial state 0 times
+
+Duration: 4.613 min
+batch number 1208 completed, jumped to initial state 0 times
+
+Duration: 4.615 min
+batch number 1209 completed, jumped to initial state 0 times
+
+Duration: 4.616 min
+batch number 1210 completed, jumped to initial state 0 times
+
+Duration: 4.617 min
+batch number 1211 completed, jumped to initial state 0 times
+
+Duration: 4.619 min
+batch number 1212 completed, jumped to initial state 0 times
+
+Duration: 4.621 min
+batch number 1213 completed, jumped to initial state 0 times
+
+Duration: 4.623 min
+batch number 1214 completed, jumped to initial state 0 times
+
+Duration: 4.624 min
+batch number 1215 completed, jumped to initial state 0 times
+
+Duration: 4.625 min
+batch number 1216 completed, jumped to initial state 0 times
+
+Duration: 4.627 min
+batch number 1217 completed, jumped to initial state 0 times
+
+Duration: 4.629 min
+batch number 1218 completed, jumped to initial state 0 times
+
+Duration: 4.631 min
+batch number 1219 completed, jumped to initial state 0 times
+
+Duration: 4.632 min
+batch number 1220 completed, jumped to initial state 0 times
+
+Duration: 4.633 min
+batch number 1221 completed, jumped to initial state 0 times
+
+Duration: 4.635 min
+batch number 1222 completed, jumped to initial state 0 times
+
+Duration: 4.637 min
+batch number 1223 completed, jumped to initial state 0 times
+
+Duration: 4.638 min
+batch number 1224 completed, jumped to initial state 0 times
+
+Duration: 4.640 min
+batch number 1225 completed, jumped to initial state 0 times
+
+Duration: 4.642 min
+batch number 1226 completed, jumped to initial state 0 times
+
+Duration: 4.643 min
+batch number 1227 completed, jumped to initial state 0 times
+
+Duration: 4.644 min
+batch number 1228 completed, jumped to initial state 0 times
+
+Duration: 4.646 min
+batch number 1229 completed, jumped to initial state 0 times
+
+Duration: 4.647 min
+batch number 1230 completed, jumped to initial state 0 times
+
+Duration: 4.649 min
+batch number 1231 completed, jumped to initial state 0 times
+
+Duration: 4.650 min
+batch number 1232 completed, jumped to initial state 0 times
+
+Duration: 4.652 min
+batch number 1233 completed, jumped to initial state 0 times
+
+Duration: 4.653 min
+batch number 1234 completed, jumped to initial state 0 times
+
+Duration: 4.655 min
+batch number 1235 completed, jumped to initial state 0 times
+
+Duration: 4.657 min
+batch number 1236 completed, jumped to initial state 0 times
+
+Duration: 4.659 min
+batch number 1237 completed, jumped to initial state 0 times
+
+Duration: 4.661 min
+batch number 1238 completed, jumped to initial state 0 times
+
+Duration: 4.662 min
+batch number 1239 completed, jumped to initial state 0 times
+
+Duration: 4.664 min
+batch number 1240 completed, jumped to initial state 0 times
+
+Duration: 4.666 min
+batch number 1241 completed, jumped to initial state 0 times
+
+Duration: 4.668 min
+batch number 1242 completed, jumped to initial state 0 times
+
+Duration: 4.669 min
+batch number 1243 completed, jumped to initial state 0 times
+
+Duration: 4.671 min
+batch number 1244 completed, jumped to initial state 0 times
+
+Duration: 4.672 min
+batch number 1245 completed, jumped to initial state 0 times
+
+Duration: 4.674 min
+batch number 1246 completed, jumped to initial state 0 times
+
+Duration: 4.676 min
+batch number 1247 completed, jumped to initial state 0 times
+
+Duration: 4.678 min
+batch number 1248 completed, jumped to initial state 0 times
+
+Duration: 4.679 min
+batch number 1249 completed, jumped to initial state 0 times
+
+Duration: 4.682 min
+batch number 1250 completed, jumped to initial state 0 times
+
+Duration: 4.683 min
+batch number 1251 completed, jumped to initial state 0 times
+
+Duration: 4.685 min
+batch number 1252 completed, jumped to initial state 0 times
+
+Duration: 4.686 min
+batch number 1253 completed, jumped to initial state 0 times
+
+Duration: 4.688 min
+batch number 1254 completed, jumped to initial state 0 times
+
+Duration: 4.689 min
+batch number 1255 completed, jumped to initial state 0 times
+
+Duration: 4.691 min
+batch number 1256 completed, jumped to initial state 0 times
+
+Duration: 4.693 min
+batch number 1257 completed, jumped to initial state 0 times
+
+Duration: 4.694 min
+batch number 1258 completed, jumped to initial state 0 times
+
+Duration: 4.696 min
+batch number 1259 completed, jumped to initial state 0 times
+
+Duration: 4.697 min
+batch number 1260 completed, jumped to initial state 0 times
+
+Duration: 4.699 min
+batch number 1261 completed, jumped to initial state 0 times
+
+Duration: 4.700 min
+batch number 1262 completed, jumped to initial state 0 times
+
+Duration: 4.702 min
+batch number 1263 completed, jumped to initial state 0 times
+
+Duration: 4.704 min
+batch number 1264 completed, jumped to initial state 0 times
+
+Duration: 4.705 min
+batch number 1265 completed, jumped to initial state 0 times
+
+Duration: 4.707 min
+batch number 1266 completed, jumped to initial state 0 times
+
+Duration: 4.709 min
+batch number 1267 completed, jumped to initial state 0 times
+
+Duration: 4.710 min
+batch number 1268 completed, jumped to initial state 0 times
+
+Duration: 4.711 min
+batch number 1269 completed, jumped to initial state 0 times
+
+Duration: 4.713 min
+batch number 1270 completed, jumped to initial state 0 times
+
+Duration: 4.715 min
+batch number 1271 completed, jumped to initial state 0 times
+
+Duration: 4.716 min
+batch number 1272 completed, jumped to initial state 0 times
+
+Duration: 4.718 min
+batch number 1273 completed, jumped to initial state 0 times
+
+Duration: 4.719 min
+batch number 1274 completed, jumped to initial state 0 times
+
+Duration: 4.721 min
+batch number 1275 completed, jumped to initial state 0 times
+
+Duration: 4.722 min
+batch number 1276 completed, jumped to initial state 0 times
+
+Duration: 4.724 min
+batch number 1277 completed, jumped to initial state 0 times
+
+Duration: 4.726 min
+batch number 1278 completed, jumped to initial state 0 times
+
+Duration: 4.728 min
+batch number 1279 completed, jumped to initial state 0 times
+
+Duration: 4.730 min
+batch number 1280 completed, jumped to initial state 0 times
+
+Duration: 4.732 min
+batch number 1281 completed, jumped to initial state 0 times
+
+Duration: 4.734 min
+batch number 1282 completed, jumped to initial state 0 times
+
+Duration: 4.736 min
+batch number 1283 completed, jumped to initial state 0 times
+
+Duration: 4.737 min
+batch number 1284 completed, jumped to initial state 0 times
+
+Duration: 4.739 min
+batch number 1285 completed, jumped to initial state 0 times
+
+Duration: 4.741 min
+batch number 1286 completed, jumped to initial state 0 times
+
+Duration: 4.742 min
+batch number 1287 completed, jumped to initial state 0 times
+
+Duration: 4.743 min
+batch number 1288 completed, jumped to initial state 0 times
+
+Duration: 4.745 min
+batch number 1289 completed, jumped to initial state 0 times
+
+Duration: 4.746 min
+batch number 1290 completed, jumped to initial state 0 times
+
+Duration: 4.748 min
+batch number 1291 completed, jumped to initial state 0 times
+
+Duration: 4.749 min
+batch number 1292 completed, jumped to initial state 0 times
+
+Duration: 4.750 min
+batch number 1293 completed, jumped to initial state 0 times
+
+Duration: 4.752 min
+batch number 1294 completed, jumped to initial state 0 times
+
+Duration: 4.754 min
+batch number 1295 completed, jumped to initial state 0 times
+
+Duration: 4.755 min
+batch number 1296 completed, jumped to initial state 0 times
+
+Duration: 4.756 min
+batch number 1297 completed, jumped to initial state 0 times
+
+Duration: 4.758 min
+batch number 1298 completed, jumped to initial state 0 times
+
+Duration: 4.759 min
+batch number 1299 completed, jumped to initial state 0 times
+
+Duration: 4.760 min
+batch number 1300 completed, jumped to initial state 0 times
+
+Duration: 4.762 min
+batch number 1301 completed, jumped to initial state 0 times
+
+Duration: 4.763 min
+batch number 1302 completed, jumped to initial state 0 times
+
+Duration: 4.765 min
+batch number 1303 completed, jumped to initial state 0 times
+
+Duration: 4.766 min
+batch number 1304 completed, jumped to initial state 0 times
+
+Duration: 4.767 min
+batch number 1305 completed, jumped to initial state 0 times
+
+Duration: 4.769 min
+batch number 1306 completed, jumped to initial state 0 times
+
+Duration: 4.770 min
+batch number 1307 completed, jumped to initial state 0 times
+
+Duration: 4.772 min
+batch number 1308 completed, jumped to initial state 0 times
+
+Duration: 4.773 min
+batch number 1309 completed, jumped to initial state 0 times
+
+Duration: 4.774 min
+batch number 1310 completed, jumped to initial state 0 times
+
+Duration: 4.776 min
+batch number 1311 completed, jumped to initial state 0 times
+
+Duration: 4.777 min
+batch number 1312 completed, jumped to initial state 0 times
+
+Duration: 4.779 min
+batch number 1313 completed, jumped to initial state 0 times
+
+Duration: 4.780 min
+batch number 1314 completed, jumped to initial state 0 times
+
+Duration: 4.782 min
+batch number 1315 completed, jumped to initial state 0 times
+
+Duration: 4.784 min
+batch number 1316 completed, jumped to initial state 0 times
+
+Duration: 4.785 min
+batch number 1317 completed, jumped to initial state 0 times
+
+Duration: 4.787 min
+batch number 1318 completed, jumped to initial state 0 times
+
+Duration: 4.788 min
+batch number 1319 completed, jumped to initial state 0 times
+
+Duration: 4.790 min
+batch number 1320 completed, jumped to initial state 0 times
+
+Duration: 4.792 min
+batch number 1321 completed, jumped to initial state 0 times
+
+Duration: 4.793 min
+batch number 1322 completed, jumped to initial state 0 times
+
+Duration: 4.794 min
+batch number 1323 completed, jumped to initial state 0 times
+
+Duration: 4.796 min
+batch number 1324 completed, jumped to initial state 0 times
+
+Duration: 4.797 min
+batch number 1325 completed, jumped to initial state 0 times
+
+Duration: 4.799 min
+batch number 1326 completed, jumped to initial state 0 times
+
+Duration: 4.800 min
+batch number 1327 completed, jumped to initial state 0 times
+
+Duration: 4.802 min
+batch number 1328 completed, jumped to initial state 0 times
+
+Duration: 4.803 min
+batch number 1329 completed, jumped to initial state 0 times
+
+Duration: 4.804 min
+batch number 1330 completed, jumped to initial state 0 times
+
+Duration: 4.806 min
+batch number 1331 completed, jumped to initial state 0 times
+
+Duration: 4.808 min
+batch number 1332 completed, jumped to initial state 0 times
+
+Duration: 4.809 min
+batch number 1333 completed, jumped to initial state 0 times
+
+Duration: 4.810 min
+batch number 1334 completed, jumped to initial state 0 times
+
+Duration: 4.812 min
+batch number 1335 completed, jumped to initial state 0 times
+
+Duration: 4.813 min
+batch number 1336 completed, jumped to initial state 0 times
+
+Duration: 4.815 min
+batch number 1337 completed, jumped to initial state 0 times
+
+Duration: 4.816 min
+batch number 1338 completed, jumped to initial state 0 times
+
+Duration: 4.817 min
+batch number 1339 completed, jumped to initial state 0 times
+
+Duration: 4.819 min
+batch number 1340 completed, jumped to initial state 0 times
+
+Duration: 4.820 min
+batch number 1341 completed, jumped to initial state 0 times
+
+Duration: 4.822 min
+batch number 1342 completed, jumped to initial state 0 times
+
+Duration: 4.823 min
+batch number 1343 completed, jumped to initial state 0 times
+
+Duration: 4.825 min
+batch number 1344 completed, jumped to initial state 0 times
+
+Duration: 4.826 min
+batch number 1345 completed, jumped to initial state 0 times
+
+Duration: 4.828 min
+batch number 1346 completed, jumped to initial state 0 times
+
+Duration: 4.830 min
+batch number 1347 completed, jumped to initial state 0 times
+
+Duration: 4.831 min
+batch number 1348 completed, jumped to initial state 0 times
+
+Duration: 4.833 min
+batch number 1349 completed, jumped to initial state 0 times
+
+Duration: 4.835 min
+batch number 1350 completed, jumped to initial state 0 times
+
+Duration: 4.837 min
+batch number 1351 completed, jumped to initial state 0 times
+
+Duration: 4.838 min
+batch number 1352 completed, jumped to initial state 0 times
+
+Duration: 4.839 min
+batch number 1353 completed, jumped to initial state 0 times
+
+Duration: 4.841 min
+batch number 1354 completed, jumped to initial state 0 times
+
+Duration: 4.842 min
+batch number 1355 completed, jumped to initial state 0 times
+
+Duration: 4.844 min
+batch number 1356 completed, jumped to initial state 0 times
+
+Duration: 4.845 min
+batch number 1357 completed, jumped to initial state 0 times
+
+Duration: 4.847 min
+batch number 1358 completed, jumped to initial state 0 times
+
+Duration: 4.848 min
+batch number 1359 completed, jumped to initial state 0 times
+
+Duration: 4.849 min
+batch number 1360 completed, jumped to initial state 0 times
+
+Duration: 4.851 min
+batch number 1361 completed, jumped to initial state 0 times
+
+Duration: 4.852 min
+batch number 1362 completed, jumped to initial state 0 times
+
+Duration: 4.854 min
+batch number 1363 completed, jumped to initial state 0 times
+
+Duration: 4.855 min
+batch number 1364 completed, jumped to initial state 0 times
+
+Duration: 4.857 min
+batch number 1365 completed, jumped to initial state 0 times
+
+Duration: 4.858 min
+batch number 1366 completed, jumped to initial state 0 times
+
+Duration: 4.860 min
+batch number 1367 completed, jumped to initial state 0 times
+
+Duration: 4.861 min
+batch number 1368 completed, jumped to initial state 0 times
+
+Duration: 4.863 min
+batch number 1369 completed, jumped to initial state 0 times
+
+Duration: 4.864 min
+batch number 1370 completed, jumped to initial state 0 times
+
+Duration: 4.866 min
+batch number 1371 completed, jumped to initial state 0 times
+
+Duration: 4.867 min
+batch number 1372 completed, jumped to initial state 0 times
+
+Duration: 4.869 min
+batch number 1373 completed, jumped to initial state 0 times
+
+Duration: 4.870 min
+batch number 1374 completed, jumped to initial state 0 times
+
+Duration: 4.872 min
+batch number 1375 completed, jumped to initial state 0 times
+
+Duration: 4.874 min
+batch number 1376 completed, jumped to initial state 0 times
+
+Duration: 4.875 min
+batch number 1377 completed, jumped to initial state 0 times
+
+Duration: 4.877 min
+batch number 1378 completed, jumped to initial state 0 times
+
+Duration: 4.878 min
+batch number 1379 completed, jumped to initial state 0 times
+
+Duration: 4.880 min
+batch number 1380 completed, jumped to initial state 0 times
+
+Duration: 4.881 min
+batch number 1381 completed, jumped to initial state 0 times
+
+Duration: 4.883 min
+batch number 1382 completed, jumped to initial state 0 times
+
+Duration: 4.884 min
+batch number 1383 completed, jumped to initial state 0 times
+
+Duration: 4.886 min
+batch number 1384 completed, jumped to initial state 0 times
+
+Duration: 4.887 min
+batch number 1385 completed, jumped to initial state 0 times
+
+Duration: 4.888 min
+batch number 1386 completed, jumped to initial state 0 times
+
+Duration: 4.890 min
+batch number 1387 completed, jumped to initial state 0 times
+
+Duration: 4.891 min
+batch number 1388 completed, jumped to initial state 0 times
+
+Duration: 4.893 min
+batch number 1389 completed, jumped to initial state 0 times
+
+Duration: 4.894 min
+batch number 1390 completed, jumped to initial state 0 times
+
+Duration: 4.896 min
+batch number 1391 completed, jumped to initial state 0 times
+
+Duration: 4.897 min
+batch number 1392 completed, jumped to initial state 0 times
+
+Duration: 4.898 min
+batch number 1393 completed, jumped to initial state 0 times
+
+Duration: 4.900 min
+batch number 1394 completed, jumped to initial state 0 times
+
+Duration: 4.902 min
+batch number 1395 completed, jumped to initial state 0 times
+
+Duration: 4.904 min
+batch number 1396 completed, jumped to initial state 0 times
+
+Duration: 4.906 min
+batch number 1397 completed, jumped to initial state 0 times
+
+Duration: 4.907 min
+batch number 1398 completed, jumped to initial state 0 times
+
+Duration: 4.909 min
+batch number 1399 completed, jumped to initial state 0 times
+
+Duration: 4.910 min
+batch number 1400 completed, jumped to initial state 0 times
+
+Duration: 4.912 min
+batch number 1401 completed, jumped to initial state 0 times
+
+Duration: 4.913 min
+batch number 1402 completed, jumped to initial state 0 times
+
+Duration: 4.915 min
+batch number 1403 completed, jumped to initial state 0 times
+
+Duration: 4.916 min
+batch number 1404 completed, jumped to initial state 0 times
+
+Duration: 4.918 min
+batch number 1405 completed, jumped to initial state 0 times
+
+Duration: 4.920 min
+batch number 1406 completed, jumped to initial state 0 times
+
+Duration: 4.921 min
+batch number 1407 completed, jumped to initial state 0 times
+
+Duration: 4.923 min
+batch number 1408 completed, jumped to initial state 0 times
+
+Duration: 4.924 min
+batch number 1409 completed, jumped to initial state 0 times
+
+Duration: 4.926 min
+batch number 1410 completed, jumped to initial state 0 times
+
+Duration: 4.927 min
+batch number 1411 completed, jumped to initial state 0 times
+
+Duration: 4.928 min
+batch number 1412 completed, jumped to initial state 0 times
+
+Duration: 4.930 min
+batch number 1413 completed, jumped to initial state 0 times
+
+Duration: 4.931 min
+batch number 1414 completed, jumped to initial state 0 times
+
+Duration: 4.932 min
+batch number 1415 completed, jumped to initial state 0 times
+
+Duration: 4.934 min
+batch number 1416 completed, jumped to initial state 0 times
+
+Duration: 4.936 min
+batch number 1417 completed, jumped to initial state 0 times
+
+Duration: 4.937 min
+batch number 1418 completed, jumped to initial state 0 times
+
+Duration: 4.939 min
+batch number 1419 completed, jumped to initial state 0 times
+
+Duration: 4.940 min
+batch number 1420 completed, jumped to initial state 0 times
+
+Duration: 4.942 min
+batch number 1421 completed, jumped to initial state 0 times
+
+Duration: 4.943 min
+batch number 1422 completed, jumped to initial state 0 times
+
+Duration: 4.945 min
+batch number 1423 completed, jumped to initial state 0 times
+
+Duration: 4.947 min
+batch number 1424 completed, jumped to initial state 0 times
+
+Duration: 4.948 min
+batch number 1425 completed, jumped to initial state 0 times
+
+Duration: 4.950 min
+batch number 1426 completed, jumped to initial state 0 times
+
+Duration: 4.951 min
+batch number 1427 completed, jumped to initial state 0 times
+
+Duration: 4.953 min
+batch number 1428 completed, jumped to initial state 0 times
+
+Duration: 4.954 min
+batch number 1429 completed, jumped to initial state 0 times
+
+Duration: 4.956 min
+batch number 1430 completed, jumped to initial state 0 times
+
+Duration: 4.957 min
+batch number 1431 completed, jumped to initial state 0 times
+
+Duration: 4.959 min
+batch number 1432 completed, jumped to initial state 0 times
+
+Duration: 4.960 min
+batch number 1433 completed, jumped to initial state 0 times
+
+Duration: 4.962 min
+batch number 1434 completed, jumped to initial state 0 times
+
+Duration: 4.963 min
+batch number 1435 completed, jumped to initial state 0 times
+
+Duration: 4.965 min
+batch number 1436 completed, jumped to initial state 0 times
+
+Duration: 4.966 min
+batch number 1437 completed, jumped to initial state 0 times
+
+Duration: 4.968 min
+batch number 1438 completed, jumped to initial state 0 times
+
+Duration: 4.969 min
+batch number 1439 completed, jumped to initial state 0 times
+
+Duration: 4.971 min
+batch number 1440 completed, jumped to initial state 0 times
+
+Duration: 4.972 min
+batch number 1441 completed, jumped to initial state 0 times
+
+Duration: 4.974 min
+batch number 1442 completed, jumped to initial state 0 times
+
+Duration: 4.975 min
+batch number 1443 completed, jumped to initial state 0 times
+
+Duration: 4.977 min
+batch number 1444 completed, jumped to initial state 0 times
+
+Duration: 4.978 min
+batch number 1445 completed, jumped to initial state 0 times
+
+Duration: 4.980 min
+batch number 1446 completed, jumped to initial state 0 times
+
+Duration: 4.981 min
+batch number 1447 completed, jumped to initial state 0 times
+
+Duration: 4.982 min
+batch number 1448 completed, jumped to initial state 0 times
+
+Duration: 4.984 min
+batch number 1449 completed, jumped to initial state 0 times
+
+Duration: 4.986 min
+batch number 1450 completed, jumped to initial state 0 times
+
+Duration: 4.987 min
+batch number 1451 completed, jumped to initial state 0 times
+
+Duration: 4.989 min
+batch number 1452 completed, jumped to initial state 0 times
+
+Duration: 4.990 min
+batch number 1453 completed, jumped to initial state 0 times
+
+Duration: 4.992 min
+batch number 1454 completed, jumped to initial state 0 times
+
+Duration: 4.993 min
+batch number 1455 completed, jumped to initial state 0 times
+
+Duration: 4.995 min
+batch number 1456 completed, jumped to initial state 0 times
+
+Duration: 4.997 min
+batch number 1457 completed, jumped to initial state 0 times
+
+Duration: 4.999 min
+batch number 1458 completed, jumped to initial state 0 times
+
+Duration: 5.001 min
+batch number 1459 completed, jumped to initial state 0 times
+
+Duration: 5.002 min
+batch number 1460 completed, jumped to initial state 0 times
+
+Duration: 5.004 min
+batch number 1461 completed, jumped to initial state 0 times
+
+Duration: 5.005 min
+batch number 1462 completed, jumped to initial state 0 times
+
+Duration: 5.006 min
+batch number 1463 completed, jumped to initial state 0 times
+
+Duration: 5.008 min
+batch number 1464 completed, jumped to initial state 0 times
+
+Duration: 5.010 min
+batch number 1465 completed, jumped to initial state 0 times
+
+Duration: 5.011 min
+batch number 1466 completed, jumped to initial state 0 times
+
+Duration: 5.012 min
+batch number 1467 completed, jumped to initial state 0 times
+
+Duration: 5.014 min
+batch number 1468 completed, jumped to initial state 0 times
+
+Duration: 5.015 min
+batch number 1469 completed, jumped to initial state 0 times
+
+Duration: 5.016 min
+batch number 1470 completed, jumped to initial state 0 times
+
+Duration: 5.018 min
+batch number 1471 completed, jumped to initial state 0 times
+
+Duration: 5.020 min
+batch number 1472 completed, jumped to initial state 0 times
+
+Duration: 5.022 min
+batch number 1473 completed, jumped to initial state 0 times
+
+Duration: 5.024 min
+batch number 1474 completed, jumped to initial state 0 times
+
+Duration: 5.026 min
+batch number 1475 completed, jumped to initial state 0 times
+
+Duration: 5.027 min
+batch number 1476 completed, jumped to initial state 0 times
+
+Duration: 5.029 min
+batch number 1477 completed, jumped to initial state 0 times
+
+Duration: 5.031 min
+batch number 1478 completed, jumped to initial state 0 times
+
+Duration: 5.032 min
+batch number 1479 completed, jumped to initial state 0 times
+
+Duration: 5.034 min
+batch number 1480 completed, jumped to initial state 0 times
+
+Duration: 5.035 min
+batch number 1481 completed, jumped to initial state 0 times
+
+Duration: 5.037 min
+batch number 1482 completed, jumped to initial state 0 times
+
+Duration: 5.038 min
+batch number 1483 completed, jumped to initial state 0 times
+
+Duration: 5.039 min
+batch number 1484 completed, jumped to initial state 0 times
+
+Duration: 5.041 min
+batch number 1485 completed, jumped to initial state 0 times
+
+Duration: 5.042 min
+batch number 1486 completed, jumped to initial state 0 times
+
+Duration: 5.044 min
+batch number 1487 completed, jumped to initial state 0 times
+
+Duration: 5.045 min
+batch number 1488 completed, jumped to initial state 0 times
+
+Duration: 5.047 min
+batch number 1489 completed, jumped to initial state 0 times
+
+Duration: 5.048 min
+batch number 1490 completed, jumped to initial state 0 times
+
+Duration: 5.050 min
+batch number 1491 completed, jumped to initial state 0 times
+
+Duration: 5.051 min
+batch number 1492 completed, jumped to initial state 0 times
+
+Duration: 5.053 min
+batch number 1493 completed, jumped to initial state 0 times
+
+Duration: 5.054 min
+batch number 1494 completed, jumped to initial state 0 times
+
+Duration: 5.055 min
+batch number 1495 completed, jumped to initial state 0 times
+
+Duration: 5.057 min
+batch number 1496 completed, jumped to initial state 0 times
+
+Duration: 5.059 min
+batch number 1497 completed, jumped to initial state 0 times
+
+Duration: 5.060 min
+batch number 1498 completed, jumped to initial state 0 times
+
+Duration: 5.061 min
+batch number 1499 completed, jumped to initial state 0 times
+
+Duration: 5.063 min
+batch number 1500 completed, jumped to initial state 0 times
+
+Duration: 5.065 min
+batch number 1501 completed, jumped to initial state 0 times
+
+Duration: 5.066 min
+batch number 1502 completed, jumped to initial state 0 times
+
+Duration: 5.068 min
+batch number 1503 completed, jumped to initial state 0 times
+
+Duration: 5.069 min
+batch number 1504 completed, jumped to initial state 0 times
+
+Duration: 5.071 min
+batch number 1505 completed, jumped to initial state 0 times
+
+Duration: 5.072 min
+batch number 1506 completed, jumped to initial state 0 times
+
+Duration: 5.073 min
+batch number 1507 completed, jumped to initial state 0 times
+
+Duration: 5.075 min
+batch number 1508 completed, jumped to initial state 0 times
+
+Duration: 5.076 min
+batch number 1509 completed, jumped to initial state 0 times
+
+Duration: 5.078 min
+batch number 1510 completed, jumped to initial state 0 times
+
+Duration: 5.079 min
+batch number 1511 completed, jumped to initial state 0 times
+
+Duration: 5.080 min
+batch number 1512 completed, jumped to initial state 0 times
+
+Duration: 5.082 min
+batch number 1513 completed, jumped to initial state 0 times
+
+Duration: 5.083 min
+batch number 1514 completed, jumped to initial state 0 times
+
+Duration: 5.084 min
+batch number 1515 completed, jumped to initial state 0 times
+
+Duration: 5.086 min
+batch number 1516 completed, jumped to initial state 0 times
+
+Duration: 5.087 min
+batch number 1517 completed, jumped to initial state 0 times
+
+Duration: 5.089 min
+batch number 1518 completed, jumped to initial state 0 times
+
+Duration: 5.090 min
+batch number 1519 completed, jumped to initial state 0 times
+
+Duration: 5.092 min
+batch number 1520 completed, jumped to initial state 0 times
+
+Duration: 5.093 min
+batch number 1521 completed, jumped to initial state 0 times
+
+Duration: 5.094 min
+batch number 1522 completed, jumped to initial state 0 times
+
+Duration: 5.096 min
+batch number 1523 completed, jumped to initial state 0 times
+
+Duration: 5.097 min
+batch number 1524 completed, jumped to initial state 0 times
+
+Duration: 5.099 min
+batch number 1525 completed, jumped to initial state 0 times
+
+Duration: 5.100 min
+batch number 1526 completed, jumped to initial state 0 times
+
+Duration: 5.101 min
+batch number 1527 completed, jumped to initial state 0 times
+
+Duration: 5.103 min
+batch number 1528 completed, jumped to initial state 0 times
+
+Duration: 5.104 min
+batch number 1529 completed, jumped to initial state 0 times
+
+Duration: 5.106 min
+batch number 1530 completed, jumped to initial state 0 times
+
+Duration: 5.108 min
+batch number 1531 completed, jumped to initial state 0 times
+
+Duration: 5.109 min
+batch number 1532 completed, jumped to initial state 0 times
+
+Duration: 5.111 min
+batch number 1533 completed, jumped to initial state 0 times
+
+Duration: 5.113 min
+batch number 1534 completed, jumped to initial state 0 times
+
+Duration: 5.115 min
+batch number 1535 completed, jumped to initial state 0 times
+
+Duration: 5.116 min
+batch number 1536 completed, jumped to initial state 0 times
+
+Duration: 5.117 min
+batch number 1537 completed, jumped to initial state 0 times
+
+Duration: 5.119 min
+batch number 1538 completed, jumped to initial state 0 times
+
+Duration: 5.120 min
+batch number 1539 completed, jumped to initial state 0 times
+
+Duration: 5.122 min
+batch number 1540 completed, jumped to initial state 0 times
+
+Duration: 5.123 min
+batch number 1541 completed, jumped to initial state 0 times
+
+Duration: 5.125 min
+batch number 1542 completed, jumped to initial state 0 times
+
+Duration: 5.126 min
+batch number 1543 completed, jumped to initial state 0 times
+
+Duration: 5.127 min
+batch number 1544 completed, jumped to initial state 0 times
+
+Duration: 5.129 min
+batch number 1545 completed, jumped to initial state 0 times
+
+Duration: 5.130 min
+batch number 1546 completed, jumped to initial state 0 times
+
+Duration: 5.131 min
+batch number 1547 completed, jumped to initial state 0 times
+
+Duration: 5.133 min
+batch number 1548 completed, jumped to initial state 0 times
+
+Duration: 5.134 min
+batch number 1549 completed, jumped to initial state 0 times
+
+Duration: 5.136 min
+batch number 1550 completed, jumped to initial state 0 times
+
+Duration: 5.138 min
+batch number 1551 completed, jumped to initial state 0 times
+
+Duration: 5.139 min
+batch number 1552 completed, jumped to initial state 0 times
+
+Duration: 5.141 min
+batch number 1553 completed, jumped to initial state 0 times
+
+Duration: 5.142 min
+batch number 1554 completed, jumped to initial state 0 times
+
+Duration: 5.143 min
+batch number 1555 completed, jumped to initial state 0 times
+
+Duration: 5.145 min
+batch number 1556 completed, jumped to initial state 0 times
+
+Duration: 5.146 min
+batch number 1557 completed, jumped to initial state 0 times
+
+Duration: 5.148 min
+batch number 1558 completed, jumped to initial state 0 times
+
+Duration: 5.149 min
+batch number 1559 completed, jumped to initial state 0 times
+
+Duration: 5.150 min
+batch number 1560 completed, jumped to initial state 0 times
+
+Duration: 5.152 min
+batch number 1561 completed, jumped to initial state 0 times
+
+Duration: 5.153 min
+batch number 1562 completed, jumped to initial state 0 times
+
+Duration: 5.155 min
+batch number 1563 completed, jumped to initial state 0 times
+
+Duration: 5.156 min
+batch number 1564 completed, jumped to initial state 0 times
+
+Duration: 5.157 min
+batch number 1565 completed, jumped to initial state 0 times
+
+Duration: 5.159 min
+batch number 1566 completed, jumped to initial state 0 times
+
+Duration: 5.160 min
+batch number 1567 completed, jumped to initial state 0 times
+
+Duration: 5.162 min
+batch number 1568 completed, jumped to initial state 0 times
+
+Duration: 5.163 min
+batch number 1569 completed, jumped to initial state 0 times
+
+Duration: 5.165 min
+batch number 1570 completed, jumped to initial state 0 times
+
+Duration: 5.166 min
+batch number 1571 completed, jumped to initial state 0 times
+
+Duration: 5.167 min
+batch number 1572 completed, jumped to initial state 0 times
+
+Duration: 5.169 min
+batch number 1573 completed, jumped to initial state 0 times
+
+Duration: 5.170 min
+batch number 1574 completed, jumped to initial state 0 times
+
+Duration: 5.172 min
+batch number 1575 completed, jumped to initial state 0 times
+
+Duration: 5.173 min
+batch number 1576 completed, jumped to initial state 0 times
+
+Duration: 5.175 min
+batch number 1577 completed, jumped to initial state 0 times
+
+Duration: 5.176 min
+batch number 1578 completed, jumped to initial state 0 times
+
+Duration: 5.177 min
+batch number 1579 completed, jumped to initial state 0 times
+
+Duration: 5.179 min
+batch number 1580 completed, jumped to initial state 0 times
+
+Duration: 5.180 min
+batch number 1581 completed, jumped to initial state 0 times
+
+Duration: 5.182 min
+batch number 1582 completed, jumped to initial state 0 times
+
+Duration: 5.183 min
+batch number 1583 completed, jumped to initial state 0 times
+
+Duration: 5.184 min
+batch number 1584 completed, jumped to initial state 0 times
+
+Duration: 5.186 min
+batch number 1585 completed, jumped to initial state 0 times
+
+Duration: 5.187 min
+batch number 1586 completed, jumped to initial state 0 times
+
+Duration: 5.189 min
+batch number 1587 completed, jumped to initial state 0 times
+
+Duration: 5.191 min
+batch number 1588 completed, jumped to initial state 0 times
+
+Duration: 5.192 min
+batch number 1589 completed, jumped to initial state 0 times
+
+Duration: 5.194 min
+batch number 1590 completed, jumped to initial state 0 times
+
+Duration: 5.196 min
+batch number 1591 completed, jumped to initial state 0 times
+
+Duration: 5.198 min
+batch number 1592 completed, jumped to initial state 0 times
+
+Duration: 5.199 min
+batch number 1593 completed, jumped to initial state 0 times
+
+Duration: 5.201 min
+batch number 1594 completed, jumped to initial state 0 times
+
+Duration: 5.203 min
+batch number 1595 completed, jumped to initial state 0 times
+
+Duration: 5.205 min
+batch number 1596 completed, jumped to initial state 0 times
+
+Duration: 5.206 min
+batch number 1597 completed, jumped to initial state 0 times
+
+Duration: 5.208 min
+batch number 1598 completed, jumped to initial state 0 times
+
+Duration: 5.209 min
+batch number 1599 completed, jumped to initial state 0 times
+
+Duration: 5.211 min
+batch number 1600 completed, jumped to initial state 0 times
+
+Duration: 5.212 min
+batch number 1601 completed, jumped to initial state 0 times
+
+Duration: 5.214 min
+batch number 1602 completed, jumped to initial state 0 times
+
+Duration: 5.215 min
+batch number 1603 completed, jumped to initial state 0 times
+
+Duration: 5.217 min
+batch number 1604 completed, jumped to initial state 0 times
+
+Duration: 5.218 min
+batch number 1605 completed, jumped to initial state 0 times
+
+Duration: 5.220 min
+batch number 1606 completed, jumped to initial state 0 times
+
+Duration: 5.221 min
+batch number 1607 completed, jumped to initial state 0 times
+
+Duration: 5.223 min
+batch number 1608 completed, jumped to initial state 0 times
+
+Duration: 5.224 min
+batch number 1609 completed, jumped to initial state 0 times
+
+Duration: 5.226 min
+batch number 1610 completed, jumped to initial state 0 times
+
+Duration: 5.227 min
+batch number 1611 completed, jumped to initial state 0 times
+
+Duration: 5.229 min
+batch number 1612 completed, jumped to initial state 0 times
+
+Duration: 5.230 min
+batch number 1613 completed, jumped to initial state 0 times
+
+Duration: 5.232 min
+batch number 1614 completed, jumped to initial state 0 times
+
+Duration: 5.233 min
+batch number 1615 completed, jumped to initial state 0 times
+
+Duration: 5.235 min
+batch number 1616 completed, jumped to initial state 0 times
+
+Duration: 5.236 min
+batch number 1617 completed, jumped to initial state 0 times
+
+Duration: 5.238 min
+batch number 1618 completed, jumped to initial state 0 times
+
+Duration: 5.239 min
+batch number 1619 completed, jumped to initial state 0 times
+
+Duration: 5.241 min
+batch number 1620 completed, jumped to initial state 0 times
+
+Duration: 5.242 min
+batch number 1621 completed, jumped to initial state 0 times
+
+Duration: 5.243 min
+batch number 1622 completed, jumped to initial state 0 times
+
+Duration: 5.245 min
+batch number 1623 completed, jumped to initial state 0 times
+
+Duration: 5.247 min
+batch number 1624 completed, jumped to initial state 0 times
+
+Duration: 5.248 min
+batch number 1625 completed, jumped to initial state 0 times
+
+Duration: 5.249 min
+batch number 1626 completed, jumped to initial state 0 times
+
+Duration: 5.251 min
+batch number 1627 completed, jumped to initial state 0 times
+
+Duration: 5.252 min
+batch number 1628 completed, jumped to initial state 0 times
+
+Duration: 5.253 min
+batch number 1629 completed, jumped to initial state 0 times
+
+Duration: 5.255 min
+batch number 1630 completed, jumped to initial state 0 times
+
+Duration: 5.256 min
+batch number 1631 completed, jumped to initial state 0 times
+
+Duration: 5.258 min
+batch number 1632 completed, jumped to initial state 0 times
+
+Duration: 5.259 min
+batch number 1633 completed, jumped to initial state 0 times
+
+Duration: 5.260 min
+batch number 1634 completed, jumped to initial state 0 times
+
+Duration: 5.262 min
+batch number 1635 completed, jumped to initial state 0 times
+
+Duration: 5.263 min
+batch number 1636 completed, jumped to initial state 0 times
+
+Duration: 5.265 min
+batch number 1637 completed, jumped to initial state 0 times
+
+Duration: 5.266 min
+batch number 1638 completed, jumped to initial state 0 times
+
+Duration: 5.267 min
+batch number 1639 completed, jumped to initial state 0 times
+
+Duration: 5.269 min
+batch number 1640 completed, jumped to initial state 0 times
+
+Duration: 5.270 min
+batch number 1641 completed, jumped to initial state 0 times
+
+Duration: 5.272 min
+batch number 1642 completed, jumped to initial state 0 times
+
+Duration: 5.273 min
+batch number 1643 completed, jumped to initial state 0 times
+
+Duration: 5.274 min
+batch number 1644 completed, jumped to initial state 0 times
+
+Duration: 5.276 min
+batch number 1645 completed, jumped to initial state 0 times
+
+Duration: 5.278 min
+batch number 1646 completed, jumped to initial state 0 times
+
+Duration: 5.280 min
+batch number 1647 completed, jumped to initial state 0 times
+
+Duration: 5.281 min
+batch number 1648 completed, jumped to initial state 0 times
+
+Duration: 5.283 min
+batch number 1649 completed, jumped to initial state 0 times
+
+Duration: 5.285 min
+batch number 1650 completed, jumped to initial state 0 times
+
+Duration: 5.286 min
+batch number 1651 completed, jumped to initial state 0 times
+
+Duration: 5.288 min
+batch number 1652 completed, jumped to initial state 0 times
+
+Duration: 5.289 min
+batch number 1653 completed, jumped to initial state 0 times
+
+Duration: 5.291 min
+batch number 1654 completed, jumped to initial state 0 times
+
+Duration: 5.293 min
+batch number 1655 completed, jumped to initial state 0 times
+
+Duration: 5.294 min
+batch number 1656 completed, jumped to initial state 0 times
+
+Duration: 5.295 min
+batch number 1657 completed, jumped to initial state 0 times
+
+Duration: 5.297 min
+batch number 1658 completed, jumped to initial state 0 times
+
+Duration: 5.298 min
+batch number 1659 completed, jumped to initial state 0 times
+
+Duration: 5.300 min
+batch number 1660 completed, jumped to initial state 0 times
+
+Duration: 5.301 min
+batch number 1661 completed, jumped to initial state 0 times
+
+Duration: 5.302 min
+batch number 1662 completed, jumped to initial state 0 times
+
+Duration: 5.304 min
+batch number 1663 completed, jumped to initial state 0 times
+
+Duration: 5.306 min
+batch number 1664 completed, jumped to initial state 0 times
+
+Duration: 5.307 min
+batch number 1665 completed, jumped to initial state 0 times
+
+Duration: 5.309 min
+batch number 1666 completed, jumped to initial state 0 times
+
+Duration: 5.310 min
+batch number 1667 completed, jumped to initial state 0 times
+
+Duration: 5.312 min
+batch number 1668 completed, jumped to initial state 0 times
+
+Duration: 5.313 min
+batch number 1669 completed, jumped to initial state 0 times
+
+Duration: 5.315 min
+batch number 1670 completed, jumped to initial state 0 times
+
+Duration: 5.316 min
+batch number 1671 completed, jumped to initial state 0 times
+
+Duration: 5.318 min
+batch number 1672 completed, jumped to initial state 0 times
+
+Duration: 5.319 min
+batch number 1673 completed, jumped to initial state 0 times
+
+Duration: 5.322 min
+batch number 1674 completed, jumped to initial state 0 times
+
+Duration: 5.323 min
+batch number 1675 completed, jumped to initial state 0 times
+
+Duration: 5.325 min
+batch number 1676 completed, jumped to initial state 0 times
+
+Duration: 5.326 min
+batch number 1677 completed, jumped to initial state 0 times
+
+Duration: 5.328 min
+batch number 1678 completed, jumped to initial state 0 times
+
+Duration: 5.329 min
+batch number 1679 completed, jumped to initial state 0 times
+
+Duration: 5.331 min
+batch number 1680 completed, jumped to initial state 0 times
+
+Duration: 5.332 min
+batch number 1681 completed, jumped to initial state 0 times
+
+Duration: 5.334 min
+batch number 1682 completed, jumped to initial state 0 times
+
+Duration: 5.335 min
+batch number 1683 completed, jumped to initial state 0 times
+
+Duration: 5.337 min
+batch number 1684 completed, jumped to initial state 0 times
+
+Duration: 5.338 min
+batch number 1685 completed, jumped to initial state 0 times
+
+Duration: 5.340 min
+batch number 1686 completed, jumped to initial state 0 times
+
+Duration: 5.341 min
+batch number 1687 completed, jumped to initial state 0 times
+
+Duration: 5.343 min
+batch number 1688 completed, jumped to initial state 0 times
+
+Duration: 5.345 min
+batch number 1689 completed, jumped to initial state 0 times
+
+Duration: 5.346 min
+batch number 1690 completed, jumped to initial state 0 times
+
+Duration: 5.347 min
+batch number 1691 completed, jumped to initial state 0 times
+
+Duration: 5.349 min
+batch number 1692 completed, jumped to initial state 0 times
+
+Duration: 5.350 min
+batch number 1693 completed, jumped to initial state 0 times
+
+Duration: 5.351 min
+batch number 1694 completed, jumped to initial state 0 times
+
+Duration: 5.353 min
+batch number 1695 completed, jumped to initial state 0 times
+
+Duration: 5.354 min
+batch number 1696 completed, jumped to initial state 0 times
+
+Duration: 5.356 min
+batch number 1697 completed, jumped to initial state 0 times
+
+Duration: 5.358 min
+batch number 1698 completed, jumped to initial state 0 times
+
+Duration: 5.359 min
+batch number 1699 completed, jumped to initial state 0 times
+
+Duration: 5.361 min
+batch number 1700 completed, jumped to initial state 0 times
+
+Duration: 5.362 min
+batch number 1701 completed, jumped to initial state 0 times
+
+Duration: 5.363 min
+batch number 1702 completed, jumped to initial state 0 times
+
+Duration: 5.365 min
+batch number 1703 completed, jumped to initial state 0 times
+
+Duration: 5.366 min
+batch number 1704 completed, jumped to initial state 0 times
+
+Duration: 5.368 min
+batch number 1705 completed, jumped to initial state 0 times
+
+Duration: 5.369 min
+batch number 1706 completed, jumped to initial state 0 times
+
+Duration: 5.370 min
+batch number 1707 completed, jumped to initial state 0 times
+
+Duration: 5.372 min
+batch number 1708 completed, jumped to initial state 0 times
+
+Duration: 5.374 min
+batch number 1709 completed, jumped to initial state 0 times
+
+Duration: 5.375 min
+batch number 1710 completed, jumped to initial state 0 times
+
+Duration: 5.376 min
+batch number 1711 completed, jumped to initial state 0 times
+
+Duration: 5.378 min
+batch number 1712 completed, jumped to initial state 0 times
+
+Duration: 5.379 min
+batch number 1713 completed, jumped to initial state 0 times
+
+Duration: 5.381 min
+batch number 1714 completed, jumped to initial state 0 times
+
+Duration: 5.382 min
+batch number 1715 completed, jumped to initial state 0 times
+
+Duration: 5.383 min
+batch number 1716 completed, jumped to initial state 0 times
+
+Duration: 5.385 min
+batch number 1717 completed, jumped to initial state 0 times
+
+Duration: 5.386 min
+batch number 1718 completed, jumped to initial state 0 times
+
+Duration: 5.388 min
+batch number 1719 completed, jumped to initial state 0 times
+
+Duration: 5.389 min
+batch number 1720 completed, jumped to initial state 0 times
+
+Duration: 5.390 min
+batch number 1721 completed, jumped to initial state 0 times
+
+Duration: 5.392 min
+batch number 1722 completed, jumped to initial state 0 times
+
+Duration: 5.393 min
+batch number 1723 completed, jumped to initial state 0 times
+
+Duration: 5.395 min
+batch number 1724 completed, jumped to initial state 0 times
+
+Duration: 5.396 min
+batch number 1725 completed, jumped to initial state 0 times
+
+Duration: 5.398 min
+batch number 1726 completed, jumped to initial state 0 times
+
+Duration: 5.400 min
+batch number 1727 completed, jumped to initial state 0 times
+
+Duration: 5.401 min
+batch number 1728 completed, jumped to initial state 0 times
+
+Duration: 5.403 min
+batch number 1729 completed, jumped to initial state 0 times
+
+Duration: 5.404 min
+batch number 1730 completed, jumped to initial state 0 times
+
+Duration: 5.406 min
+batch number 1731 completed, jumped to initial state 0 times
+
+Duration: 5.407 min
+batch number 1732 completed, jumped to initial state 0 times
+
+Duration: 5.409 min
+batch number 1733 completed, jumped to initial state 0 times
+
+Duration: 5.410 min
+batch number 1734 completed, jumped to initial state 0 times
+
+Duration: 5.412 min
+batch number 1735 completed, jumped to initial state 0 times
+
+Duration: 5.413 min
+batch number 1736 completed, jumped to initial state 0 times
+
+Duration: 5.415 min
+batch number 1737 completed, jumped to initial state 0 times
+
+Duration: 5.416 min
+batch number 1738 completed, jumped to initial state 0 times
+
+Duration: 5.417 min
+batch number 1739 completed, jumped to initial state 0 times
+
+Duration: 5.419 min
+batch number 1740 completed, jumped to initial state 0 times
+
+Duration: 5.420 min
+batch number 1741 completed, jumped to initial state 0 times
+
+Duration: 5.422 min
+batch number 1742 completed, jumped to initial state 0 times
+
+Duration: 5.423 min
+batch number 1743 completed, jumped to initial state 0 times
+
+Duration: 5.425 min
+batch number 1744 completed, jumped to initial state 0 times
+
+Duration: 5.426 min
+batch number 1745 completed, jumped to initial state 0 times
+
+Duration: 5.427 min
+batch number 1746 completed, jumped to initial state 0 times
+
+Duration: 5.429 min
+batch number 1747 completed, jumped to initial state 0 times
+
+Duration: 5.431 min
+batch number 1748 completed, jumped to initial state 0 times
+
+Duration: 5.432 min
+batch number 1749 completed, jumped to initial state 0 times
+
+Duration: 5.433 min
+batch number 1750 completed, jumped to initial state 0 times
+
+Duration: 5.435 min
+batch number 1751 completed, jumped to initial state 0 times
+
+Duration: 5.436 min
+batch number 1752 completed, jumped to initial state 0 times
+
+Duration: 5.438 min
+batch number 1753 completed, jumped to initial state 0 times
+
+Duration: 5.439 min
+batch number 1754 completed, jumped to initial state 0 times
+
+Duration: 5.441 min
+batch number 1755 completed, jumped to initial state 0 times
+
+Duration: 5.443 min
+batch number 1756 completed, jumped to initial state 0 times
+
+Duration: 5.444 min
+batch number 1757 completed, jumped to initial state 0 times
+
+Duration: 5.446 min
+batch number 1758 completed, jumped to initial state 0 times
+
+Duration: 5.448 min
+batch number 1759 completed, jumped to initial state 0 times
+
+Duration: 5.449 min
+batch number 1760 completed, jumped to initial state 0 times
+
+Duration: 5.450 min
+batch number 1761 completed, jumped to initial state 0 times
+
+Duration: 5.452 min
+batch number 1762 completed, jumped to initial state 0 times
+
+Duration: 5.453 min
+batch number 1763 completed, jumped to initial state 0 times
+
+Duration: 5.455 min
+batch number 1764 completed, jumped to initial state 0 times
+
+Duration: 5.456 min
+batch number 1765 completed, jumped to initial state 0 times
+
+Duration: 5.458 min
+batch number 1766 completed, jumped to initial state 0 times
+
+Duration: 5.459 min
+batch number 1767 completed, jumped to initial state 0 times
+
+Duration: 5.460 min
+batch number 1768 completed, jumped to initial state 0 times
+
+Duration: 5.462 min
+batch number 1769 completed, jumped to initial state 0 times
+
+Duration: 5.463 min
+batch number 1770 completed, jumped to initial state 0 times
+
+Duration: 5.465 min
+batch number 1771 completed, jumped to initial state 0 times
+
+Duration: 5.467 min
+batch number 1772 completed, jumped to initial state 0 times
+
+Duration: 5.468 min
+batch number 1773 completed, jumped to initial state 0 times
+
+Duration: 5.470 min
+batch number 1774 completed, jumped to initial state 0 times
+
+Duration: 5.471 min
+batch number 1775 completed, jumped to initial state 0 times
+
+Duration: 5.473 min
+batch number 1776 completed, jumped to initial state 0 times
+
+Duration: 5.474 min
+batch number 1777 completed, jumped to initial state 0 times
+
+Duration: 5.476 min
+batch number 1778 completed, jumped to initial state 0 times
+
+Duration: 5.478 min
+batch number 1779 completed, jumped to initial state 0 times
+
+Duration: 5.479 min
+batch number 1780 completed, jumped to initial state 0 times
+
+Duration: 5.480 min
+batch number 1781 completed, jumped to initial state 0 times
+
+Duration: 5.482 min
+batch number 1782 completed, jumped to initial state 0 times
+
+Duration: 5.483 min
+batch number 1783 completed, jumped to initial state 0 times
+
+Duration: 5.485 min
+batch number 1784 completed, jumped to initial state 0 times
+
+Duration: 5.486 min
+batch number 1785 completed, jumped to initial state 0 times
+
+Duration: 5.488 min
+batch number 1786 completed, jumped to initial state 0 times
+
+Duration: 5.489 min
+batch number 1787 completed, jumped to initial state 0 times
+
+Duration: 5.491 min
+batch number 1788 completed, jumped to initial state 0 times
+
+Duration: 5.493 min
+batch number 1789 completed, jumped to initial state 0 times
+
+Duration: 5.494 min
+batch number 1790 completed, jumped to initial state 0 times
+
+Duration: 5.496 min
+batch number 1791 completed, jumped to initial state 0 times
+
+Duration: 5.497 min
+batch number 1792 completed, jumped to initial state 0 times
+
+Duration: 5.499 min
+batch number 1793 completed, jumped to initial state 0 times
+
+Duration: 5.501 min
+batch number 1794 completed, jumped to initial state 0 times
+
+Duration: 5.503 min
+batch number 1795 completed, jumped to initial state 0 times
+
+Duration: 5.504 min
+batch number 1796 completed, jumped to initial state 0 times
+
+Duration: 5.506 min
+batch number 1797 completed, jumped to initial state 0 times
+
+Duration: 5.508 min
+batch number 1798 completed, jumped to initial state 0 times
+
+Duration: 5.509 min
+batch number 1799 completed, jumped to initial state 0 times
+
+Duration: 5.510 min
+batch number 1800 completed, jumped to initial state 0 times
+
+Duration: 5.512 min
+batch number 1801 completed, jumped to initial state 0 times
+
+Duration: 5.514 min
+batch number 1802 completed, jumped to initial state 0 times
+
+Duration: 5.515 min
+batch number 1803 completed, jumped to initial state 0 times
+
+Duration: 5.517 min
+batch number 1804 completed, jumped to initial state 0 times
+
+Duration: 5.518 min
+batch number 1805 completed, jumped to initial state 0 times
+
+Duration: 5.519 min
+batch number 1806 completed, jumped to initial state 0 times
+
+Duration: 5.521 min
+batch number 1807 completed, jumped to initial state 0 times
+
+Duration: 5.522 min
+batch number 1808 completed, jumped to initial state 0 times
+
+Duration: 5.524 min
+batch number 1809 completed, jumped to initial state 0 times
+
+Duration: 5.525 min
+batch number 1810 completed, jumped to initial state 0 times
+
+Duration: 5.527 min
+batch number 1811 completed, jumped to initial state 0 times
+
+Duration: 5.528 min
+batch number 1812 completed, jumped to initial state 0 times
+
+Duration: 5.530 min
+batch number 1813 completed, jumped to initial state 0 times
+
+Duration: 5.532 min
+batch number 1814 completed, jumped to initial state 0 times
+
+Duration: 5.533 min
+batch number 1815 completed, jumped to initial state 0 times
+
+Duration: 5.534 min
+batch number 1816 completed, jumped to initial state 0 times
+
+Duration: 5.536 min
+batch number 1817 completed, jumped to initial state 0 times
+
+Duration: 5.537 min
+batch number 1818 completed, jumped to initial state 0 times
+
+Duration: 5.539 min
+batch number 1819 completed, jumped to initial state 0 times
+
+Duration: 5.540 min
+batch number 1820 completed, jumped to initial state 0 times
+
+Duration: 5.541 min
+batch number 1821 completed, jumped to initial state 0 times
+
+Duration: 5.543 min
+batch number 1822 completed, jumped to initial state 0 times
+
+Duration: 5.544 min
+batch number 1823 completed, jumped to initial state 0 times
+
+Duration: 5.546 min
+batch number 1824 completed, jumped to initial state 0 times
+
+Duration: 5.547 min
+batch number 1825 completed, jumped to initial state 0 times
+
+Duration: 5.549 min
+batch number 1826 completed, jumped to initial state 0 times
+
+Duration: 5.551 min
+batch number 1827 completed, jumped to initial state 0 times
+
+Duration: 5.552 min
+batch number 1828 completed, jumped to initial state 0 times
+
+Duration: 5.554 min
+batch number 1829 completed, jumped to initial state 0 times
+
+Duration: 5.555 min
+batch number 1830 completed, jumped to initial state 0 times
+
+Duration: 5.556 min
+batch number 1831 completed, jumped to initial state 0 times
+
+Duration: 5.558 min
+batch number 1832 completed, jumped to initial state 0 times
+
+Duration: 5.559 min
+batch number 1833 completed, jumped to initial state 0 times
+
+Duration: 5.561 min
+batch number 1834 completed, jumped to initial state 0 times
+
+Duration: 5.562 min
+batch number 1835 completed, jumped to initial state 0 times
+
+Duration: 5.564 min
+batch number 1836 completed, jumped to initial state 0 times
+
+Duration: 5.565 min
+batch number 1837 completed, jumped to initial state 0 times
+
+Duration: 5.567 min
+batch number 1838 completed, jumped to initial state 0 times
+
+Duration: 5.568 min
+batch number 1839 completed, jumped to initial state 0 times
+
+Duration: 5.570 min
+batch number 1840 completed, jumped to initial state 0 times
+
+Duration: 5.572 min
+batch number 1841 completed, jumped to initial state 0 times
+
+Duration: 5.573 min
+batch number 1842 completed, jumped to initial state 0 times
+
+Duration: 5.575 min
+batch number 1843 completed, jumped to initial state 0 times
+
+Duration: 5.576 min
+batch number 1844 completed, jumped to initial state 0 times
+
+Duration: 5.577 min
+batch number 1845 completed, jumped to initial state 0 times
+
+Duration: 5.579 min
+batch number 1846 completed, jumped to initial state 0 times
+
+Duration: 5.580 min
+batch number 1847 completed, jumped to initial state 0 times
+
+Duration: 5.581 min
+batch number 1848 completed, jumped to initial state 0 times
+
+Duration: 5.583 min
+batch number 1849 completed, jumped to initial state 0 times
+
+Duration: 5.584 min
+batch number 1850 completed, jumped to initial state 0 times
+
+Duration: 5.586 min
+batch number 1851 completed, jumped to initial state 0 times
+
+Duration: 5.587 min
+batch number 1852 completed, jumped to initial state 0 times
+
+Duration: 5.588 min
+batch number 1853 completed, jumped to initial state 0 times
+
+Duration: 5.590 min
+batch number 1854 completed, jumped to initial state 0 times
+
+Duration: 5.591 min
+batch number 1855 completed, jumped to initial state 0 times
+
+Duration: 5.593 min
+batch number 1856 completed, jumped to initial state 0 times
+
+Duration: 5.594 min
+batch number 1857 completed, jumped to initial state 0 times
+
+Duration: 5.596 min
+batch number 1858 completed, jumped to initial state 0 times
+
+Duration: 5.598 min
+batch number 1859 completed, jumped to initial state 0 times
+
+Duration: 5.599 min
+batch number 1860 completed, jumped to initial state 0 times
+
+Duration: 5.600 min
+batch number 1861 completed, jumped to initial state 0 times
+
+Duration: 5.602 min
+batch number 1862 completed, jumped to initial state 0 times
+
+Duration: 5.603 min
+batch number 1863 completed, jumped to initial state 0 times
+
+Duration: 5.605 min
+batch number 1864 completed, jumped to initial state 0 times
+
+Duration: 5.606 min
+batch number 1865 completed, jumped to initial state 0 times
+
+Duration: 5.608 min
+batch number 1866 completed, jumped to initial state 0 times
+
+Duration: 5.609 min
+batch number 1867 completed, jumped to initial state 0 times
+
+Duration: 5.610 min
+batch number 1868 completed, jumped to initial state 0 times
+
+Duration: 5.612 min
+batch number 1869 completed, jumped to initial state 0 times
+
+Duration: 5.613 min
+batch number 1870 completed, jumped to initial state 0 times
+
+Duration: 5.615 min
+batch number 1871 completed, jumped to initial state 0 times
+
+Duration: 5.616 min
+batch number 1872 completed, jumped to initial state 0 times
+
+Duration: 5.618 min
+batch number 1873 completed, jumped to initial state 0 times
+
+Duration: 5.619 min
+batch number 1874 completed, jumped to initial state 0 times
+
+Duration: 5.621 min
+batch number 1875 completed, jumped to initial state 0 times
+
+Duration: 5.623 min
+batch number 1876 completed, jumped to initial state 0 times
+
+Duration: 5.624 min
+batch number 1877 completed, jumped to initial state 0 times
+
+Duration: 5.626 min
+batch number 1878 completed, jumped to initial state 0 times
+
+Duration: 5.627 min
+batch number 1879 completed, jumped to initial state 0 times
+
+Duration: 5.629 min
+batch number 1880 completed, jumped to initial state 0 times
+
+Duration: 5.630 min
+batch number 1881 completed, jumped to initial state 0 times
+
+Duration: 5.632 min
+batch number 1882 completed, jumped to initial state 0 times
+
+Duration: 5.633 min
+batch number 1883 completed, jumped to initial state 0 times
+
+Duration: 5.634 min
+batch number 1884 completed, jumped to initial state 0 times
+
+Duration: 5.636 min
+batch number 1885 completed, jumped to initial state 0 times
+
+Duration: 5.637 min
+batch number 1886 completed, jumped to initial state 0 times
+
+Duration: 5.639 min
+batch number 1887 completed, jumped to initial state 0 times
+
+Duration: 5.640 min
+batch number 1888 completed, jumped to initial state 0 times
+
+Duration: 5.641 min
+batch number 1889 completed, jumped to initial state 0 times
+
+Duration: 5.643 min
+batch number 1890 completed, jumped to initial state 0 times
+
+Duration: 5.644 min
+batch number 1891 completed, jumped to initial state 0 times
+
+Duration: 5.646 min
+batch number 1892 completed, jumped to initial state 0 times
+
+Duration: 5.647 min
+batch number 1893 completed, jumped to initial state 0 times
+
+Duration: 5.649 min
+batch number 1894 completed, jumped to initial state 0 times
+
+Duration: 5.650 min
+batch number 1895 completed, jumped to initial state 0 times
+
+Duration: 5.652 min
+batch number 1896 completed, jumped to initial state 0 times
+
+Duration: 5.653 min
+batch number 1897 completed, jumped to initial state 0 times
+
+Duration: 5.655 min
+batch number 1898 completed, jumped to initial state 0 times
+
+Duration: 5.657 min
+batch number 1899 completed, jumped to initial state 0 times
+
+Duration: 5.658 min
+batch number 1900 completed, jumped to initial state 0 times
+
+Duration: 5.659 min
+batch number 1901 completed, jumped to initial state 0 times
+
+Duration: 5.661 min
+batch number 1902 completed, jumped to initial state 0 times
+
+Duration: 5.662 min
+batch number 1903 completed, jumped to initial state 0 times
+
+Duration: 5.664 min
+batch number 1904 completed, jumped to initial state 0 times
+
+Duration: 5.665 min
+batch number 1905 completed, jumped to initial state 0 times
+
+Duration: 5.667 min
+batch number 1906 completed, jumped to initial state 0 times
+
+Duration: 5.668 min
+batch number 1907 completed, jumped to initial state 0 times
+
+Duration: 5.670 min
+batch number 1908 completed, jumped to initial state 0 times
+
+Duration: 5.671 min
+batch number 1909 completed, jumped to initial state 0 times
+
+Duration: 5.672 min
+batch number 1910 completed, jumped to initial state 0 times
+
+Duration: 5.674 min
+batch number 1911 completed, jumped to initial state 0 times
+
+Duration: 5.675 min
+batch number 1912 completed, jumped to initial state 0 times
+
+Duration: 5.677 min
+batch number 1913 completed, jumped to initial state 0 times
+
+Duration: 5.678 min
+batch number 1914 completed, jumped to initial state 0 times
+
+Duration: 5.680 min
+batch number 1915 completed, jumped to initial state 0 times
+
+Duration: 5.681 min
+batch number 1916 completed, jumped to initial state 0 times
+
+Duration: 5.683 min
+batch number 1917 completed, jumped to initial state 0 times
+
+Duration: 5.684 min
+batch number 1918 completed, jumped to initial state 0 times
+
+Duration: 5.685 min
+batch number 1919 completed, jumped to initial state 0 times
+
+Duration: 5.687 min
+batch number 1920 completed, jumped to initial state 0 times
+
+Duration: 5.688 min
+batch number 1921 completed, jumped to initial state 0 times
+
+Duration: 5.689 min
+batch number 1922 completed, jumped to initial state 0 times
+
+Duration: 5.691 min
+batch number 1923 completed, jumped to initial state 0 times
+
+Duration: 5.692 min
+batch number 1924 completed, jumped to initial state 0 times
+
+Duration: 5.694 min
+batch number 1925 completed, jumped to initial state 0 times
+
+Duration: 5.695 min
+batch number 1926 completed, jumped to initial state 0 times
+
+Duration: 5.696 min
+batch number 1927 completed, jumped to initial state 0 times
+
+Duration: 5.698 min
+batch number 1928 completed, jumped to initial state 0 times
+
+Duration: 5.699 min
+batch number 1929 completed, jumped to initial state 0 times
+
+Duration: 5.702 min
+batch number 1930 completed, jumped to initial state 0 times
+
+Duration: 5.703 min
+batch number 1931 completed, jumped to initial state 0 times
+
+Duration: 5.705 min
+batch number 1932 completed, jumped to initial state 0 times
+
+Duration: 5.707 min
+batch number 1933 completed, jumped to initial state 0 times
+
+Duration: 5.708 min
+batch number 1934 completed, jumped to initial state 0 times
+
+Duration: 5.710 min
+batch number 1935 completed, jumped to initial state 0 times
+
+Duration: 5.711 min
+batch number 1936 completed, jumped to initial state 0 times
+
+Duration: 5.713 min
+batch number 1937 completed, jumped to initial state 0 times
+
+Duration: 5.715 min
+batch number 1938 completed, jumped to initial state 0 times
+
+Duration: 5.716 min
+batch number 1939 completed, jumped to initial state 0 times
+
+Duration: 5.717 min
+batch number 1940 completed, jumped to initial state 0 times
+
+Duration: 5.719 min
+batch number 1941 completed, jumped to initial state 0 times
+
+Duration: 5.720 min
+batch number 1942 completed, jumped to initial state 0 times
+
+Duration: 5.723 min
+batch number 1943 completed, jumped to initial state 0 times
+
+Duration: 5.724 min
+batch number 1944 completed, jumped to initial state 0 times
+
+Duration: 5.726 min
+batch number 1945 completed, jumped to initial state 0 times
+
+Duration: 5.727 min
+batch number 1946 completed, jumped to initial state 0 times
+
+Duration: 5.728 min
+batch number 1947 completed, jumped to initial state 0 times
+
+Duration: 5.730 min
+batch number 1948 completed, jumped to initial state 0 times
+
+Duration: 5.731 min
+batch number 1949 completed, jumped to initial state 0 times
+
+Duration: 5.733 min
+batch number 1950 completed, jumped to initial state 0 times
+
+Duration: 5.735 min
+batch number 1951 completed, jumped to initial state 0 times
+
+Duration: 5.736 min
+batch number 1952 completed, jumped to initial state 0 times
+
+Duration: 5.738 min
+batch number 1953 completed, jumped to initial state 0 times
+
+Duration: 5.739 min
+batch number 1954 completed, jumped to initial state 0 times
+
+Duration: 5.741 min
+batch number 1955 completed, jumped to initial state 0 times
+
+Duration: 5.742 min
+batch number 1956 completed, jumped to initial state 0 times
+
+Duration: 5.744 min
+batch number 1957 completed, jumped to initial state 0 times
+
+Duration: 5.745 min
+batch number 1958 completed, jumped to initial state 0 times
+
+Duration: 5.747 min
+batch number 1959 completed, jumped to initial state 0 times
+
+Duration: 5.749 min
+batch number 1960 completed, jumped to initial state 0 times
+
+Duration: 5.750 min
+batch number 1961 completed, jumped to initial state 0 times
+
+Duration: 5.751 min
+batch number 1962 completed, jumped to initial state 0 times
+
+Duration: 5.753 min
+batch number 1963 completed, jumped to initial state 0 times
+
+Duration: 5.755 min
+batch number 1964 completed, jumped to initial state 0 times
+
+Duration: 5.756 min
+batch number 1965 completed, jumped to initial state 0 times
+
+Duration: 5.757 min
+batch number 1966 completed, jumped to initial state 0 times
+
+Duration: 5.759 min
+batch number 1967 completed, jumped to initial state 0 times
+
+Duration: 5.760 min
+batch number 1968 completed, jumped to initial state 0 times
+
+Duration: 5.762 min
+batch number 1969 completed, jumped to initial state 0 times
+
+Duration: 5.763 min
+batch number 1970 completed, jumped to initial state 0 times
+
+Duration: 5.765 min
+batch number 1971 completed, jumped to initial state 0 times
+
+Duration: 5.766 min
+batch number 1972 completed, jumped to initial state 0 times
+
+Duration: 5.767 min
+batch number 1973 completed, jumped to initial state 0 times
+
+Duration: 5.769 min
+batch number 1974 completed, jumped to initial state 0 times
+
+Duration: 5.771 min
+batch number 1975 completed, jumped to initial state 0 times
+
+Duration: 5.772 min
+batch number 1976 completed, jumped to initial state 0 times
+
+Duration: 5.774 min
+batch number 1977 completed, jumped to initial state 0 times
+
+Duration: 5.775 min
+batch number 1978 completed, jumped to initial state 0 times
+
+Duration: 5.777 min
+batch number 1979 completed, jumped to initial state 0 times
+
+Duration: 5.778 min
+batch number 1980 completed, jumped to initial state 0 times
+
+Duration: 5.779 min
+batch number 1981 completed, jumped to initial state 0 times
+
+Duration: 5.781 min
+batch number 1982 completed, jumped to initial state 0 times
+
+Duration: 5.782 min
+batch number 1983 completed, jumped to initial state 0 times
+
+Duration: 5.784 min
+batch number 1984 completed, jumped to initial state 0 times
+
+Duration: 5.785 min
+batch number 1985 completed, jumped to initial state 0 times
+
+Duration: 5.787 min
+batch number 1986 completed, jumped to initial state 0 times
+
+Duration: 5.788 min
+batch number 1987 completed, jumped to initial state 0 times
+
+Duration: 5.790 min
+batch number 1988 completed, jumped to initial state 0 times
+
+Duration: 5.791 min
+batch number 1989 completed, jumped to initial state 0 times
+
+Duration: 5.792 min
+batch number 1990 completed, jumped to initial state 0 times
+
+Duration: 5.794 min
+batch number 1991 completed, jumped to initial state 0 times
+
+Duration: 5.795 min
+batch number 1992 completed, jumped to initial state 0 times
+
+Duration: 5.797 min
+batch number 1993 completed, jumped to initial state 0 times
+
+Duration: 5.798 min
+batch number 1994 completed, jumped to initial state 0 times
+
+Duration: 5.799 min
+batch number 1995 completed, jumped to initial state 0 times
+
+Duration: 5.801 min
+batch number 1996 completed, jumped to initial state 0 times
+
+Duration: 5.802 min
+batch number 1997 completed, jumped to initial state 0 times
+
+Duration: 5.804 min
+batch number 1998 completed, jumped to initial state 0 times
+
+Duration: 5.805 min
+batch number 1999 completed, jumped to initial state 0 times
+
+Duration: 5.807 min
+batch number 2000 completed, jumped to initial state 0 times
+
+Duration: 5.808 min
+SAMPLING COMPLETE.
+Jumped to initial state due to high error 0 times
+TOTAL TIME TO SAMPLE: 5.8083640495936075

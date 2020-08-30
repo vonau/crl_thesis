@@ -1,0 +1,81 @@
+using dde version: v0.1.2-19-gc8fdd08
+log level set to LogLevel.off
+Successfully created the directory ../Data/Samples/data_cube-drag_30tsteps_1515/
+SAMPLING STARTED...
+SAMPLING INITIAL STATES...
+0.0003403703371683756 simulation number 0 complete
+1.949470301469167 simulation number 2000 complete
+3.8750004172325134 simulation number 4000 complete
+5.791241141160329 simulation number 6000 complete
+7.715868385632833 simulation number 8000 complete
+9.632203018665313 simulation number 10000 complete
+11.57734968662262 simulation number 12000 complete
+13.528857354323069 simulation number 14000 complete
+15.433294792970022 simulation number 16000 complete
+17.37343886693319 simulation number 18000 complete
+TOTAL TIME TO SAMPLE STARTIG STATES: 19.398391660054525
+SAMPLING NEW TARGETS...
+SAMPLING CONTROLS...
+batch number 1 completed
+
+Duration: 20.418 min
+batch number 2 completed
+
+Duration: 21.400 min
+batch number 3 completed
+
+Duration: 22.346 min
+batch number 4 completed
+
+Duration: 23.337 min
+batch number 5 completed
+
+Duration: 24.312 min
+batch number 6 completed
+
+Duration: 25.300 min
+batch number 7 completed
+
+Duration: 26.289 min
+batch number 8 completed
+
+Duration: 27.286 min
+batch number 9 completed
+
+Duration: 28.220 min
+batch number 10 completed
+
+Duration: 29.218 min
+batch number 11 completed
+
+Duration: 30.198 min
+batch number 12 completed
+
+Duration: 31.171 min
+batch number 13 completed
+
+Duration: 32.147 min
+batch number 14 completed
+
+Duration: 33.108 min
+batch number 15 completed
+
+Duration: 34.073 min
+batch number 16 completed
+
+Duration: 35.003 min
+batch number 17 completed
+
+Duration: 35.952 min
+batch number 18 completed
+
+Duration: 36.917 min
+batch number 19 completed
+
+Duration: 37.907 min
+batch number 20 completed
+
+Duration: 38.928 min
+SAMPLING COMPLETE.
+Jumped to initial state due to high error 0 times
+TOTAL TIME TO SAMPLE: 38.92805835405986

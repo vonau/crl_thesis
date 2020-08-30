@@ -1,0 +1,74 @@
+using dde version: v0.1.2-19-gc8fdd08
+log level set to LogLevel.off
+Successfully created the directory ../Data/Samples/data_qhold_60tsteps_1535/
+SAMPLING STARTED...
+SAMPLING INITIAL STATES...
+0.00037325620651245116 simulation number 1 complete
+0.14645880460739136 simulation number 401 complete
+0.28728168408075966 simulation number 801 complete
+0.4333583513895671 simulation number 1201 complete
+0.5704381028811137 simulation number 1601 complete
+TOTAL TIME TO SAMPLE STARTIG STATES: 0.7121656696001689
+batch number 1 completed
+
+Duration: 1.048 min
+batch number 2 completed
+
+Duration: 1.376 min
+batch number 3 completed
+
+Duration: 1.707 min
+batch number 4 completed
+
+Duration: 2.042 min
+batch number 5 completed
+
+Duration: 2.374 min
+batch number 6 completed
+
+Duration: 2.696 min
+batch number 7 completed
+
+Duration: 3.026 min
+batch number 8 completed
+
+Duration: 3.352 min
+batch number 9 completed
+
+Duration: 3.679 min
+batch number 10 completed
+
+Duration: 4.025 min
+batch number 11 completed
+
+Duration: 4.358 min
+batch number 12 completed
+
+Duration: 4.690 min
+batch number 13 completed
+
+Duration: 5.023 min
+batch number 14 completed
+
+Duration: 5.356 min
+batch number 15 completed
+
+Duration: 5.679 min
+batch number 16 completed
+
+Duration: 6.006 min
+batch number 17 completed
+
+Duration: 6.337 min
+batch number 18 completed
+
+Duration: 6.659 min
+batch number 19 completed
+
+Duration: 6.980 min
+batch number 20 completed
+
+Duration: 7.308 min
+SAMPLING COMPLETE.
+Jumped to initial state due to high error 0 times
+TOTAL TIME TO SAMPLE: 7.307664179801941

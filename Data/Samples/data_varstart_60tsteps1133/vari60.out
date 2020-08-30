@@ -1,0 +1,74 @@
+using dde version: v0.1.2-19-gc8fdd08
+log level set to LogLevel.off
+Successfully created the directory ../Data/Samples/data_varstart_60tsteps1133/
+SAMPLING STARTED...
+20000
+SAMPLING INITIAL STATES...
+TOTAL TIME TO SAMPLE STARTIG STATES: 4.119078318277995e-05
+SAMPLING NEW TARGETS...
+
+Duration to start: 0.000 min
+SAMPLING CONTROLS...
+batch number 1 completed, jumped to initial state 0 times
+
+Duration: 0.115 min
+batch number 2 completed, jumped to initial state 0 times
+
+Duration: 0.254 min
+batch number 3 completed, jumped to initial state 0 times
+
+Duration: 0.404 min
+batch number 4 completed, jumped to initial state 0 times
+
+Duration: 0.547 min
+batch number 5 completed, jumped to initial state 0 times
+
+Duration: 0.765 min
+batch number 6 completed, jumped to initial state 0 times
+
+Duration: 0.903 min
+batch number 7 completed, jumped to initial state 0 times
+
+Duration: 1.049 min
+batch number 8 completed, jumped to initial state 0 times
+
+Duration: 1.214 min
+batch number 9 completed, jumped to initial state 0 times
+
+Duration: 1.337 min
+batch number 10 completed, jumped to initial state 0 times
+
+Duration: 1.470 min
+batch number 11 completed, jumped to initial state 0 times
+
+Duration: 1.594 min
+batch number 12 completed, jumped to initial state 0 times
+
+Duration: 1.704 min
+batch number 13 completed, jumped to initial state 0 times
+
+Duration: 1.862 min
+batch number 14 completed, jumped to initial state 0 times
+
+Duration: 2.006 min
+batch number 15 completed, jumped to initial state 0 times
+
+Duration: 2.146 min
+batch number 16 completed, jumped to initial state 0 times
+
+Duration: 2.302 min
+batch number 17 completed, jumped to initial state 0 times
+
+Duration: 2.443 min
+batch number 18 completed, jumped to initial state 0 times
+
+Duration: 2.578 min
+batch number 19 completed, jumped to initial state 0 times
+
+Duration: 2.767 min
+batch number 20 completed, jumped to initial state 0 times
+
+Duration: 2.907 min
+SAMPLING COMPLETE.
+Jumped to initial state due to high error 0 times
+TOTAL TIME TO SAMPLE: 2.907201596101125

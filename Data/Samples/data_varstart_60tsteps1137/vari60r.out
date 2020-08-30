@@ -1,0 +1,86 @@
+using dde version: v0.1.2-19-gc8fdd08
+log level set to LogLevel.off
+Successfully created the directory ../Data/Samples/data_varstart_60tsteps1137/
+SAMPLING STARTED...
+20000
+SAMPLING INITIAL STATES...
+8.050998051961263e-05 simulation number 0 complete
+0.2234629233678182 simulation number 2000 complete
+0.4469051202138265 simulation number 4000 complete
+0.6703719774881999 simulation number 6000 complete
+0.8942619482676188 simulation number 8000 complete
+1.117939865589142 simulation number 10000 complete
+1.3414509097735088 simulation number 12000 complete
+1.5648110032081604 simulation number 14000 complete
+1.7885171254475911 simulation number 16000 complete
+2.011935305595398 simulation number 18000 complete
+Jumped to initial state due to high error 0 times
+Terminated off optimization due to high error 0 times
+TOTAL TIME TO SAMPLE STARTIG STATES: 2.2362645665804544
+SAMPLING NEW TARGETS...
+
+Duration to start: 2.236 min
+SAMPLING CONTROLS...
+batch number 1 completed, jumped to initial state 0 times
+
+Duration: 2.349 min
+batch number 2 completed, jumped to initial state 0 times
+
+Duration: 2.470 min
+batch number 3 completed, jumped to initial state 0 times
+
+Duration: 2.578 min
+batch number 4 completed, jumped to initial state 0 times
+
+Duration: 2.710 min
+batch number 5 completed, jumped to initial state 0 times
+
+Duration: 2.825 min
+batch number 6 completed, jumped to initial state 0 times
+
+Duration: 2.969 min
+batch number 7 completed, jumped to initial state 0 times
+
+Duration: 3.079 min
+batch number 8 completed, jumped to initial state 0 times
+
+Duration: 3.190 min
+batch number 9 completed, jumped to initial state 0 times
+
+Duration: 3.300 min
+batch number 10 completed, jumped to initial state 0 times
+
+Duration: 3.430 min
+batch number 11 completed, jumped to initial state 0 times
+
+Duration: 3.556 min
+batch number 12 completed, jumped to initial state 0 times
+
+Duration: 3.673 min
+batch number 13 completed, jumped to initial state 0 times
+
+Duration: 3.787 min
+batch number 14 completed, jumped to initial state 0 times
+
+Duration: 3.904 min
+batch number 15 completed, jumped to initial state 0 times
+
+Duration: 4.025 min
+batch number 16 completed, jumped to initial state 0 times
+
+Duration: 4.158 min
+batch number 17 completed, jumped to initial state 0 times
+
+Duration: 4.298 min
+batch number 18 completed, jumped to initial state 0 times
+
+Duration: 4.409 min
+batch number 19 completed, jumped to initial state 0 times
+
+Duration: 4.528 min
+batch number 20 completed, jumped to initial state 0 times
+
+Duration: 4.650 min
+SAMPLING COMPLETE.
+Jumped to initial state due to high error 0 times
+TOTAL TIME TO SAMPLE: 4.65026087363561

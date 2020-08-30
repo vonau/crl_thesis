@@ -1,0 +1,46 @@
+using dde version: v0.1.2-19-gc8fdd08
+log level set to LogLevel.off
+Successfully created the directory ../Data/Samples/data_varstart_30tsteps1348/
+SAMPLING STARTED...
+SAMPLING STATES...
+0.00010370413462320963 simulation number 0 complete
+8.887466883659362 simulation number 2000 complete
+15.665026473999024 simulation number 3500 complete
+TOTAL TIME TO SAMPLE STARTIG STATES: 22.476983805497486
+SAMPLING NEW TARGETS...
+
+Duration to start: 22.477 min
+SAMPLING CONTROLS...
+batch number 1 completed
+
+Duration: 27.809 min
+batch number 2 completed
+
+Duration: 33.130 min
+batch number 3 completed
+
+Duration: 38.440 min
+batch number 4 completed
+
+Duration: 43.668 min
+batch number 5 completed
+
+Duration: 48.969 min
+batch number 6 completed
+
+Duration: 54.292 min
+batch number 7 completed
+
+Duration: 59.615 min
+batch number 8 completed
+
+Duration: 64.947 min
+batch number 9 completed
+
+Duration: 70.309 min
+batch number 10 completed
+
+Duration: 75.627 min
+SAMPLING COMPLETE.
+Jumped to initial state due to high error 9787 times
+TOTAL TIME TO SAMPLE: 75.62686573266983

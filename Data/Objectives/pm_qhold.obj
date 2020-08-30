@@ -1,0 +1,29 @@
+{
+    "objectives": {
+        "initialP0": [
+            {
+                "weight": 10.0
+            }
+        ],
+        "pmTargetPositions": [],
+        "rbTargetPositions": [],
+        "rbTargetPositionsAlways": [],
+        "regP": [],
+        "smoothAccRegP": [],
+        "smoothRbPos": [],
+        "smoothRegP": [
+            {
+                "weight": 1.0
+            }
+        ],
+        "smoothRegY": [
+            {
+                "weight": 100.0
+            }
+        ],
+        "smoothSubSetRegP": [],
+        "subSetRegP": [],
+        "subSetRegY": [],
+        "toolPath": []
+    }
+}

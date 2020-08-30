@@ -1,0 +1,27 @@
+using dde version: v0.1.2-19-gc8fdd08
+log level set to LogLevel.off
+Successfully created the directory ../Data/Samples/data_cube-drag_30tsteps_1455/
+SAMPLING STARTED...
+SAMPLING INITIAL STATES...
+0.0003731250762939453 simulation number 1 complete
+TOTAL TIME TO SAMPLE STARTIG STATES: 5.051029332478842
+SAMPLING NEW TARGETS...
+SAMPLING CONTROLS...
+batch number 1 completed
+
+Duration: 13.421 min
+batch number 2 completed
+
+Duration: 19.573 min
+batch number 3 completed
+
+Duration: 28.323 min
+batch number 4 completed
+
+Duration: 35.156 min
+batch number 5 completed
+
+Duration: 44.354 min
+SAMPLING COMPLETE.
+Jumped to initial state due to high error 167 times
+TOTAL TIME TO SAMPLE: 44.3540576616923

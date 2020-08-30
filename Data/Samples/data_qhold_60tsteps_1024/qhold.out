@@ -1,0 +1,69 @@
+using dde version: v0.1.2-21-g7a14836-dirty
+log level set to LogLevel.off
+Successfully created the directory ../Data/Samples/data_qhold_60tsteps_1024/
+SAMPLING STARTED...
+SAMPLING INITIAL STATES...
+TOTAL TIME TO SAMPLE STARTIG STATES: 2.959569295247396e-05
+batch number 1 completed
+
+Duration: 1.690 min
+batch number 2 completed
+
+Duration: 3.387 min
+batch number 3 completed
+
+Duration: 5.124 min
+batch number 4 completed
+
+Duration: 6.821 min
+batch number 5 completed
+
+Duration: 8.556 min
+batch number 6 completed
+
+Duration: 10.270 min
+batch number 7 completed
+
+Duration: 11.998 min
+batch number 8 completed
+
+Duration: 13.704 min
+batch number 9 completed
+
+Duration: 15.397 min
+batch number 10 completed
+
+Duration: 17.083 min
+batch number 11 completed
+
+Duration: 18.822 min
+batch number 12 completed
+
+Duration: 20.559 min
+batch number 13 completed
+
+Duration: 22.264 min
+batch number 14 completed
+
+Duration: 23.961 min
+batch number 15 completed
+
+Duration: 25.716 min
+batch number 16 completed
+
+Duration: 27.477 min
+batch number 17 completed
+
+Duration: 29.207 min
+batch number 18 completed
+
+Duration: 30.938 min
+batch number 19 completed
+
+Duration: 32.640 min
+batch number 20 completed
+
+Duration: 34.415 min
+SAMPLING COMPLETE.
+Jumped to initial state due to high error 0 times
+TOTAL TIME TO SAMPLE: 34.41477799812953
