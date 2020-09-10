@@ -1,0 +1,52 @@
+Unable to init server: Could not connect: Connection refused
+Unable to init server: Could not connect: Connection refused
+
+(GridSearch_qhold_passive.py:249330): Gdk-CRITICAL **: 10:18:27.000: gdk_cursor_new_for_display: assertion 'GDK_IS_DISPLAY (display)' failed
+nTimeSteps: 10
+using dde version: v0.1.2-21-g7a14836-dirty
+log level set to LogLevel.off
+['data_2.json', 'data_test', 'data_12.json', 'data_4.json', 'qhold.out', 'data_13.json', 'data_6.json', 'Sampling_qhold.py', 'Description.json', 'data_14.json', 'data_11.json', 'data_0.json', 'data_8.json', 'data_10.json', 'data_5.json', 'data_9.json', 'data_3.json', 'data_7.json', 'data_1.json']
+Shape of input: (15000, 9)
+Shape of p: (15000, 30)
+(15000, 9)
+(15000, 30)
+Shape of input_test: (5000, 9)
+Shape of p_test: (5000, 30)
+(5000, 9)
+(5000, 30)
+epoch:   0/200    LR:   0.010000  loss: 0.03157496
+epoch:  20/200    LR:   0.004000  loss: 0.01643587
+epoch:  40/200    LR:   0.001600  loss: 0.01262775
+epoch:  60/200    LR:   0.000256  loss: 0.01134818
+epoch:  80/200    LR:   0.000102  loss: 0.01125079
+epoch: 100/200    LR:   0.000041  loss: 0.01119924
+epoch: 120/200    LR:   0.000007  loss: 0.01116118
+epoch: 140/200    LR:   0.000003  loss: 0.01115429
+epoch: 160/200    LR:   0.000001  loss: 0.01115151
+epoch: 180/200    LR:   0.000000  loss: 0.01115008
+Model 0 trained
+epoch: 199 final loss: 0.01114962
+
+Training completed. Total duration: 1.501 min
+
+
+TOTAL ERROR: 41.086251640237606    epochs: 200    batchsize: 50   LRdecay: 0.4  hiddenlayer[10, 50]
+epoch:   0/200    LR:   0.010000  loss: 0.02158278
+epoch:  20/200    LR:   0.004000  loss: 0.01043946
+epoch:  40/200    LR:   0.001600  loss: 0.00663642
+epoch:  60/200    LR:   0.000256  loss: 0.00556810
+epoch:  80/200    LR:   0.000102  loss: 0.00535824
+epoch: 100/200    LR:   0.000041  loss: 0.00530671
+epoch: 120/200    LR:   0.000007  loss: 0.00528696
+epoch: 140/200    LR:   0.000003  loss: 0.00527837
+epoch: 160/200    LR:   0.000001  loss: 0.00527476
+epoch: 180/200    LR:   0.000000  loss: 0.00527308
+Model 1 trained
+epoch: 199 final loss: 0.00527244
+
+Training completed. Total duration: 3.088 min
+
+
+TOTAL ERROR: 26.021430157015857    epochs: 200    batchsize: 50   LRdecay: 0.4  hiddenlayer[30, 100]
+
+Duration: 3.104 min

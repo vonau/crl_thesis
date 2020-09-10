@@ -15,28 +15,32 @@ import time
 #PARAMETERS
 print(time.strftime("%H%M"))
 nTimeSteps = 60 #seconds
-samplenum = 30000
-epochs = 200
-minibatch_size= 50
+print(f'nTimeSteps: {nTimeSteps}')
+samplenum = 15000
+epochs = 300
+minibatch_size= 30
 input_size = 9
-hiddenlayers = [100]
-learning_rate = 0.01
+hiddenlayers = [150, 200]
+learning_rate = 0.001
 LRdecay = 0.7
 use_case = 'qhold'
 model_file_path = '../Trained_Models/'
-sample_file_path = f'../Data/Samples/data_{use_case}_{nTimeSteps}tsteps_1535/'
+sample_file_path = f'../Data/Samples/data_{use_case}_{nTimeSteps}tsteps_1024/'
 simulation_file_path = '../Data/Simulations/pm_target.sim'
 objective_file_path = f'../Data/Objectives/pm_qhold.obj'
 
+# check dde version
+print("using dde version: " + dde.__version__)
 # set log level
 dde.set_log_level(dde.LogLevel.off)
+print(f'log level set to {dde.get_log_level()}')
 
 #######################################
 # LOAD SIMULATION AND OBJECTIVE FUNCTION
 dyn = dde.DynamicSequence()
 dyn.loadFile(simulation_file_path, nTimeSteps)
 p_init = np.zeros(dyn.p0.size*nTimeSteps)
-for i in range(nTimeSteps):
+for i in range(0,nTimeSteps):
 	p_init[i*dyn.p0.size : (i+1)*dyn.p0.size] = dyn.p0
 state_init = dyn.q(p_init)
 r = dyn.r(state_init, p_init)
@@ -51,49 +55,33 @@ opt = dde.Newton()
 
 #########################################
 #LOAD TRAINING SAMPLES
-output_size = dyn.nParameters*nTimeSteps
-'''
 number_of_files = len(os.listdir(sample_file_path))-4
 samplenum = 1000*number_of_files
 output_size = dyn.nParameters*nTimeSteps
 
+p = np.zeros((samplenum, dyn.nParameters*nTimeSteps))
 input = np.zeros((samplenum, input_size))
 
 for filenum in range(number_of_files):
     with open(sample_file_path + f'data_{filenum}.json') as json_file:
-        data = json.load(json_file)
-        filesize = len(data['q'])
-        for i, q_i in enumerate(data['q']):
+        data_ = json.load(json_file)
+        filesize = len(data_['q'])
+        for i, p_i in enumerate(data_['p']):
+            p[filenum*filesize+i, :] = np.array(p_i)
+        for i, q_i in enumerate(data_['q']):
             input[filenum*filesize+i, 0:3] = np.array(q_i)
-        for i, qdot_i in enumerate(data['qdot']):
+        for i, qdot_i in enumerate(data_['qdot']):
             input[filenum*filesize+i, 3:6] = np.array(qdot_i)
-        for i, qddot_i in enumerate(data['qddot']):
-            input[filenum*filesize+i, 6:9] = np.array(qddot_i)
-        for i, p_now_i in enumerate(data['p_now']):
-            input[filenum*filesize+i, 9:12] = np.array(p_now_i)
-'''
-input = np.zeros((samplenum,input_size))
-# sample q
-input[:,0] = np.random.rand(samplenum)
-input[:,1] = np.random.rand(samplenum)
-input[:,2] = np.random.rand(samplenum)
-# sample qdot
-input[:,3] = np.random.rand(samplenum)-0.5
-input[:,4] = np.random.rand(samplenum)-0.5
-input[:,5] = np.random.rand(samplenum)-0.5
-# sample p_now
-input[:,6] = np.random.rand(samplenum)*3-1
-input[:,7] = np.random.rand(samplenum)*3-1
-input[:,8] = np.random.rand(samplenum)*3-1
+        for i, p_now_i in enumerate(data_['p_now']):
+            input[filenum*filesize+i, 6:9] = np.array(p_now_i)
 
-q_truth = np.zeros((samplenum, dyn.nDofs*nTimeSteps))
-for i in range(samplenum):
-    for k in range(nTimeSteps):
-	    q_truth[i, k*dyn.nDofs : (k+1)*dyn.nDofs] = input[i, 0:3]
+print(f'Shape of input: {input.shape}')
+print(f'Shape of p: {p.shape}')
 #Remove zeros
-input = input[~(input == 0).all(1)]
-print(f'Shape of data: {input.shape}')
-print(f'Shape of q_truth: {q_truth.shape}')
+data = input[~(input == 0).all(1)]
+p = p[~(p == 0).all(1)]
+print(data.shape)
+print(p.shape)
 
 # Splitting the dataset into the Training set and Test set
 #from sklearn.model_selection import train_test_split
@@ -101,10 +89,41 @@ print(f'Shape of q_truth: {q_truth.shape}')
 
 #y_target = torch.tensor(y_train).float()
 #p = torch.tensor(p_train).float()
-input = torch.tensor(input).float()
-q_truth = torch.tensor(q_truth).float()
+p = torch.tensor(p).float()
 #y_test = torch.tensor(y_test).float()
 #p_test = torch.tensor(p_test).float()
+
+#########################################
+#LOAD TEST SAMPLES
+number_of_files_test = len(os.listdir(sample_file_path + 'data_test/'))
+samplenum_test = 1000*number_of_files_test
+
+p_test = np.zeros((samplenum_test, 3*nTimeSteps))
+input_test = np.zeros((samplenum_test, input_size))
+
+for filenum in range(number_of_files_test):
+    with open(sample_file_path + f'data_test/data_{filenum}.json') as json_file:
+        data_ = json.load(json_file)
+        filesize = len(data_['q'])
+        for i, p_i in enumerate(data_['p']):
+            p_test[filenum*filesize+i, :] = np.array(p_i)
+        for i, q_i in enumerate(data_['q']):
+            input_test[filenum*filesize+i, 0:3] = np.array(q_i)
+        for i, qdot_i in enumerate(data_['qdot']):
+            input_test[filenum*filesize+i, 3:6] = np.array(qdot_i)
+        for i, p_now_i in enumerate(data_['p_now']):
+            input_test[filenum*filesize+i, 6:9] = np.array(p_now_i)
+
+print(f'Shape of input_test: {input_test.shape}')
+print(f'Shape of p_test: {p_test.shape}')
+#Remove zeros
+input_test = input_test[~(input_test == 0).all(1)]
+p_test = p_test[~(p_test == 0).all(1)]
+print(input_test.shape)
+print(p_test.shape)
+
+input_test = torch.tensor(input_test).float()
+p_test = torch.tensor(p_test).float()
 
 ##########################################
 #BUILD CUSTOM SIMULATION FUNCTION
@@ -113,16 +132,17 @@ class Simulate(torch.autograd.Function):
     @staticmethod
     def forward(ctx, input, data_input):
         #print(f'input: {input.shape}')
-        p = input.detach().clone().numpy().transpose()
-        q_pred = torch.ones([len(p[0, :]),dyn.nParameters*nTimeSteps])
-        for i in range(len(p[0, :])):
-            #dyn.q0 = data_input[i, 0:3]
-            #dyn.qdot0 = data_input[i, 3:6]
-            state = dyn.q(p[:,i], data_input[i, 0:3], data_input[i, 3:6])
+        p = input.detach().clone().numpy()
+        q_pred = torch.ones([len(p[:, 0]),dyn.nParameters*nTimeSteps])
+        for i in range(len(p[:, 0])):
+            dyn.q0 = data_input[i, 0:3]
+            dyn.qdot0 = data_input[i, 3:6]
+            dyn.po = data_input[i, 6:9]
+            state = dyn.q(p[i, :])
             q_pred[i, :] = torch.tensor(state.q)
         #print(f'q_pred: {q_pred.shape}')
-        
-        ctx.save_for_backward(input, data_input)
+        data_input_ = torch.tensor(data_input)
+        ctx.save_for_backward(input, data_input_)
         
         return q_pred
         
@@ -130,24 +150,25 @@ class Simulate(torch.autograd.Function):
     def backward(ctx, grad_output):
         #print(grad_output)
         input, data_input = ctx.saved_tensors
-        p = input.detach().clone().numpy().transpose()
+        p = input.detach().clone().numpy()
+        data_input = data_input.detach().clone().numpy()
         dq_dp_batch = torch.zeros([dyn.nDofs*nTimeSteps, dyn.nParameters*nTimeSteps])
-        for i in range(len(p[0, :])):
+        for i in range(len(p[:, 0])):
             dyn.q0 = data_input[i, 0:3]
             dyn.qdot0 = data_input[i, 3:6]
-            dyn.qddot0 = data_input[i, 6:9]
-            state = dyn.q(p[:, i])
-            dq_dp = dyn.dq_dp(state, p[:, i])
+            dyn.po = data_input[i, 6:9]
+            state = dyn.q(p[i, :])
+            dq_dp = dyn.dq_dp(state, p[i, :])
             dq_dp = torch.tensor(dq_dp)
             dq_dp_batch = dq_dp_batch + dq_dp
         #print(f'dq/dp_batch: {dy_dp_batch/samplenum}')
-        
-        grad_input = grad_output.mm(dq_dp_batch.float()/len(p[0,:]))
+        grad_input = grad_output.mm(dq_dp_batch.float()/len(p[:,0]))
         #print(f'shape of grad input: {grad_input.shape}')
         #print(f'shape of grad output: {grad_output.shape}')
         return grad_input, None
 
 Simulate = Simulate.apply
+
 
 ########################################
 #BUILD CUSTOM MODEL
@@ -157,18 +178,30 @@ class ActiveLearn(nn.Module):
         super(ActiveLearn, self).__init__()
 
         self.L_in = nn.Linear(n_in, hiddenlayers[0])
-        self.H1 = nn.Linear(hiddenlayers[0], 3*nTimeSteps)
-        self.L_out = nn.Linear(3*nTimeSteps, 3*nTimeSteps)
+        self.H1 = nn.Linear(hiddenlayers[0], hiddenlayers[1])
+        self.H2 = nn.Linear(hiddenlayers[1], out_sz)
+        #self.H3 = nn.Linear(h[2], 3*time_length)
+        self.L_out = nn.Linear(out_sz, out_sz)
         self.Relu = nn.ReLU(inplace=True)
-        self.drop = nn.Dropout(p=0.5)
+        #self.drop = nn.Dropout(p=0.3)
+        #self.norm1 = nn.BatchNorm2d(h[0])
+        #self.norm2 = nn.BatchNorm2d(h[1])
     
     def forward(self, input):
         x = self.L_in(input)
+        #x = self.norm1(x)
+        #x = self.drop(x)
         x = self.Relu(x)
         x = self.H1(x)
+        #x = self.norm2(x)
         x = self.Relu(x)
+        x = self.H2(x)
+        x = self.Relu(x)
+        #x = self.H3(x)
+        #x = self.Relu(x)
         x = self.L_out(x)
         return x
+
 
 model = ActiveLearn(input_size, output_size)
 
@@ -183,9 +216,9 @@ torch.autograd.set_detect_anomaly(True)
 
 start_time = time.time()
 weight_c1 = 1 # q error
-weight_c2 = 10 # p start condition
+weight_c2 = 1 # p start condition
 weight_c3 = 1 # p smoothness condition
-weight_c4 = 100 # q smoothness condition
+weight_c4 = 100 # p smoothness condition
 batch = np.floor(samplenum/minibatch_size).astype(int)
 losses= []
 smoothness_errors_p = []
@@ -194,14 +227,15 @@ p_start_errors = []
 q_errors = [] #q_end error
 for e in range(epochs):
     for b in range(batch):
-        input_b = input[b*minibatch_size:b*minibatch_size+minibatch_size,:]
-        p_b = model(input_b)
-        q_pred = Simulate(p_b, input_b)
+        input_numpy = data[b*minibatch_size:b*minibatch_size+minibatch_size,:]
+        input_tensor = torch.tensor(data[b*minibatch_size:b*minibatch_size+minibatch_size,:], requires_grad = True).float()
+        p_b = model(input_tensor)
+        q_pred = Simulate(p_b, input_numpy)
         #smoothness_error_i = weight_c3*(p_i[0:3*(nTimeSteps-1)] - p_i[3:3*nTimeSteps]).pow(2).sum()
         smoothness_error_p = weight_c3*criterion(p_b[:, 0:dyn.nParameters*(nTimeSteps-1)], p_b[:, dyn.nParameters:dyn.nParameters*nTimeSteps])
         smoothness_error_q = weight_c4*criterion(q_pred[:, 0:dyn.nDofs*(nTimeSteps-1)], q_pred[:, dyn.nDofs:dyn.nDofs*nTimeSteps])
         #p_start_error = weight_c2*torch.sqrt(criterion(p_i[0:3], torch.tensor(dyn.p_init[0:3])))
-        p_start_error = weight_c2*criterion(p_b[:, 0:dyn.nParameters], input_b[:,6:9])
+        p_start_error = weight_c2*criterion(p_b[:, 0:dyn.nParameters], input_tensor[:,6:9])
         #q_end_error = torch.sqrt(criterion(q_pred, q_i))
         #q_error = weight_c1*criterion(q_pred, q_truth[b*minibatch_size:b*minibatch_size+minibatch_size,:])
         #loss = q_error + p_start_error + smoothness_error_p + smoothness_error_q
@@ -225,7 +259,7 @@ print(f'\nDuration: {(time.time() - start_time)/60:.3f} min') # print the time e
 
 ##################################################
 #PLOT EVERY LOSS COMPONENT FOR EACH BATCH
-timestr = time.strftime("%m%d")
+timestr = time.strftime("%H%M")
 epoch_lines = np.arange(0, epochs*batch, batch)
 plt.figure(figsize = [12,6])
 loss = plt.plot(losses, label = 'total loss', linewidth=3)

@@ -1,0 +1,67 @@
+Unable to init server: Could not connect: Connection refused
+Unable to init server: Could not connect: Connection refused
+
+(GridSearch_varstart_passive.py:271935): Gdk-CRITICAL **: 22:23:43.558: gdk_cursor_new_for_display: assertion 'GDK_IS_DISPLAY (display)' failed
+['data_2.json', 'data_15.json', 'data_test', 'data_12.json', 'data_4.json', 'data_13.json', 'data_6.json', 'vari60.out', 'Sampling_varstart.py', 'Description.json', 'data_14.json', 'data_11.json', 'data_0.json', 'data_8.json', 'data_10.json', 'data_5.json', 'data_9.json', 'data_3.json', 'data_7.json', 'data_1.json']
+Shape of input: (16000, 15)
+Shape of p: (16000, 180)
+(15000, 15)
+(15000, 180)
+Shape of input_test: (6000, 15)
+Shape of p_test: (6000, 180)
+(5000, 15)
+(5000, 180)
+epoch:   0/100    LR:   0.001000  loss: 0.00248730
+epoch:  20/100    LR:   0.000700  loss: 0.00012737
+epoch:  40/100    LR:   0.000490  loss: 0.00009805
+epoch:  60/100    LR:   0.000240  loss: 0.00004660
+epoch:  80/100    LR:   0.000168  loss: 0.00004595
+Model 0 trained
+epoch:  99 final loss: 0.00003578
+Training completed. Total duration: 1.176 min
+TOTAL ERROR: 0.22814198707828837    epochs: 100    batchsize: 50   LRdecay: 0.7  hiddenlayer[200, 120]
+
+NEXT MODEL
+epoch:   0/100    LR:   0.001000  loss: 0.00454638
+epoch:  20/100    LR:   0.000700  loss: 0.00014342
+epoch:  40/100    LR:   0.000490  loss: 0.00007190
+epoch:  60/100    LR:   0.000240  loss: 0.00004686
+epoch:  80/100    LR:   0.000168  loss: 0.00003788
+Model 1 trained
+epoch:  99 final loss: 0.00003209
+Training completed. Total duration: 2.397 min
+TOTAL ERROR: 0.21497259993861917    epochs: 100    batchsize: 50   LRdecay: 0.7  hiddenlayer[80, 150]
+
+NEXT MODEL
+epoch:   0/100    LR:   0.001000  loss: 0.00983057
+epoch:  20/100    LR:   0.000700  loss: 0.00013471
+epoch:  40/100    LR:   0.000490  loss: 0.00009679
+epoch:  60/100    LR:   0.000240  loss: 0.00007067
+epoch:  80/100    LR:   0.000168  loss: 0.00005748
+Model 2 trained
+epoch:  99 final loss: 0.00005622
+Training completed. Total duration: 3.054 min
+TOTAL ERROR: 0.30253306678923764    epochs: 100    batchsize: 100   LRdecay: 0.7  hiddenlayer[200, 120]
+
+NEXT MODEL
+epoch:   0/100    LR:   0.001000  loss: 0.00986414
+epoch:  20/100    LR:   0.000700  loss: 0.00016433
+epoch:  40/100    LR:   0.000490  loss: 0.00010486
+epoch:  60/100    LR:   0.000240  loss: 0.00006402
+epoch:  80/100    LR:   0.000168  loss: 0.00005200
+Model 3 trained
+epoch:  99 final loss: 0.00004862
+Training completed. Total duration: 3.655 min
+TOTAL ERROR: 0.3208156170450138    epochs: 100    batchsize: 100   LRdecay: 0.7  hiddenlayer[80, 150]
+
+NEXT MODEL
+epoch:   0/300    LR:   0.001000  loss: 0.00288117
+epoch:  20/300    LR:   0.000700  loss: 0.00011188
+epoch:  40/300    LR:   0.000490  loss: 0.00007737
+epoch:  60/300    LR:   0.000240  loss: 0.00004666
+epoch:  80/300    LR:   0.000168  loss: 0.00003688
+epoch: 100/300    LR:   0.000118  loss: 0.00003738
+epoch: 120/300    LR:   0.000058  loss: 0.00003289
+epoch: 140/300    LR:   0.000040  loss: 0.00003249
+epoch: 160/300    LR:   0.000028  loss: 0.00003204
+epoch: 180/300    LR:   0.000014  loss: 0.00003110

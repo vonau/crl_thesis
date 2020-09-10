@@ -1,0 +1,23 @@
+Unable to init server: Could not connect: Connection refused
+Unable to init server: Could not connect: Connection refused
+
+(GridSearch_qhold_active.py:288745): Gdk-CRITICAL **: 11:37:16.079: gdk_cursor_new_for_display: assertion 'GDK_IS_DISPLAY (display)' failed
+['data_2.json', 'data_test', 'data_12.json', 'data_4.json', 'qhold.out', 'data_13.json', 'data_6.json', 'Description.json', 'data_14.json', 'data_11.json', 'data_0.json', 'data_8.json', 'qhold_active2.out', 'data_10.json', 'data_5.json', 'data_9.json', 'data_3.json', 'data_7.json', 'data_1.json']
+Shape of input: (15000, 9)
+Shape of p: (15000, 180)
+(15000, 9)
+(15000, 180)
+Shape of input_test: (5000, 9)
+Shape of p_test: (5000, 180)
+(5000, 9)
+(5000, 180)
+/pytorch/torch/csrc/utils/tensor_numpy.cpp:141: UserWarning: The given NumPy array is not writeable, and PyTorch does not support non-writeable tensors. This means you can write to the underlying (supposedly non-writeable) NumPy array using the tensor. You may want to copy the array to protect its data or make it writeable before converting it to a tensor. This type of warning will be suppressed for the rest of this program.
+epoch:   0/300    LR:   0.001000  loss: 0.00634233
+epoch:  30/300    LR:   0.000250  loss: 0.00475048
+epoch:  60/300    LR:   0.000063  loss: 0.00471764
+epoch:  90/300    LR:   0.000016  loss: 0.00471039
+epoch: 120/300    LR:   0.000004  loss: 0.00470616
+epoch: 150/300    LR:   0.000001  loss: 0.00470455
+epoch: 180/300    LR:   0.000000  loss: 0.00470406
+epoch: 210/300    LR:   0.000000  loss: 0.00470408
+epoch: 240/300    LR:   0.000000  loss: 0.00470416

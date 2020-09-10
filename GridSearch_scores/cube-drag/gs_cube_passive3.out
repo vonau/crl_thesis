@@ -1,0 +1,22 @@
+Unable to init server: Could not connect: Connection refused
+Unable to init server: Could not connect: Connection refused
+
+(GridSearch_cube-drag_passive3.py:282266): Gdk-CRITICAL **: 16:55:21.114: gdk_cursor_new_for_display: assertion 'GDK_IS_DISPLAY (display)' failed
+using dde version: v0.1.2-21-g7a14836-dirty
+log level set to LogLevel.off
+['data_2.json', 'data_test', 'data_12.json', 'data_4.json', 'data_13.json', 'data_6.json', 'Sampling_cube-drag.py', 'Description.json', 'data_14.json', 'data_11.json', 'data_0.json', 'data_8.json', 'data_10.json', 'data_5.json', 'data_9.json', 'data_3.json', 'cube.out', 'data_7.json', 'data_1.json']
+Shape of input: (15000, 25)
+Shape of p: (15000, 240)
+Shape of input after removing faulty samples: (15000, 25)
+Shape of p after removing faulty samples: (15000, 240)
+(15000, 25)
+(15000, 240)
+
+Shape of input_test: (5000, 25)
+Shape of p_test: (5000, 240)
+Shape of input_test after removing faulty samples: (5000, 25)
+Shape of p_test after removing faulty samples: (5000, 240)
+(5000, 25)
+(5000, 240)
+epoch:   0/300    LR:   0.010000  loss: 0.00832752
+epoch:  20/300    LR:   0.007000  loss: 0.00873117

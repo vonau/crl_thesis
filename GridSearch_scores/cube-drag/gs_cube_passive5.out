@@ -1,0 +1,43 @@
+Unable to init server: Could not connect: Connection refused
+Unable to init server: Could not connect: Connection refused
+
+(GridSearch_cube-drag_passive.py:285623): Gdk-CRITICAL **: 08:47:13.083: gdk_cursor_new_for_display: assertion 'GDK_IS_DISPLAY (display)' failed
+using dde version: v0.1.2-21-g7a14836-dirty
+log level set to LogLevel.off
+['data_2.json', 'data_test', 'data_12.json', 'data_4.json', 'data_13.json', 'data_6.json', 'Sampling_cube-drag.py', 'Description.json', 'data_14.json', 'data_11.json', 'data_0.json', 'data_8.json', 'data_10.json', 'data_5.json', 'data_9.json', 'data_3.json', 'cube.out', 'data_7.json', 'data_1.json']
+Shape of input: (15000, 25)
+Shape of p: (15000, 240)
+Shape of input after removing faulty samples: (15000, 25)
+Shape of p after removing faulty samples: (15000, 240)
+(15000, 25)
+(15000, 240)
+
+Shape of input_test: (5000, 25)
+Shape of p_test: (5000, 240)
+Shape of input_test after removing faulty samples: (5000, 25)
+Shape of p_test after removing faulty samples: (5000, 240)
+(5000, 25)
+(5000, 240)
+epoch:   0/300    LR:   0.010000  loss: 0.00831468
+epoch:  20/300    LR:   0.003000  loss: 0.01023015
+epoch:  40/300    LR:   0.000900  loss: 0.01332955
+epoch:  60/300    LR:   0.000081  loss: 0.01526803
+epoch:  80/300    LR:   0.000024  loss: 0.01536309
+epoch: 100/300    LR:   0.000007  loss: 0.01535643
+epoch: 120/300    LR:   0.000001  loss: 0.01535347
+epoch: 140/300    LR:   0.000000  loss: 0.01535313
+epoch: 160/300    LR:   0.000000  loss: 0.01535247
+epoch: 180/300    LR:   0.000000  loss: 0.01535224
+epoch: 200/300    LR:   0.000000  loss: 0.01535227
+epoch: 220/300    LR:   0.000000  loss: 0.01535227
+epoch: 240/300    LR:   0.000000  loss: 0.01535227
+epoch: 260/300    LR:   0.000000  loss: 0.01535227
+epoch: 280/300    LR:   0.000000  loss: 0.01535227
+Model 0 trained
+epoch: 299 final loss: 0.01535227
+Training completed. Total duration: 31.568 min
+TOTAL ERROR: 95.31885311420774    mean error: 0.019063768908381462  epochs: 300    batchsize: 10   LRdecay: 0.3  hiddenlayer[10, 50]
+
+NEXT MODEL
+epoch:   0/300    LR:   0.010000  loss: 0.00832029
+epoch:  20/300    LR:   0.003000  loss: 0.01023015

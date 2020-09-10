@@ -1,0 +1,44 @@
+Unable to init server: Could not connect: Connection refused
+Unable to init server: Could not connect: Connection refused
+
+(GridSearch_varstart_active.py:276912): Gdk-CRITICAL **: 10:58:31.169: gdk_cursor_new_for_display: assertion 'GDK_IS_DISPLAY (display)' failed
+['data_2.json', 'data_15.json', 'data_test', 'data_12.json', 'data_4.json', 'data_13.json', 'data_6.json', 'vari60.out', 'Sampling_varstart.py', 'Description.json', 'data_14.json', 'data_11.json', 'data_0.json', 'data_8.json', 'data_10.json', 'data_5.json', 'data_9.json', 'data_3.json', 'data_7.json', 'data_1.json']
+Shape of input: (15000, 15)
+Shape of p: (15000, 180)
+Shape of input after removing faulty samples: (14938, 15)
+Shape of p after removing faulty samples: (14938, 180)
+(14938, 15)
+(14938, 180)
+
+Shape of input_test: (6000, 15)
+Shape of p_test: (6000, 180)
+Shape of input_test after removing faulty samples: (5975, 15)
+Shape of p_test after removing faulty samples: (5975, 180)
+(5000, 15)
+(5000, 180)
+/pytorch/torch/csrc/utils/tensor_numpy.cpp:141: UserWarning: The given NumPy array is not writeable, and PyTorch does not support non-writeable tensors. This means you can write to the underlying (supposedly non-writeable) NumPy array using the tensor. You may want to copy the array to protect its data or make it writeable before converting it to a tensor. This type of warning will be suppressed for the rest of this program.
+./GridSearch_varstart_active.py:155: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  data_input_ = torch.tensor(data_input)
+epoch:   0/300    LR:   0.001000  loss:        nan
+epoch:  20/300    LR:   0.000700  loss:        nan
+epoch:  40/300    LR:   0.000490  loss:        nan
+epoch:  60/300    LR:   0.000240  loss:        nan
+epoch:  80/300    LR:   0.000168  loss:        nan
+epoch: 100/300    LR:   0.000118  loss:        nan
+epoch: 120/300    LR:   0.000058  loss:        nan
+epoch: 140/300    LR:   0.000040  loss:        nan
+epoch: 160/300    LR:   0.000028  loss:        nan
+epoch: 180/300    LR:   0.000014  loss:        nan
+epoch: 200/300    LR:   0.000010  loss:        nan
+epoch: 220/300    LR:   0.000007  loss:        nan
+epoch: 240/300    LR:   0.000003  loss:        nan
+epoch: 260/300    LR:   0.000002  loss:        nan
+epoch: 280/300    LR:   0.000002  loss:        nan
+Model 0 trained
+epoch: 299 final loss:        nan
+Training completed. Total duration: 176.413 min
+TOTAL ERROR: 22.102506279217778    mean error: 0.004420501179993153  epochs: 300    batchsize: 30   LRdecay: 0.7  hiddenlayer[80, 150]
+
+NEXT MODEL
+epoch:   0/300    LR:   0.001000  loss:        nan
+epoch:  20/300    LR:   0.000700  loss:        nan

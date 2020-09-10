@@ -1,0 +1,46 @@
+Unable to init server: Could not connect: Connection refused
+Unable to init server: Could not connect: Connection refused
+
+(GridSearch_qhold_passive2.py:240034): Gdk-CRITICAL **: 10:31:23.425: gdk_cursor_new_for_display: assertion 'GDK_IS_DISPLAY (display)' failed
+['data_2.json', 'data_test', 'data_12.json', 'data_4.json', 'qhold.out', 'data_13.json', 'data_6.json', 'Sampling_qhold.py', 'Description.json', 'data_14.json', 'data_11.json', 'data_0.json', 'data_8.json', 'data_10.json', 'data_5.json', 'data_9.json', 'data_3.json', 'data_7.json', 'data_1.json']
+Shape of input: (15000, 9)
+Shape of p: (15000, 30)
+(15000, 9)
+(15000, 30)
+Shape of input_test: (5000, 9)
+Shape of p_test: (5000, 30)
+(5000, 9)
+(5000, 30)
+epoch:   0/200    LR:   0.010000  loss: 0.04736175
+epoch:  20/200    LR:   0.004000  loss: 0.02962602
+epoch:  40/200    LR:   0.001600  loss: 0.01765656
+epoch:  49 final loss: 0.01543173
+
+Training completed. Total duration: 2.648 min
+TOTAL ERROR: 66.5646789768507    epochs: 50    batchsize: 5   LRdecay: 0.4  hiddenlayer[10]
+epoch:   0/200    LR:   0.010000  loss: 0.04586815
+epoch:  20/200    LR:   0.004000  loss: 0.02951751
+epoch:  40/200    LR:   0.001600  loss: 0.02834704
+epoch:  49 final loss: 0.02375656
+
+Training completed. Total duration: 5.360 min
+TOTAL ERROR: 53.52902550766157    epochs: 50    batchsize: 5   LRdecay: 0.4  hiddenlayer[30]
+epoch:   0/200    LR:   0.010000  loss: 0.03402117
+epoch:  20/200    LR:   0.004000  loss: 0.01777521
+epoch:  40/200    LR:   0.001600  loss: 0.01441750
+epoch:  49 final loss: 0.01357167
+
+Training completed. Total duration: 5.646 min
+TOTAL ERROR: 60.27284473384498    epochs: 50    batchsize: 50   LRdecay: 0.4  hiddenlayer[10]
+epoch:   0/200    LR:   0.010000  loss: 0.02887330
+epoch:  20/200    LR:   0.004000  loss: 0.01394512
+epoch:  40/200    LR:   0.001600  loss: 0.01134934
+epoch:  49 final loss: 0.01063885
+
+Training completed. Total duration: 5.933 min
+TOTAL ERROR: 41.6562357095645    epochs: 50    batchsize: 50   LRdecay: 0.4  hiddenlayer[30]
+epoch:   0/200    LR:   0.010000  loss: 0.04720853
+epoch:  20/200    LR:   0.004000  loss: 0.03573814
+epoch:  40/200    LR:   0.001600  loss: 0.02835009
+epoch:  60/200    LR:   0.000256  loss: 0.02367524
+epoch:  80/200    LR:   0.000102  loss: 0.02308523

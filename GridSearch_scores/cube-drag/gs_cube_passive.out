@@ -1,0 +1,38 @@
+Unable to init server: Could not connect: Connection refused
+Unable to init server: Could not connect: Connection refused
+
+(GridSearch_cube-drag_passive.py:280929): Gdk-CRITICAL **: 16:01:48.726: gdk_cursor_new_for_display: assertion 'GDK_IS_DISPLAY (display)' failed
+using dde version: v0.1.2-21-g7a14836-dirty
+log level set to LogLevel.off
+['data_2.json', 'data_test', 'data_12.json', 'data_4.json', 'data_13.json', 'data_6.json', 'Sampling_cube-drag.py', 'Description.json', 'data_14.json', 'data_11.json', 'data_0.json', 'data_8.json', 'data_10.json', 'data_5.json', 'data_9.json', 'data_3.json', 'cube.out', 'data_7.json', 'data_1.json']
+Shape of input: (15000, 25)
+Shape of p: (15000, 240)
+Shape of input after removing faulty samples: (15000, 25)
+Shape of p after removing faulty samples: (15000, 240)
+(15000, 25)
+(15000, 240)
+
+Shape of input_test: (5000, 25)
+Shape of p_test: (5000, 240)
+Shape of input_test after removing faulty samples: (5000, 25)
+Shape of p_test after removing faulty samples: (5000, 240)
+(5000, 25)
+(5000, 240)
+epoch:   0/200    LR:   0.010000  loss: 0.01610287
+epoch:  20/200    LR:   0.005000  loss: 0.01755888
+epoch:  40/200    LR:   0.002500  loss: 0.01949948
+epoch:  60/200    LR:   0.000625  loss: 0.02160850
+epoch:  80/200    LR:   0.000313  loss: 0.02159162
+epoch: 100/200    LR:   0.000156  loss: 0.02144951
+epoch: 120/200    LR:   0.000039  loss: 0.02134499
+epoch: 140/200    LR:   0.000020  loss: 0.02129449
+epoch: 160/200    LR:   0.000010  loss: 0.02127635
+epoch: 180/200    LR:   0.000002  loss: 0.02126865
+Model 0 trained
+epoch: 199 final loss: 0.02126591
+Training completed. Total duration: 8.642 min
+TOTAL ERROR: 95.30729653389426    mean error: 0.019061459228396416  epochs: 200    batchsize: 30   LRdecay: 0.5  hiddenlayer[100, 300]
+
+NEXT MODEL
+
+Duration: 8.659 min

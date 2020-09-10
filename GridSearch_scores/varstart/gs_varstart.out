@@ -1,0 +1,36 @@
+Unable to init server: Could not connect: Connection refused
+Unable to init server: Could not connect: Connection refused
+
+(GridSearch_varstart_passive.py:276209): Gdk-CRITICAL **: 10:29:23.185: gdk_cursor_new_for_display: assertion 'GDK_IS_DISPLAY (display)' failed
+['data_2.json', 'data_15.json', 'data_test', 'data_12.json', 'data_4.json', 'data_13.json', 'data_6.json', 'vari60.out', 'Sampling_varstart.py', 'Description.json', 'data_14.json', 'data_11.json', 'data_0.json', 'data_8.json', 'data_10.json', 'data_5.json', 'data_9.json', 'data_3.json', 'data_7.json', 'data_1.json']
+Shape of input: (16000, 15)
+Shape of p: (16000, 180)
+(15000, 15)
+(15000, 180)
+Shape of input_test: (6000, 15)
+Shape of p_test: (6000, 180)
+(5000, 15)
+(5000, 180)
+epoch:   0/200    LR:   0.001000  loss: 0.00127652
+epoch:  20/200    LR:   0.000700  loss: 0.00005114
+epoch:  40/200    LR:   0.000490  loss: 0.00003351
+epoch:  60/200    LR:   0.000240  loss: 0.00001351
+epoch:  80/200    LR:   0.000168  loss: 0.00001077
+epoch: 100/200    LR:   0.000118  loss: 0.00001054
+epoch: 120/200    LR:   0.000058  loss: 0.00000957
+epoch: 140/200    LR:   0.000040  loss: 0.00000896
+epoch: 160/200    LR:   0.000028  loss: 0.00000868
+epoch: 180/200    LR:   0.000014  loss: 0.00000839
+Model 0 trained
+epoch: 199 final loss: 0.00000820
+Training completed. Total duration: 17.855 min
+TOTAL ERROR: 0.08105897506811743    mean error: 1.621179580979515e-05  epochs: 200    batchsize: 10   LRdecay: 0.7  hiddenlayer[50, 200]
+
+NEXT MODEL
+epoch:   0/200    LR:   0.001000  loss: 0.00053610
+epoch:  20/200    LR:   0.000700  loss: 0.00004931
+epoch:  40/200    LR:   0.000490  loss: 0.00002911
+epoch:  60/200    LR:   0.000240  loss: 0.00001405
+epoch:  80/200    LR:   0.000168  loss: 0.00001293
+epoch: 100/200    LR:   0.000118  loss: 0.00001132
+epoch: 120/200    LR:   0.000058  loss: 0.00000724
