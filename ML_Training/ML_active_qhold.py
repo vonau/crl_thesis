@@ -17,10 +17,11 @@ print(time.strftime("%H%M"))
 nTimeSteps = 60 #seconds
 print(f'nTimeSteps: {nTimeSteps}')
 samplenum = 15000
-epochs = 300
-minibatch_size= 30
+samplenum_target = 100
+epochs = 30
+minibatch_size= 10
 input_size = 9
-hiddenlayers = [150, 200]
+hiddenlayers = [180, 200]
 learning_rate = 0.001
 LRdecay = 0.7
 use_case = 'qhold'
@@ -73,57 +74,19 @@ for filenum in range(number_of_files):
         for i, qdot_i in enumerate(data_['qdot']):
             input[filenum*filesize+i, 3:6] = np.array(qdot_i)
         for i, p_now_i in enumerate(data_['p_now']):
-            input[filenum*filesize+i, 6:9] = np.array(p_now_i)
+            input[filenum*filesize+i, 6:9] = np.array(p_now_i)-input[filenum*filesize+i, 0:3]
 
 print(f'Shape of input: {input.shape}')
 print(f'Shape of p: {p.shape}')
 #Remove zeros
 data = input[~(input == 0).all(1)]
 p = p[~(p == 0).all(1)]
+data = data[0:samplenum_target, :]
+samplenum = samplenum_target
 print(data.shape)
 print(p.shape)
 
-# Splitting the dataset into the Training set and Test set
-#from sklearn.model_selection import train_test_split
-#y_train, y_test, p_train, p_test = train_test_split(y_target, p, test_size = testsize)
-
-#y_target = torch.tensor(y_train).float()
-#p = torch.tensor(p_train).float()
 p = torch.tensor(p).float()
-#y_test = torch.tensor(y_test).float()
-#p_test = torch.tensor(p_test).float()
-
-#########################################
-#LOAD TEST SAMPLES
-number_of_files_test = len(os.listdir(sample_file_path + 'data_test/'))
-samplenum_test = 1000*number_of_files_test
-
-p_test = np.zeros((samplenum_test, 3*nTimeSteps))
-input_test = np.zeros((samplenum_test, input_size))
-
-for filenum in range(number_of_files_test):
-    with open(sample_file_path + f'data_test/data_{filenum}.json') as json_file:
-        data_ = json.load(json_file)
-        filesize = len(data_['q'])
-        for i, p_i in enumerate(data_['p']):
-            p_test[filenum*filesize+i, :] = np.array(p_i)
-        for i, q_i in enumerate(data_['q']):
-            input_test[filenum*filesize+i, 0:3] = np.array(q_i)
-        for i, qdot_i in enumerate(data_['qdot']):
-            input_test[filenum*filesize+i, 3:6] = np.array(qdot_i)
-        for i, p_now_i in enumerate(data_['p_now']):
-            input_test[filenum*filesize+i, 6:9] = np.array(p_now_i)
-
-print(f'Shape of input_test: {input_test.shape}')
-print(f'Shape of p_test: {p_test.shape}')
-#Remove zeros
-input_test = input_test[~(input_test == 0).all(1)]
-p_test = p_test[~(p_test == 0).all(1)]
-print(input_test.shape)
-print(p_test.shape)
-
-input_test = torch.tensor(input_test).float()
-p_test = torch.tensor(p_test).float()
 
 ##########################################
 #BUILD CUSTOM SIMULATION FUNCTION
@@ -205,7 +168,8 @@ class ActiveLearn(nn.Module):
 
 model = ActiveLearn(input_size, output_size)
 
-criterion = nn.SmoothL1Loss()  # RMSE = np.sqrt(MSE)
+#criterion = nn.SmoothL1Loss()  # RMSE = np.sqrt(MSE)
+criterion = torch.nn.MSELoss(reduction = 'sum')
 optimizer = torch.optim.Adam(model.parameters(), lr = learning_rate)
 scheduler= torch.optim.lr_scheduler.StepLR(optimizer, step_size = 15, gamma=LRdecay, last_epoch=-1)
 print("done")
@@ -235,7 +199,7 @@ for e in range(epochs):
         smoothness_error_p = weight_c3*criterion(p_b[:, 0:dyn.nParameters*(nTimeSteps-1)], p_b[:, dyn.nParameters:dyn.nParameters*nTimeSteps])
         smoothness_error_q = weight_c4*criterion(q_pred[:, 0:dyn.nDofs*(nTimeSteps-1)], q_pred[:, dyn.nDofs:dyn.nDofs*nTimeSteps])
         #p_start_error = weight_c2*torch.sqrt(criterion(p_i[0:3], torch.tensor(dyn.p_init[0:3])))
-        p_start_error = weight_c2*criterion(p_b[:, 0:dyn.nParameters], input_tensor[:,6:9])
+        p_start_error = weight_c2*criterion(p_b[:, 0:dyn.nParameters], input_tensor[:,6:9]+input_tensor[:,0:3])
         #q_end_error = torch.sqrt(criterion(q_pred, q_i))
         #q_error = weight_c1*criterion(q_pred, q_truth[b*minibatch_size:b*minibatch_size+minibatch_size,:])
         #loss = q_error + p_start_error + smoothness_error_p + smoothness_error_q
@@ -251,7 +215,7 @@ for e in range(epochs):
         #Backpropagation
         loss.backward()
         optimizer.step()
-    if e%(epochs/10) == 0:
+    if e%(epochs/5) == 0:
         print(f'epoch: {e:3}/{epochs}  loss: {loss.item():10.8f}   basic_loss: {smoothness_error_q.item():10.8f}')
 
 print(f'epoch: {e:3} finale loss: {loss.item():10.8f}') # print the last line
@@ -260,33 +224,34 @@ print(f'\nDuration: {(time.time() - start_time)/60:.3f} min') # print the time e
 ##################################################
 #PLOT EVERY LOSS COMPONENT FOR EACH BATCH
 timestr = time.strftime("%H%M")
-epoch_lines = np.arange(0, epochs*batch, batch)
+# epoch_lines = np.arange(0, epochs, 1/batch)
+epoch_i = np.arange(epochs*batch)/batch
 plt.figure(figsize = [12,6])
-loss = plt.plot(losses, label = 'total loss', linewidth=3)
-smoothness = plt.plot(smoothness_errors_q, label = 'smoothness error', linestyle='--')
-q_end = plt.plot(q_errors, label = 'y error', linestyle='--')
-p_start = plt.plot(p_start_errors, label = 'p_start error', linestyle='--')
+loss = plt.plot(epoch_i, losses, label = 'total loss', linewidth=3)
+smoothness = plt.plot(epoch_i, smoothness_errors_q,  label = 'smoothness error', linestyle='--')
+#q_end = plt.plot(epoch_i, q_errors, label = 'y error', linestyle='--')
+p_start = plt.plot(epoch_i, p_start_errors, label = 'p_start error', linestyle='--')
 plt.legend()
 plt.yscale('log')
 plt.ylabel('error')
-plt.xlabel('batches')
-for xc in epoch_lines:
-    plt.axvline(x=xc, linewidth = 0.2)
-plt.savefig('../Plots/Loss_' + use_case + '_' + timestr + '.png')
+plt.xlabel('epochs')
+# for xc in epoch_lines:
+#     plt.axvline(x=xc, linewidth = 0.2)
+plt.savefig('../Plots/Loss_' + use_case + f'_{samplenum_target}_' + timestr + '.png')
 
 #####################################################
 #SAVE MODEL
 timestr = time.strftime("%m%d")
 #Save entire Model
-torch.save(model, model_file_path + 'Model_active_' + use_case + f'_{nTimeSteps}tsteps_{samplenum}s_{epochs}e_{LRdecay}lr_' + timestr + '.pt')
-torch.save(model, model_file_path + 'Model_active_' + use_case + f'_{nTimeSteps}tsteps_latest.pt')
+torch.save(model, model_file_path + 'Model_active_' + use_case + f'_{nTimeSteps}tsteps_{samplenum}s_{epochs}e_{LRdecay}lr_' + timestr + f'_{samplenum_target}.pt')
+torch.save(model, model_file_path + 'Model_active_' + use_case + f'_{nTimeSteps}tsteps_latest_{samplenum_target}.pt')
 
 #Save parameters of Model
-torch.save(model.state_dict(), model_file_path + 'state_dict/Model_statedict_active_' + use_case + f'_{nTimeSteps}tsteps_{samplenum}s_{epochs}e_{LRdecay}lr_' + timestr + '.pt')
-torch.save(model.state_dict(), model_file_path + 'state_dict/Model_statedict_active_' + use_case + f'_{nTimeSteps}tsteps_latest.pt')
+torch.save(model.state_dict(), model_file_path + 'state_dict/Model_statedict_active_' + use_case + f'_{nTimeSteps}tsteps_{samplenum}s_{epochs}e_{LRdecay}lr_' + timestr + f'_{samplenum_target}.pt')
+torch.save(model.state_dict(), model_file_path + 'state_dict/Model_statedict_active_' + use_case + f'_{nTimeSteps}tsteps_latest_{samplenum_target}.pt')
 
 #Convert to Torch Script and save for CPP application
-input_example = input[4, :]
+input_example = input_tensor[4, :]
 traced_script_module = torch.jit.trace(model, input_example)
 
 # Test the torch script
@@ -294,6 +259,6 @@ traced_script_module = torch.jit.trace(model, input_example)
 #original = model(test_input)
 #output_example = traced_script_module(test_input)
 
-traced_script_module.save(model_file_path + 'Serialized_Models/Serialized_model_active_' + use_case + f'_{nTimeSteps}tsteps_latest.pt')
-traced_script_module.save(model_file_path + 'Serialized_Models/Serialized_model_active_' + use_case + f'_{nTimeSteps}tsteps_{samplenum}s_{epochs}e_{LRdecay}lr_' + timestr + '.pt')
+traced_script_module.save(model_file_path + 'Serialized_Models/Serialized_model_active_' + use_case + f'_{nTimeSteps}tsteps_latest_{samplenum_target}.pt')
+traced_script_module.save(model_file_path + 'Serialized_Models/Serialized_model_active_' + use_case + f'_{nTimeSteps}tsteps_{samplenum}s_{epochs}e_{LRdecay}lr_' + timestr + f'_{samplenum_target}.pt')
 print('Model saved')

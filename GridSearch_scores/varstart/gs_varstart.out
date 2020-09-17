@@ -1,36 +1,79 @@
 Unable to init server: Could not connect: Connection refused
 Unable to init server: Could not connect: Connection refused
 
-(GridSearch_varstart_passive.py:276209): Gdk-CRITICAL **: 10:29:23.185: gdk_cursor_new_for_display: assertion 'GDK_IS_DISPLAY (display)' failed
+(GridSearch_varstart_passive.py:315662): Gdk-CRITICAL **: 16:46:47.959: gdk_cursor_new_for_display: assertion 'GDK_IS_DISPLAY (display)' failed
 ['data_2.json', 'data_15.json', 'data_test', 'data_12.json', 'data_4.json', 'data_13.json', 'data_6.json', 'vari60.out', 'Sampling_varstart.py', 'Description.json', 'data_14.json', 'data_11.json', 'data_0.json', 'data_8.json', 'data_10.json', 'data_5.json', 'data_9.json', 'data_3.json', 'data_7.json', 'data_1.json']
 Shape of input: (16000, 15)
 Shape of p: (16000, 180)
-(15000, 15)
-(15000, 180)
+(1000, 15)
+(1000, 180)
 Shape of input_test: (6000, 15)
 Shape of p_test: (6000, 180)
 (5000, 15)
 (5000, 180)
-epoch:   0/200    LR:   0.001000  loss: 0.00127652
-epoch:  20/200    LR:   0.000700  loss: 0.00005114
-epoch:  40/200    LR:   0.000490  loss: 0.00003351
-epoch:  60/200    LR:   0.000240  loss: 0.00001351
-epoch:  80/200    LR:   0.000168  loss: 0.00001077
-epoch: 100/200    LR:   0.000118  loss: 0.00001054
-epoch: 120/200    LR:   0.000058  loss: 0.00000957
-epoch: 140/200    LR:   0.000040  loss: 0.00000896
-epoch: 160/200    LR:   0.000028  loss: 0.00000868
-epoch: 180/200    LR:   0.000014  loss: 0.00000839
+epoch:   0/200    LR:   0.001000  loss: 70.39678192
+epoch:  20/200    LR:   0.000700  loss: 1.59311604
+epoch:  40/200    LR:   0.000490  loss: 1.22129118
+epoch:  60/200    LR:   0.000240  loss: 0.84211916
+epoch:  80/200    LR:   0.000168  loss: 0.58023101
+epoch: 100/200    LR:   0.000118  loss: 0.45209035
+epoch: 120/200    LR:   0.000058  loss: 0.51854014
+epoch: 140/200    LR:   0.000040  loss: 0.38145384
+epoch: 160/200    LR:   0.000028  loss: 0.36580071
+epoch: 180/200    LR:   0.000014  loss: 0.36613336
 Model 0 trained
-epoch: 199 final loss: 0.00000820
-Training completed. Total duration: 17.855 min
-TOTAL ERROR: 0.08105897506811743    mean error: 1.621179580979515e-05  epochs: 200    batchsize: 10   LRdecay: 0.7  hiddenlayer[50, 200]
+epoch: 199 final loss: 0.33921483
+Training completed. Total duration: 0.407 min
+TOTAL ERROR: 260.67496093164664    mean error: 0.05213499069213867  epochs: 200    batchsize: 20   LRdecay: 0.7  hiddenlayer[180, 200]
 
 NEXT MODEL
-epoch:   0/200    LR:   0.001000  loss: 0.00053610
-epoch:  20/200    LR:   0.000700  loss: 0.00004931
-epoch:  40/200    LR:   0.000490  loss: 0.00002911
-epoch:  60/200    LR:   0.000240  loss: 0.00001405
-epoch:  80/200    LR:   0.000168  loss: 0.00001293
-epoch: 100/200    LR:   0.000118  loss: 0.00001132
-epoch: 120/200    LR:   0.000058  loss: 0.00000724
+epoch:   0/200    LR:   0.001000  loss: 78.11753845
+epoch:  20/200    LR:   0.000700  loss: 2.40799165
+epoch:  40/200    LR:   0.000490  loss: 1.48065972
+epoch:  60/200    LR:   0.000240  loss: 1.09859860
+epoch:  80/200    LR:   0.000168  loss: 0.66310221
+epoch: 100/200    LR:   0.000118  loss: 0.51604074
+epoch: 120/200    LR:   0.000058  loss: 0.56946301
+epoch: 140/200    LR:   0.000040  loss: 0.48613906
+epoch: 160/200    LR:   0.000028  loss: 0.41679269
+epoch: 180/200    LR:   0.000014  loss: 0.36880213
+Model 1 trained
+epoch: 199 final loss: 0.36459777
+Training completed. Total duration: 0.833 min
+TOTAL ERROR: 288.84436638711486    mean error: 0.05776887387037277  epochs: 200    batchsize: 20   LRdecay: 0.7  hiddenlayer[150, 180]
+
+NEXT MODEL
+epoch:   0/200    LR:   0.001000  loss: 201.21725464
+epoch:  20/200    LR:   0.000700  loss: 3.28676963
+epoch:  40/200    LR:   0.000490  loss: 1.52845800
+epoch:  60/200    LR:   0.000240  loss: 1.28651798
+epoch:  80/200    LR:   0.000168  loss: 0.98871160
+epoch: 100/200    LR:   0.000118  loss: 0.89572656
+epoch: 120/200    LR:   0.000058  loss: 0.89695013
+epoch: 140/200    LR:   0.000040  loss: 0.83410454
+epoch: 160/200    LR:   0.000028  loss: 0.73654240
+epoch: 180/200    LR:   0.000014  loss: 0.66183144
+Model 2 trained
+epoch: 199 final loss: 0.65165669
+Training completed. Total duration: 1.116 min
+TOTAL ERROR: 326.4497268635314    mean error: 0.0652899444103241  epochs: 200    batchsize: 30   LRdecay: 0.7  hiddenlayer[180, 200]
+
+NEXT MODEL
+epoch:   0/200    LR:   0.001000  loss: 215.62792969
+epoch:  20/200    LR:   0.000700  loss: 3.42564607
+epoch:  40/200    LR:   0.000490  loss: 1.47640574
+epoch:  60/200    LR:   0.000240  loss: 1.31849957
+epoch:  80/200    LR:   0.000168  loss: 1.13972485
+epoch: 100/200    LR:   0.000118  loss: 1.11635709
+epoch: 120/200    LR:   0.000058  loss: 0.83392131
+epoch: 140/200    LR:   0.000040  loss: 0.78748065
+epoch: 160/200    LR:   0.000028  loss: 0.82916719
+epoch: 180/200    LR:   0.000014  loss: 0.69910800
+Model 3 trained
+epoch: 199 final loss: 0.66467756
+Training completed. Total duration: 1.405 min
+TOTAL ERROR: 344.44602448423393    mean error: 0.06888920068740845  epochs: 200    batchsize: 30   LRdecay: 0.7  hiddenlayer[150, 180]
+
+NEXT MODEL
+
+Duration: 1.417 min

@@ -1,0 +1,21 @@
+Unable to init server: Could not connect: Connection refused
+Unable to init server: Could not connect: Connection refused
+
+(ML_active_qhold.py:313280): Gdk-CRITICAL **: 14:05:47.607: gdk_cursor_new_for_display: assertion 'GDK_IS_DISPLAY (display)' failed
+1405
+nTimeSteps: 60
+using dde version: v0.1.2-21-g7a14836-dirty
+log level set to LogLevel.off
+Shape of input: (15000, 9)
+Shape of p: (15000, 180)
+(15000, 9)
+(15000, 180)
+done
+/pytorch/torch/csrc/utils/tensor_numpy.cpp:141: UserWarning: The given NumPy array is not writeable, and PyTorch does not support non-writeable tensors. This means you can write to the underlying (supposedly non-writeable) NumPy array using the tensor. You may want to copy the array to protect its data or make it writeable before converting it to a tensor. This type of warning will be suppressed for the rest of this program.
+epoch:   0/2  loss: 9.94697189   basic_loss: 2.80596924
+epoch:   1 finale loss: 9.72192574
+
+Duration: 1.317 min
+/home/nico/.local/lib/python3.8/site-packages/torch/tensor.py:746: UserWarning: The .grad attribute of a Tensor that is not a leaf Tensor is being accessed. Its .grad attribute won't be populated during autograd.backward(). If you indeed want the gradient for a non-leaf Tensor, use .retain_grad() on the non-leaf Tensor. If you access the non-leaf Tensor by mistake, make sure you access the leaf Tensor instead. See github.com/pytorch/pytorch/pull/30531 for more informations.
+  warnings.warn("The .grad attribute of a Tensor that is not a leaf Tensor is being accessed. Its .grad "
+Model saved

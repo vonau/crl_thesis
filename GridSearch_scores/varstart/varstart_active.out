@@ -1,0 +1,25 @@
+Unable to init server: Could not connect: Connection refused
+Unable to init server: Could not connect: Connection refused
+
+(ML_active_varstart.py:341851): Gdk-CRITICAL **: 16:42:57.728: gdk_cursor_new_for_display: assertion 'GDK_IS_DISPLAY (display)' failed
+1642
+using dde version: v0.1.2-21-g7a14836-dirty
+log level set to LogLevel.off
+Shape of dataafter removing faulty samples: (20915, 15)
+Shape of data: (15000, 15)
+done
+/pytorch/torch/csrc/utils/tensor_numpy.cpp:141: UserWarning: The given NumPy array is not writeable, and PyTorch does not support non-writeable tensors. This means you can write to the underlying (supposedly non-writeable) NumPy array using the tensor. You may want to copy the array to protect its data or make it writeable before converting it to a tensor. This type of warning will be suppressed for the rest of this program.
+epoch:   0/40  loss: 13.77814388   basic_loss: 10.50460911
+epoch:   4/40  loss: 2.65223813   basic_loss: 1.16302192
+epoch:   8/40  loss: 0.10521737   basic_loss: 0.04508096
+epoch:  12/40  loss: 0.09408559   basic_loss: 0.03604302
+epoch:  16/40  loss: 0.06309538   basic_loss: 0.03180809
+epoch:  20/40  loss: 0.07299083   basic_loss: 0.01989054
+epoch:  24/40  loss: 0.05240311   basic_loss: 0.02557343
+epoch:  28/40  loss: 0.03481010   basic_loss: 0.01232413
+epoch:  32/40  loss: 0.03544382   basic_loss: 0.01270712
+epoch:  36/40  loss: 0.03054783   basic_loss: 0.00778187
+epoch:  39 finale loss: 0.02901576
+
+Duration: 123.821 min
+Model saved

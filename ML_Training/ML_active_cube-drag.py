@@ -80,7 +80,7 @@ for filenum in range(number_of_files):
         for i, qddot_i in enumerate(data['qddot']):
             input[filenum*filesize+i, 15:21] = np.array(qddot_i)
         for i, p_now_i in enumerate(data['p_now']):
-            input[filenum*filesize+i, 21:25] = np.array(p_now_i)
+            input[filenum*filesize+i, 21:25] = np.array(p_now_i + [input[filenum*filesize+i, 3], input[filenum*filesize+i, 5], input[filenum*filesize+i, 6], input[filenum*filesize+i, 8]])
         for i, p_i in enumerate(data['p']):
             p[filenum*filesize+i, :] = np.array(p_i)
 
@@ -148,33 +148,38 @@ class Simulate(torch.autograd.Function):
 Simulate = Simulate.apply
 print("Function built")
 
-########################################
-#BUILD CUSTOM MODEL
+################################
+#LOAD PRETRAINED MODEL
+activeHiddenlayers = [180, 200]
 class ActiveLearn(nn.Module):
 
     def __init__(self, n_in, out_sz):
         super(ActiveLearn, self).__init__()
 
-        self.L_in = nn.Linear(n_in, hiddenlayers[0])
-        self.H1 = nn.Linear(hiddenlayers[0], out_sz)
+        self.L_in = nn.Linear(n_in, activeHiddenlayers[0])
+        self.H1 = nn.Linear(activeHiddenlayers[0], activeHiddenlayers[1])
+        #self.H1 = nn.Linear(activeHiddenlayers[0], out_sz)
+        self.H2 = nn.Linear(activeHiddenlayers[1], out_sz)
         self.L_out = nn.Linear(out_sz, out_sz)
         self.Relu = nn.ReLU(inplace=True)
-        self.drop = nn.Dropout(p=0.5)
+
     
     def forward(self, input):
         x = self.L_in(input)
         x = self.Relu(x)
         x = self.H1(x)
         x = self.Relu(x)
+        x = self.H2(x)
+        x = self.Relu(x)
         x = self.L_out(x)
         return x
 
 model = ActiveLearn(input_size, output_size)
-
+model.load_state_dict(torch.load(model_file_path_active))
 criterion = nn.SmoothL1Loss()  # RMSE = np.sqrt(MSE)
 optimizer = torch.optim.Adam(model.parameters(), lr = learning_rate)
 scheduler= torch.optim.lr_scheduler.StepLR(optimizer, step_size = 15, gamma=LRdecay, last_epoch=-1)
-print("Model built")
+print("Model loaded")
 
 ####################################################
 #TRAIN THE MODEL
@@ -193,7 +198,6 @@ for e in range(epochs):
     for b in range(batch):
         input_numpy = data[b*minibatch_size:b*minibatch_size+minibatch_size,:]
         input_tensor = torch.tensor(data[b*minibatch_size:b*minibatch_size+minibatch_size,:]).float()
-        print(f'important index: {b*minibatch_size}')
         p_b = model(input_tensor)
         #print(p_b.shape)
         q_pred = Simulate(p_b, input_numpy)
