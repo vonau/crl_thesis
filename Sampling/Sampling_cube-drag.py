@@ -11,7 +11,7 @@ import os
 
 #PARAMETERS
 now = datetime.now()
-samplenum = 20000 # numer of samples
+samplenum = 6000 # numer of samples
 nTimeSteps = 60 # at 60Hz
 batch_size = 1000 # amount of samples per file
 input_size = 25 # target (0:3), q (3:9), qdot (9:15), qddot (15:21), p_now (21:25) 
@@ -43,9 +43,9 @@ tot_simulations_needed = np.ceil(samplenum/samples_per_sim).astype(int)
 
 input = np.zeros((samplenum,input_size))
 targets = np.zeros((tot_simulations_needed,3))
-targets[:,0] = np.random.rand(tot_simulations_needed)/2
+targets[:,0] = np.random.rand(tot_simulations_needed)
 targets[:,1] = 0.0268342693608721
-targets[:,2] = np.random.rand(tot_simulations_needed)/2
+targets[:,2] = np.random.rand(tot_simulations_needed)
 
 ############################################
 #LOAD SIMULATION PYDDE_V2
@@ -141,9 +141,9 @@ print(broken_indices)
 ###############################################
 #SAMPLE NEW TARGETS
 print("SAMPLING NEW TARGETS...")
-input[:,0] = np.random.rand(samplenum)/2
+input[:,0] = np.random.rand(samplenum)
 input[:,1] = 0.0268342693608721
-input[:,2] = np.random.rand(samplenum)/2
+input[:,2] = np.random.rand(samplenum)
 p_init = p_init_0
 
 ###############################################

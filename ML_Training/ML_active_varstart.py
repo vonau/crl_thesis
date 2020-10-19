@@ -15,18 +15,24 @@ import time
 #PARAMETERS
 print(time.strftime("%H%M"))
 nTimeSteps = 60 #seconds
-epochs = 150
-minibatch_size= 50
+epochs = 100
+lossPassive = 0.006
+minibatch_size= 10
 samplenum_target = 15000
 input_size = 15 # target (0:3), q (3:6), qdot (6:9), qddot (9:12), p_now (12:15) 
 hiddenlayers = [180, 200]
-learning_rate = 0.001
+learning_rate = 0.0001
 LRdecay = 0.7
 use_case = 'varstart'
-model_file_path = '../Trained_Models/'
-sample_file_path = f'../Data/Samples/data_{use_case}_{nTimeSteps}tsteps_1507/'
-simulation_file_path = '../Data/Simulations/pm_stiff.sim'
-objective_file_path = f'../Data/Objectives/pm_target.obj'
+
+#path = '/home/nico/Desktop/'
+path = '/Users/nicovonau/Code/thesis_pytorch/'
+
+model_file_path = path + 'Trained_Models/'
+model_file_path_passive = path + 'Trained_Models/state_dict/Model_statedict_passive_' + use_case + f'_{nTimeSteps}tsteps_latest.pt'
+sample_file_path = path + f'Data/Samples/data_varstart_{nTimeSteps}tsteps_1507/'
+simulation_file_path = path + 'Data/Simulations/pm_stiff.sim'
+objective_file_path = path + f'Data/Objectives/pm_target.obj'
 
 # check dde version
 print("using dde version: " + dde.__version__)
@@ -50,7 +56,7 @@ dq = dyn.dq_dp(state_init, p_init)
 #LOAD TRAINING SAMPLES
 output_size = dyn.nParameters*nTimeSteps
 
-number_of_files = len(os.listdir(sample_file_path))-4
+number_of_files = len(os.listdir(sample_file_path))-5
 samplenum = 1000*number_of_files
 output_size = dyn.nParameters*nTimeSteps
 
@@ -200,16 +206,65 @@ for e in range(epochs):
         optimizer.step()
     if e%(epochs/10) == 0:
         print(f'epoch: {e:3}/{epochs}  loss: {loss.item():10.8f}   basic_loss: {q_error.item():10.8f}')
+    if loss < lossPassive and e > 40:
+        break
 
 print(f'epoch: {e:3} finale loss: {loss.item():10.8f}') # print the last line
 print(f'\nDuration: {(time.time() - start_time)/60:.3f} min') # print the time elapsed
+
+#####################################################
+#SAVE MODEL
+timestr = time.strftime("%m%d")
+#Save entire Model
+if samplenum_target == 15000:
+    torch.save(model, model_file_path + 'Model_active_' + use_case + f'_{nTimeSteps}tsteps_{samplenum}s_{minibatch_size}bs_{epochs}e_{LRdecay}lr_' + timestr + '.pt')
+    torch.save(model, model_file_path + 'Model_active_' + use_case + f'_{nTimeSteps}tsteps_latest.pt')
+
+    #Save parameters of Model
+    torch.save(model.state_dict(), model_file_path + 'state_dict/Model_statedict_active_' + use_case + f'_{nTimeSteps}tsteps_{samplenum}s_{minibatch_size}bs_{epochs}e_{LRdecay}lr_' + timestr + '.pt')
+    torch.save(model.state_dict(), model_file_path + 'state_dict/Model_statedict_active_' + use_case + f'_{nTimeSteps}tsteps_latest.pt')
+
+    #Convert to Torch Script and save for CPP application
+    input_example = input_tensor[0, :]
+    traced_script_module = torch.jit.trace(model, input_example)
+
+    # Test the torch script
+    #test_input = torch.tensor([0, 2, 0.5])
+    #original = model(test_input)
+    #output_example = traced_script_module(test_input)
+
+    traced_script_module.save(model_file_path + 'Serialized_Models/Serialized_model_active_' + use_case + f'_{nTimeSteps}tsteps_latest.pt')
+    traced_script_module.save(model_file_path + 'Serialized_Models/Serialized_model_active_' + use_case + f'_{nTimeSteps}tsteps_{samplenum}s_{minibatch_size}bs_{epochs}e_{LRdecay}lr_' + timestr + '.pt')
+    print('Model saved')
+
+else:
+    #Save entire Model
+    torch.save(model, model_file_path + 'Model_active_' + use_case + f'_{nTimeSteps}tsteps_{samplenum}s_{minibatch_size}bs_{epochs}e_{LRdecay}lr_' + timestr + f'_{samplenum_target}.pt')
+    torch.save(model, model_file_path + 'Model_active_' + use_case + f'_{nTimeSteps}tsteps_latest_{samplenum_target}.pt')
+
+    #Save parameters of Model
+    torch.save(model.state_dict(), model_file_path + 'state_dict/Model_statedict_active_' + use_case + f'_{nTimeSteps}tsteps_{samplenum}s_{minibatch_size}bs_{epochs}e_{LRdecay}lr_' + timestr + f'_{samplenum_target}.pt')
+    torch.save(model.state_dict(), model_file_path + 'state_dict/Model_statedict_active_' + use_case + f'_{nTimeSteps}tsteps_latest_{samplenum_target}.pt')
+
+    #Convert to Torch Script and save for CPP application
+    input_example = input_tensor[0, :]
+    traced_script_module = torch.jit.trace(model, input_example)
+
+    # Test the torch script
+    #test_input = torch.tensor([0, 2, 0.5])
+    #original = model(test_input)
+    #output_example = traced_script_module(test_input)
+
+    traced_script_module.save(model_file_path + 'Serialized_Models/Serialized_model_active_' + use_case + f'_{nTimeSteps}tsteps_latest_{samplenum_target}.pt')
+    traced_script_module.save(model_file_path + 'Serialized_Models/Serialized_model_active_' + use_case + f'_{nTimeSteps}tsteps_{samplenum}s_{minibatch_size}bs_{epochs}e_{LRdecay}lr_' + timestr + f'_{samplenum_target}.pt')
+    print('Model saved')
 
 
 ##################################################
 #PLOT EVERY LOSS COMPONENT FOR EACH BATCH
 timestr = time.strftime("%H%M")
 # epoch_lines = np.arange(0, epochs, 1/batch)
-epoch_i = np.arange(epochs*batch)/batch
+epoch_i = np.arange(e*batch)/batch
 plt.figure(figsize = [12,6])
 loss = plt.plot(epoch_i, losses, label = 'total loss', linewidth=3)
 q_end = plt.plot(epoch_i, q_errors, label = 'target error', linestyle='--')
@@ -222,50 +277,3 @@ plt.xlabel('Epochs')
 # for xc in epoch_lines:
 #     plt.axvline(x=xc, linewidth = 0.2)
 plt.savefig('../Plots/Loss_' + use_case + f'_{samplenum_target}_' + timestr + '.png')
-
-#####################################################
-#SAVE MODEL
-timestr = time.strftime("%m%d")
-#Save entire Model
-if samplenum_target == 15000:
-    torch.save(model, model_file_path + 'Model_active_' + use_case + f'_{nTimeSteps}tsteps_{samplenum}s_{epochs}e_{LRdecay}lr_' + timestr + '.pt')
-    torch.save(model, model_file_path + 'Model_active_' + use_case + f'_{nTimeSteps}tsteps_latest.pt')
-
-    #Save parameters of Model
-    torch.save(model.state_dict(), model_file_path + 'state_dict/Trained_Model_statedict_active_' + use_case + f'_{nTimeSteps}tsteps_{samplenum}s_{epochs}e_{LRdecay}lr_' + timestr + '.pt')
-    torch.save(model.state_dict(), model_file_path + 'state_dict/Model_statedict_active_' + use_case + f'_{nTimeSteps}tsteps_latest.pt')
-
-    #Convert to Torch Script and save for CPP application
-    input_example = input_tensor[4, :]
-    traced_script_module = torch.jit.trace(model, input_example)
-
-    # Test the torch script
-    #test_input = torch.tensor([0, 2, 0.5])
-    #original = model(test_input)
-    #output_example = traced_script_module(test_input)
-
-    traced_script_module.save(model_file_path + 'Serialized_Models/Serialized_model_active_' + use_case + f'_{nTimeSteps}tsteps_latest.pt')
-    traced_script_module.save(model_file_path + 'Serialized_Models/Serialized_model_active_' + use_case + f'_{nTimeSteps}tsteps_{samplenum}s_{epochs}e_{LRdecay}lr_' + timestr + '.pt')
-    print('Model saved')
-
-else:
-    #Save entire Model
-    torch.save(model, model_file_path + 'Model_active_' + use_case + f'_{nTimeSteps}tsteps_{samplenum}s_{epochs}e_{LRdecay}lr_' + timestr + f'_{samplenum_target}.pt')
-    torch.save(model, model_file_path + 'Model_active_' + use_case + f'_{nTimeSteps}tsteps_latest_{samplenum_target}.pt')
-
-    #Save parameters of Model
-    torch.save(model.state_dict(), model_file_path + 'state_dict/Model_statedict_active_' + use_case + f'_{nTimeSteps}tsteps_{samplenum}s_{epochs}e_{LRdecay}lr_' + timestr + f'_{samplenum_target}.pt')
-    torch.save(model.state_dict(), model_file_path + 'state_dict/Model_statedict_active_' + use_case + f'_{nTimeSteps}tsteps_latest_{samplenum_target}.pt')
-
-    #Convert to Torch Script and save for CPP application
-    input_example = input_tensor[4, :]
-    traced_script_module = torch.jit.trace(model, input_example)
-
-    # Test the torch script
-    #test_input = torch.tensor([0, 2, 0.5])
-    #original = model(test_input)
-    #output_example = traced_script_module(test_input)
-
-    traced_script_module.save(model_file_path + 'Serialized_Models/Serialized_model_active_' + use_case + f'_{nTimeSteps}tsteps_latest_{samplenum_target}.pt')
-    traced_script_module.save(model_file_path + 'Serialized_Models/Serialized_model_active_' + use_case + f'_{nTimeSteps}tsteps_{samplenum}s_{epochs}e_{LRdecay}lr_' + timestr + f'_{samplenum_target}.pt')
-    print('Model saved')

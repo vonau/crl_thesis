@@ -1,0 +1,35 @@
+Unable to init server: Could not connect: Connection refused
+Unable to init server: Could not connect: Connection refused
+
+(ML_active_varstart.py:397109): Gdk-CRITICAL **: 09:10:46.961: gdk_cursor_new_for_display: assertion 'GDK_IS_DISPLAY (display)' failed
+0910
+using dde version: v0.1.2-21-g7a14836-dirty
+log level set to LogLevel.off
+Shape of dataafter removing faulty samples: (20915, 15)
+Shape of data: (1000, 15)
+done
+/pytorch/torch/csrc/utils/tensor_numpy.cpp:141: UserWarning: The given NumPy array is not writeable, and PyTorch does not support non-writeable tensors. This means you can write to the underlying (supposedly non-writeable) NumPy array using the tensor. You may want to copy the array to protect its data or make it writeable before converting it to a tensor. This type of warning will be suppressed for the rest of this program.
+epoch:   0/300  loss: 3.66242552   basic_loss: 0.77312243
+epoch:  30/300  loss: 0.71269041   basic_loss: 0.03038960
+epoch:  60/300  loss: 0.98984545   basic_loss: 0.64629197
+epoch:  90/300  loss: 0.41863498   basic_loss: 0.05385697
+epoch: 120/300  loss: 0.89411652   basic_loss: 0.03672269
+epoch: 150/300  loss: 0.31746179   basic_loss: 0.01437597
+epoch: 180/300  loss: 0.05982639   basic_loss: 0.00182724
+epoch: 210/300  loss: 0.02950632   basic_loss: 0.01657835
+epoch: 217 finale loss: 0.01280457
+
+Duration: 29.409 min
+Model saved
+Traceback (most recent call last):
+  File "./ML_active_varstart.py", line 263, in <module>
+    loss = plt.plot(epoch_i, losses, label = 'total loss', linewidth=3)
+  File "/home/nico/.local/lib/python3.8/site-packages/matplotlib/pyplot.py", line 2761, in plot
+    return gca().plot(
+  File "/home/nico/.local/lib/python3.8/site-packages/matplotlib/axes/_axes.py", line 1647, in plot
+    lines = [*self._get_lines(*args, data=data, **kwargs)]
+  File "/home/nico/.local/lib/python3.8/site-packages/matplotlib/axes/_base.py", line 216, in __call__
+    yield from self._plot_args(this, kwargs)
+  File "/home/nico/.local/lib/python3.8/site-packages/matplotlib/axes/_base.py", line 342, in _plot_args
+    raise ValueError(f"x and y must have same first dimension, but "
+ValueError: x and y must have same first dimension, but have shapes (218000000,) and (218000,)

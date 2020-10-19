@@ -1,0 +1,72 @@
+Unable to init server: Could not connect: Connection refused
+Unable to init server: Could not connect: Connection refused
+
+(GridSearch_cube-drag_passive.py:350127): Gdk-CRITICAL **: 11:25:57.473: gdk_cursor_new_for_display: assertion 'GDK_IS_DISPLAY (display)' failed
+using dde version: v0.1.2-21-g7a14836-dirty
+log level set to LogLevel.off
+['data_2.json', 'data_test', 'data_12.json', 'data_4.json', 'data_13.json', 'data_6.json', 'Sampling_cube-drag.py', 'Description.json', 'data_14.json', 'data_11.json', 'data_0.json', 'data_8.json', 'data_10.json', 'data_5.json', 'data_9.json', 'data_3.json', 'cube.out', 'data_7.json', 'data_1.json']
+Shape of input: (15000, 25)
+Shape of p: (15000, 240)
+Shape of input after removing faulty samples: (15000, 25)
+Shape of p after removing faulty samples: (15000, 240)
+(5000, 25)
+(5000, 240)
+
+Shape of input_test: (15000, 25)
+Shape of p_test: (15000, 240)
+Shape of input_test after removing faulty samples: (15000, 25)
+Shape of p_test after removing faulty samples: (15000, 240)
+(15000, 25)
+(5000, 240)
+Function built
+epoch:   0/100    LR:   0.001000  loss: 272.91217041
+epoch:  10/100    LR:   0.001000  loss: 105.72588348
+epoch:  20/100    LR:   0.000700  loss: 65.11637878
+epoch:  30/100    LR:   0.000490  loss: 38.92045212
+epoch:  40/100    LR:   0.000490  loss: 30.24833488
+epoch:  50/100    LR:   0.000343  loss: 27.25039864
+epoch:  60/100    LR:   0.000240  loss: 25.64308357
+epoch:  70/100    LR:   0.000240  loss: 22.46442032
+epoch:  80/100    LR:   0.000168  loss: 20.91305351
+epoch:  90/100    LR:   0.000118  loss: 19.36883926
+Model 0 trained
+epoch:  99 final loss: 18.28653145
+Training completed. Total duration: 1.677 min
+/pytorch/torch/csrc/utils/tensor_numpy.cpp:141: UserWarning: The given NumPy array is not writeable, and PyTorch does not support non-writeable tensors. This means you can write to the underlying (supposedly non-writeable) NumPy array using the tensor. You may want to copy the array to protect its data or make it writeable before converting it to a tensor. This type of warning will be suppressed for the rest of this program.
+TOTAL ERROR: 72308.9161189965    mean error: 14.46178322379929  epochs: 100    batchsize: 50   LRdecay: 0.7  hiddenlayer[180, 200]
+
+NEXT MODEL
+epoch:   0/100    LR:   0.001000  loss: 283.32574463
+epoch:  10/100    LR:   0.001000  loss: 95.77345276
+epoch:  20/100    LR:   0.000700  loss: 52.82370758
+epoch:  30/100    LR:   0.000490  loss: 39.71248627
+epoch:  40/100    LR:   0.000490  loss: 31.17188835
+epoch:  50/100    LR:   0.000343  loss: 27.28381348
+epoch:  60/100    LR:   0.000240  loss: 24.87273216
+epoch:  70/100    LR:   0.000240  loss: 21.48530769
+epoch:  80/100    LR:   0.000168  loss: 20.12672234
+epoch:  90/100    LR:   0.000118  loss: 19.36820412
+Model 1 trained
+epoch:  99 final loss: 18.81766701
+Training completed. Total duration: 4.587 min
+TOTAL ERROR: 71949.96359902147    mean error: 14.389992719804315  epochs: 100    batchsize: 50   LRdecay: 0.7  hiddenlayer[200, 250]
+
+NEXT MODEL
+epoch:   0/100    LR:   0.001000  loss: 301.25003052
+epoch:  10/100    LR:   0.001000  loss: 107.47746277
+epoch:  20/100    LR:   0.000700  loss: 54.59133148
+epoch:  30/100    LR:   0.000490  loss: 36.70374680
+epoch:  40/100    LR:   0.000490  loss: 27.33825493
+epoch:  50/100    LR:   0.000343  loss: 26.71185684
+epoch:  60/100    LR:   0.000240  loss: 23.35874557
+epoch:  70/100    LR:   0.000240  loss: 20.21767616
+epoch:  80/100    LR:   0.000168  loss: 17.53077698
+epoch:  90/100    LR:   0.000118  loss: 16.49514198
+Model 2 trained
+epoch:  99 final loss: 15.99118042
+Training completed. Total duration: 7.465 min
+TOTAL ERROR: 71634.95736693531    mean error: 14.326991473387043  epochs: 100    batchsize: 50   LRdecay: 0.7  hiddenlayer[250, 300]
+
+NEXT MODEL
+
+Duration: 8.585 min
